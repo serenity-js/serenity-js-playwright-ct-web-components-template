@@ -12,8 +12,8 @@
 
 Use this [template repository](https://help.github.com/en/articles/creating-a-repository-from-a-template)
 to get started with testing your [Lit](https://lit.dev/) or native [Web Components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components)
-using [Serenity/JS](https://serenity-js.org), [Playwright](https://playwright.dev/), [Playwright Component Test](https://playwright.dev/docs/test-components),
-and [Playwright CT Web](https://github.com/sand4rt/playwright-ct-web)
+using [Serenity/JS](https://serenity-js.org), [Playwright](https://playwright.dev/), [Playwright Component Test](https://playwright.dev/docs/test-components)
+and [Playwright CT Web](https://github.com/sand4rt/playwright-ct-web).
 
 Learn more:
 - [Serenity BDD reports for this project](https://serenity-js.github.io/serenity-js-playwright-ct-react-template/serenity/)

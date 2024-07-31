@@ -82,6 +82,11 @@
       "optional": true
     }
   },
+  "overrides": {
+    "vite": {
+      "rollup": "npm:@rollup/wasm-node"
+    }
+  },
   "devDependencies": {
     "@sand4rt/experimental-ct-web": "^1.45.3",
     "@serenity-js/assertions": "^3.25.3",

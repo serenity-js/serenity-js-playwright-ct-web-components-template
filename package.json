@@ -61,9 +61,27 @@
     "node": "^18.12 || ^20"
   },
   "dependencies": {
-    "clsx": "^2.1.1"
   },
-  "peerDependenciesMeta": {},
+  "peerDependencies": {
+    "clsx": "^2.1.1",
+    "lit": "3.1.4",
+    "@serenity-js/core": "^3.25.3",
+    "@serenity-js/web": "^3.25.3"
+  },
+  "peerDependenciesMeta": {
+    "clsx": {
+      "optional": false
+    },
+    "lit": {
+      "optional": false
+    },
+    "@serenity-js/core": {
+      "optional": true
+    },
+    "@serenity-js/web": {
+      "optional": true
+    }
+  },
   "devDependencies": {
     "@sand4rt/experimental-ct-web": "^1.45.3",
     "@serenity-js/assertions": "^3.25.3",

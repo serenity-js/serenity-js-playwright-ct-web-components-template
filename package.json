@@ -31,7 +31,7 @@
     "build:js:cjs-package": "node -e \"require('fs').writeFileSync('dist/cjs/package.json', '{ \\\"type\\\": \\\"commonjs\\\" }')\"",
     "build:css": "cpy 'src/**/*.css' dist",
     "test": "failsafe clean test:execute test:report",
-    "test:execute": "playwright test -c playwright-ct.config.ts",
+    "test:execute": "playwright test -c playwright.config.ts",
     "test:report": "serenity-bdd run --features ./src",
     "start": "mkdirp target/site/serenity && npx http-server -p 8080 target/site/serenity -s -o",
     "lint": "eslint --ext ts --config .eslintrc.cjs .",
@@ -58,20 +58,14 @@
     "url": "https://github.com/serenity-js/serenity-js-playwright-ct-react-template/issues"
   },
   "engines": {
-    "node": "^16.13 || ^18.12 || ^20"
+    "node": "^18.12 || ^20"
   },
-  "peerDependencies": {
-    "@types/react": "^16.8.0 || ^17.0.0 || ^18.0.0",
-    "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
-    "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
+  "dependencies": {
+    "clsx": "^2.1.1"
   },
-  "peerDependenciesMeta": {
-    "@types/react": {
-      "optional": true
-    }
-  },
+  "peerDependenciesMeta": {},
   "devDependencies": {
-    "@playwright/experimental-ct-react": "1.45.3",
+    "@sand4rt/experimental-ct-web": "^1.45.3",
     "@serenity-js/assertions": "^3.25.3",
     "@serenity-js/console-reporter": "^3.25.3",
     "@serenity-js/core": "^3.25.3",
@@ -80,24 +74,20 @@
     "@serenity-js/rest": "^3.25.3",
     "@serenity-js/serenity-bdd": "^3.25.3",
     "@serenity-js/web": "^3.25.3",
-    "@typescript-eslint/eslint-plugin": "^7.17.0",
-    "@typescript-eslint/parser": "^7.17.0",
-    "cpy-cli": "^5.0.0",
-    "eslint": "^8.57.0",
-    "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-simple-import-sort": "^12.1.1",
-    "eslint-plugin-unicorn": "^52.0.0",
-    "eslint-plugin-unused-imports": "^3.2.0",
-    "http-server": "^14.1.1",
-    "mkdirp": "^3.0.1",
-    "npm-failsafe": "^1.2.1",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "rimraf": "^6.0.1",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.5.4"
-  },
-  "dependencies": {
-    "clsx": "^2.1.1"
+    "@typescript-eslint/eslint-plugin": "7.17.0",
+    "@typescript-eslint/parser": "7.17.0",
+    "cpy-cli": "5.0.0",
+    "eslint": "8.57.0",
+    "eslint-plugin-import": "2.29.1",
+    "eslint-plugin-simple-import-sort": "12.1.1",
+    "eslint-plugin-unicorn": "52.0.0",
+    "eslint-plugin-unused-imports": "3.2.0",
+    "http-server": "14.1.1",
+    "lit": "3.1.4",
+    "mkdirp": "3.0.1",
+    "npm-failsafe": "1.2.1",
+    "rimraf": "6.0.1",
+    "ts-node": "10.9.2",
+    "typescript": "5.5.4"
   }
 }

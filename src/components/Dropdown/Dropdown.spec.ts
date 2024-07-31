@@ -1,11 +1,10 @@
-import { test as componentTest } from '@playwright/experimental-ct-react';
+import { test as componentTest } from '@sand4rt/experimental-ct-web';
 import { Ensure, equals } from '@serenity-js/assertions';
-import { notes } from '@serenity-js/core';
+import { notes, TakeNotes } from '@serenity-js/core';
 import { useBase } from '@serenity-js/playwright-test';
 import { PageElement } from '@serenity-js/web';
-import React from 'react';
 
-import { Dropdown as DropdownComponent, DropdownOption } from './Dropdown.js';
+import { DropdownOption, default as DropdownComponent } from './Dropdown.js';
 import { Dropdown } from './Dropdown.serenity.js';
 
 const { it, describe } = useBase(componentTest);
@@ -26,9 +25,12 @@ describe('Dropdown', () => {
     it('shows the placeholder when no option is selected yet', async ({ mount, actor }) => {
         const placeholder = 'Select option';
 
-        const dropdownComponent = PageElement.from(await mount(
-            <DropdownComponent placeholder={ placeholder } options={ options } />,
-        )).describedAs('dropdown')
+        const dropdownComponent = PageElement.from(await mount(DropdownComponent, {
+            props: {
+                placeholder,
+                options,
+            },
+        })).describedAs('dropdown')
 
         await actor.attemptsTo(
             Ensure.eventually(
@@ -39,9 +41,11 @@ describe('Dropdown', () => {
     });
 
     it('shows the available options when the menu is expanded', async ({ mount, actor }) => {
-        const dropdownComponent = PageElement.from(await mount(
-            <DropdownComponent options={ options }/>,
-        )).describedAs('dropdown')
+        const dropdownComponent = PageElement.from(await mount(DropdownComponent, {
+            props: {
+                options,
+            },
+        })).describedAs('dropdown')
 
         await actor.attemptsTo(
             Dropdown.open(dropdownComponent),
@@ -54,9 +58,12 @@ describe('Dropdown', () => {
     });
 
     it('selects the desired options', async ({ mount, actor }) => {
-        const dropdownComponent = PageElement.from(await mount(
-            <DropdownComponent allowMultiple options={ options }/>,
-        )).describedAs('dropdown')
+        const dropdownComponent = PageElement.from(await mount(DropdownComponent, {
+            props: {
+                allowMultiple: true,
+                options,
+            },
+        })).describedAs('dropdown')
 
         await actor.attemptsTo(
             Dropdown.select([
@@ -72,14 +79,23 @@ describe('Dropdown', () => {
     });
 
     it('triggers onChange with selected options', async ({ mount, actor }) => {
-        const dropdownComponent = PageElement.from(await mount(
-            <DropdownComponent allowMultiple
-                options={ options }
-                onChange={ selectedOptions => actor.attemptsTo(
-                    notes().set('selectedOptions', selectedOptions.map(option => option.label))
-                ) }
-            />,
-        )).describedAs('dropdown')
+
+        // The web component under test lives in the browser context, the test script runs in Node.js,
+        // and the two contexts don't share memory. To communicate between the two, we can use the notepad
+        // and a simple wrapper function like this one:
+        function spy<Arguments extends any[]>(name: string): (spyArguments: Arguments) => void {
+            return (spyArguments: Arguments) => TakeNotes.as(actor).notepad.set(name, spyArguments);
+        }
+
+        const dropdownComponent = PageElement.from(await mount(DropdownComponent, {
+            props: {
+                allowMultiple: true,
+                options,
+            },
+            on: {
+                change: spy('selectedOptions'),
+            }
+        })).describedAs('dropdown')
 
         await actor.attemptsTo(
             Dropdown.select([
@@ -88,16 +104,19 @@ describe('Dropdown', () => {
             ]).from(dropdownComponent),
 
             Ensure.eventually(notes().get('selectedOptions'), equals([
-                'First',
-                'Third',
+                { label: 'First', value: 'first' },
+                { label: 'Third', value: 'third' },
             ])),
         )
     });
 
     it('allows for selected options to be deselected', async ({ mount, actor }) => {
-        const dropdownComponent = PageElement.from(await mount(
-            <DropdownComponent allowMultiple options={ options } />,
-        )).describedAs('dropdown')
+        const dropdownComponent = PageElement.from(await mount(DropdownComponent, {
+            props: {
+                allowMultiple: true,
+                options,
+            },
+        })).describedAs('dropdown')
 
         await actor.attemptsTo(
             Dropdown.select([
@@ -120,11 +139,13 @@ describe('Dropdown', () => {
     it('goes back to showing the placeholder when all the selected options get deselected', async ({ mount, actor }) => {
         const placeholder = 'Select option';
 
-        const dropdownComponent = PageElement.from(await mount(
-            <DropdownComponent allowMultiple
-                placeholder={ placeholder }
-                options={ options } />,
-        )).describedAs('dropdown')
+        const dropdownComponent = PageElement.from(await mount(DropdownComponent, {
+            props: {
+                allowMultiple: true,
+                placeholder,
+                options,
+            },
+        })).describedAs('dropdown')
 
         await actor.attemptsTo(
             Dropdown.select([

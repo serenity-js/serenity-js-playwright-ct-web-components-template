@@ -1,4 +1,4 @@
-import { defineConfig, devices } from '@playwright/experimental-ct-react';
+import { defineConfig, devices } from '@sand4rt/experimental-ct-web';
 import { SerenityOptions } from '@serenity-js/playwright-test';
 
 /**

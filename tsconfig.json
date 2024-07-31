@@ -3,7 +3,6 @@
     "declaration": true,
     "esModuleInterop": true,
     "isolatedModules": true,
-    "jsx": "react",
     "lib": ["dom","es2021"],
     "moduleResolution": "node",
     "noUncheckedIndexedAccess": true,
@@ -11,7 +10,8 @@
     "strict": true,
     "strictNullChecks": true,
     "target": "es2021",
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "experimentalDecorators": true
   },
   "include": [
     "src/index.ts",

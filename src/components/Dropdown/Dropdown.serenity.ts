@@ -1,9 +1,9 @@
 import { contain, containAtLeastOneItemThat, Ensure, includes, not, startsWith } from '@serenity-js/assertions'
-import { Answerable, Check, d, List, QuestionAdapter, Task, Wait } from '@serenity-js/core'
+import { Answerable, Check, d, List, Log, QuestionAdapter, Task, Wait } from '@serenity-js/core'
 import { By, Click, CssClasses, isVisible, PageElement, PageElements, Text } from '@serenity-js/web'
 
 export class Dropdown {
-    private static componentSelector = () => By.css('.dropdown-input')
+    private static componentSelector = () => By.deepCss('.dropdown-input')
 
     static component = <NET = any>() =>
         PageElement.located<NET>(this.componentSelector()).describedAs('dropdown')
@@ -11,12 +11,16 @@ export class Dropdown {
     static components = <NET = any>() =>
         PageElements.located<NET>(this.componentSelector()).describedAs('dropdowns')
 
+    private static widget = () =>
+        PageElement.located(By.deepCss('.dropdown-widget'))
+            .describedAs('widget')
+
     private static input = () =>
-        PageElement.located(By.css('.dropdown-input'))
+        PageElement.located(By.deepCss('.dropdown-input'))
             .describedAs('input field')
 
     private static placeholderElement = () =>
-        PageElement.located(By.css('.dropdown-placeholder'))
+        PageElement.located(By.deepCss('.dropdown-placeholder'))
             .of(Dropdown.input())
 
     static placeholder = () =>
@@ -24,10 +28,10 @@ export class Dropdown {
             .describedAs('placeholder')
 
     private static availableOptionsList = () =>
-        PageElement.located(By.css('.dropdown-available-options'))
+        PageElement.located(By.deepCss('.dropdown-available-options'))
 
     private static availableOptionElements = () =>
-        PageElements.located(By.css('.dropdown-available-option'))
+        PageElements.located(By.deepCss('.dropdown-available-option'))
             .of(Dropdown.availableOptionsList())
 
     static availableOptions = () =>
@@ -40,7 +44,7 @@ export class Dropdown {
             .first()
 
     private static selectedOptionElements = () =>
-        PageElements.located(By.css('.dropdown-selected-option'))
+        PageElements.located(By.deepCss('.dropdown-selected-option'))
             .of(Dropdown.input())
 
     static selectedOptions = () => ({
@@ -57,7 +61,7 @@ export class Dropdown {
             .first()
 
     private static deselectButton = () =>
-        PageElement.located(By.css('.dropdown-deselect-option'))
+        PageElement.located(By.deepCss('.dropdown-deselect-option'))
             .describedAs('deselect button')
 
     static select = (options: Answerable<string[]>) => ({
@@ -101,7 +105,7 @@ export class Dropdown {
 
     static open = (dropdown: QuestionAdapter<PageElement>) =>
         Task.where(`#actor opens the ${ dropdown }`,
-            Check.whether(CssClasses.of(dropdown), not(contain('dropdown-expanded')))
+            Check.whether(CssClasses.of(this.widget().of(dropdown)), not(contain('dropdown-expanded')))
                 .andIfSo(
                     Click.on(this.input()),
                     Wait.until(this.availableOptionsList(), isVisible()),

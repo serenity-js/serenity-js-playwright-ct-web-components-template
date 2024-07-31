@@ -1,6 +1,6 @@
 # Serenity/JS Playwright Component Test Template
 
-[![Build Status](https://github.com/serenity-js/serenity-js-playwright-ct-react-template/workflows/build/badge.svg)](https://github.com/serenity-js/serenity-js-playwright-ct-react-template/actions)
+[![Build Status](https://github.com/serenity-js/serenity-js-playwright-ct-web-components-template/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/serenity-js/serenity-js-playwright-ct-web-components-template/actions/workflows/main.yml)
 [![Serenity/JS on GitHub](https://img.shields.io/badge/github-serenity--js-yellow?logo=github)](https://github.com/serenity-js/serenity-js)
 [![Serenity/JS on StackOverflow](https://img.shields.io/badge/stackoverflow-serenity--js-important?logo=stackoverflow)](https://stackoverflow.com/questions/tagged/serenity-js)
 [![Contribute with Gitpod](https://img.shields.io/badge/Contribute%20with-Gitpod-908a85?logo=gitpod)](https://gitpod.io/from-referrer/)
@@ -11,8 +11,9 @@
 [![Support Serenity/JS on GitHub](https://img.shields.io/badge/Support-@serenity--js-703EC8?logo=github)](https://github.com/sponsors/serenity-js)
 
 Use this [template repository](https://help.github.com/en/articles/creating-a-repository-from-a-template)
-to get started with testing your [React](https://react.dev/) components using [Serenity/JS](https://serenity-js.org),
-[Playwright](https://playwright.dev/) and [Playwright Component Test](https://playwright.dev/docs/test-components).
+to get started with testing your [Lit](https://lit.dev/) or native [Web Components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components)
+using [Serenity/JS](https://serenity-js.org), [Playwright](https://playwright.dev/), [Playwright Component Test](https://playwright.dev/docs/test-components),
+and [Playwright CT Web](https://github.com/sand4rt/playwright-ct-web)
 
 Learn more:
 - [Serenity BDD reports for this project](https://serenity-js.github.io/serenity-js-playwright-ct-react-template/serenity/)

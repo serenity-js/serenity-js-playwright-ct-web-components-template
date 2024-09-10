@@ -16,8 +16,8 @@ using [Serenity/JS](https://serenity-js.org), [Playwright](https://playwright.de
 and [Playwright CT Web](https://github.com/sand4rt/playwright-ct-web).
 
 Learn more:
-- [Serenity BDD reports for this project](https://serenity-js.github.io/serenity-js-playwright-ct-react-template/serenity/)
-- [Playwright Test reports for this project](https://serenity-js.github.io/serenity-js-playwright-ct-react-template/playwright/)
+- [Serenity BDD reports for this project](https://serenity-js.github.io/serenity-js-playwright-ct-web-components-template/serenity/)
+- [Playwright Test reports for this project](https://serenity-js.github.io/serenity-js-playwright-ct-web-components-template/playwright/)
 - [Serenity/JS website, tutorials, and API docs](https://serenity-js.org/)
 
 ## Usage

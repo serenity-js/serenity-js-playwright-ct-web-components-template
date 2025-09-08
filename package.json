@@ -102,7 +102,7 @@
     "eslint": "9.35.0",
     "eslint-plugin-import": "2.32.0",
     "eslint-plugin-simple-import-sort": "12.1.1",
-    "eslint-plugin-unicorn": "61.0.1",
+    "eslint-plugin-unicorn": "61.0.2",
     "eslint-plugin-unused-imports": "4.2.0",
     "http-server": "14.1.1",
     "lit": "3.3.1",

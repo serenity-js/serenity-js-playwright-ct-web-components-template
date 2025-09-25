@@ -87,7 +87,7 @@
     }
   },
   "devDependencies": {
-    "@sand4rt/experimental-ct-web": "^1.55.0",
+    "@sand4rt/experimental-ct-web": "^1.55.1",
     "@serenity-js/assertions": "^3.35.0",
     "@serenity-js/console-reporter": "^3.35.0",
     "@serenity-js/core": "^3.35.0",

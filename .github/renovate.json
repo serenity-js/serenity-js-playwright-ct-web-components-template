@@ -9,7 +9,8 @@
         "^@serenity-js",
         "^playwright$",
         "^@playwright/",
-        "@sand4rt/experimental-ct-web"
+        "@sand4rt/experimental-ct-web",
+        "serenity-js/playwright"
       ],
       "groupName": "Serenity/JS and Playwright",
       "automerge": true

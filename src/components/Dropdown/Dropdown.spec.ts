@@ -1,13 +1,11 @@
-import { test as componentTest } from '@sand4rt/experimental-ct-web';
 import { Ensure, equals } from '@serenity-js/assertions';
 import { notes, TakeNotes } from '@serenity-js/core';
-import { useBase } from '@serenity-js/playwright-test';
 import { PageElement } from '@serenity-js/web';
 
-import { DropdownOption, default as DropdownComponent } from './Dropdown.js';
+import { default as DropdownComponent, DropdownOption } from './Dropdown.js';
 import { Dropdown } from './Dropdown.serenity.js';
 
-const { it, describe } = useBase(componentTest);
+import { describe, it } from '../test-api';
 
 describe('Dropdown', () => {
 
@@ -136,7 +134,10 @@ describe('Dropdown', () => {
         );
     });
 
-    it('goes back to showing the placeholder when all the selected options get deselected', async ({ mount, actor }) => {
+    it('goes back to showing the placeholder when all the selected options get deselected', async ({
+                                                                                                       mount,
+                                                                                                       actor
+                                                                                                   }) => {
         const placeholder = 'Select option';
 
         const dropdownComponent = PageElement.from(await mount(DropdownComponent, {

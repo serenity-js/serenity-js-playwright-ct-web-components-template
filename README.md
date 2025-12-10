@@ -1,4 +1,4 @@
-# Serenity/JS Playwright Component Test Template for Web Components
+# Serenity/JS Playwright Component Test Template for Web Components and Lit
 
 [![Build Status](https://github.com/serenity-js/serenity-js-playwright-ct-web-components-template/actions/workflows/main.yml/badge.svg)](https://github.com/serenity-js/serenity-js-playwright-ct-web-components-template/actions/workflows/main.yml)
 

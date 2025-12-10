@@ -1,5 +1,5 @@
 import { contain, containAtLeastOneItemThat, Ensure, includes, not, startsWith } from '@serenity-js/assertions'
-import { Answerable, Check, d, List, Log, QuestionAdapter, Task, Wait } from '@serenity-js/core'
+import { Answerable, Check, d, List, QuestionAdapter, Task, Wait } from '@serenity-js/core'
 import { By, Click, CssClasses, isVisible, PageElement, PageElements, Text } from '@serenity-js/web'
 
 export class Dropdown {

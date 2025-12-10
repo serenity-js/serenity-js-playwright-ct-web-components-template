@@ -3,7 +3,8 @@
   "include": [
     "src/**/*.ts",
     "src/**/*.tsx",
-    "playwright-ct.config.ts"
+    "playwright/index.tsx",
+    "playwright.config.ts"
   ],
   "exclude": [
     "node_modules"

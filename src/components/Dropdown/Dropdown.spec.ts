@@ -4,7 +4,7 @@ import { notes, TakeNotes } from '@serenity-js/core';
 import { useBase } from '@serenity-js/playwright-test';
 import { PageElement } from '@serenity-js/web';
 
-import { DropdownOption, default as DropdownComponent } from './Dropdown.js';
+import DropdownComponent, {  DropdownOption } from './Dropdown.js';
 import { Dropdown } from './Dropdown.serenity.js';
 
 const { it, describe } = useBase(componentTest);

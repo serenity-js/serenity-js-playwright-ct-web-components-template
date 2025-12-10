@@ -33,7 +33,7 @@
     "test:execute": "playwright test -c playwright.config.ts",
     "test:report": "serenity-bdd run --features ./src",
     "start": "mkdirp target/site/serenity && npx http-server -p 8080 target/site/serenity -s -o",
-    "lint": "eslint --ext ts --config .eslintrc.cjs .",
+    "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix"
   },
   "repository": {
@@ -87,6 +87,7 @@
     }
   },
   "devDependencies": {
+    "@eslint/js": "^9.39.1",
     "@sand4rt/experimental-ct-web": "^1.57.0",
     "@serenity-js/assertions": "^3.37.0",
     "@serenity-js/console-reporter": "^3.37.0",
@@ -96,20 +97,21 @@
     "@serenity-js/rest": "^3.37.0",
     "@serenity-js/serenity-bdd": "^3.37.0",
     "@serenity-js/web": "^3.37.0",
-    "@typescript-eslint/eslint-plugin": "8.49.0",
-    "@typescript-eslint/parser": "8.49.0",
-    "cpy-cli": "6.0.0",
-    "eslint": "9.39.1",
-    "eslint-plugin-import": "2.32.0",
-    "eslint-plugin-simple-import-sort": "12.1.1",
-    "eslint-plugin-unicorn": "62.0.0",
-    "eslint-plugin-unused-imports": "4.3.0",
+    "@stylistic/eslint-plugin": "^5.6.1",
+    "@types/node": "^24.10.2",
+    "cpy-cli": "^6.0.0",
+    "eslint": "^9.39.1",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-unicorn": "^62.0.0",
+    "eslint-plugin-unused-imports": "^4.3.0",
     "http-server": "14.1.1",
-    "lit": "3.3.1",
-    "mkdirp": "3.0.1",
-    "npm-failsafe": "1.4.0",
-    "rimraf": "6.1.2",
-    "ts-node": "10.9.2",
-    "typescript": "5.9.3"
+    "lit": "^3.3.1",
+    "mkdirp": "^3.0.1",
+    "npm-failsafe": "^1.4.0",
+    "rimraf": "^6.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.49.0"
   }
 }

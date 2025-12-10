@@ -4,7 +4,7 @@
 
 This [template](https://help.github.com/en/articles/creating-a-repository-from-a-template) helps you test
 [Lit](https://lit.dev/) and native [Web Components](https://developer.mozilla.org/en-US/docs/Web/API/Web_components)
-using [Serenity/JS](https://serenity-js.org) and the [Playwright Test](https://playwright.dev/) runner with [Playwright CT Web](https://github.com/sand4rt/playwright-ct-web),
+using [Serenity/JS](https://serenity-js.org) and the [Playwright Test](https://playwright.dev/) runner with [Playwright CT Web](https://github.com/sand4rt/playwright-ct-web) extension,
 with a fully configured TypeScript setup.
 
 ## Features

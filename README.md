@@ -130,7 +130,7 @@ npx playwright test --headed
 npx playwright test --debug
 
 # Run a specific test file
-npx playwright test src/components/Dropdown/Dropdown.serenity.ts
+npx playwright test src/components/Dropdown/Dropdown.spec.ts
 ```
 
 ## Project Structure

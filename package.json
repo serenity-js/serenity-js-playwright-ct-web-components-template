@@ -99,7 +99,7 @@
     "@serenity-js/web": "^3.41.1",
     "@stylistic/eslint-plugin": "^5.9.0",
     "@types/node": "^24.11.0",
-    "cpy-cli": "^6.0.0",
+    "cpy-cli": "^7.0.0",
     "eslint": "^9.39.3",
     "eslint-plugin-import": "^2.32.0",
     "eslint-plugin-simple-import-sort": "^12.1.1",

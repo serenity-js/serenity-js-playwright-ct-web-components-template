@@ -63,7 +63,7 @@
   },
   "peerDependencies": {
     "clsx": "^2.1.1",
-    "lit": "3.3.2",
+    "lit": "3.3.3",
     "@serenity-js/core": "^3.42.0",
     "@serenity-js/web": "^3.42.0"
   },
@@ -106,7 +106,7 @@
     "eslint-plugin-unicorn": "^62.0.0",
     "eslint-plugin-unused-imports": "^4.4.1",
     "http-server": "14.1.1",
-    "lit": "^3.3.2",
+    "lit": "^3.3.3",
     "mkdirp": "^3.0.1",
     "npm-failsafe": "^1.4.0",
     "rimraf": "^6.1.3",

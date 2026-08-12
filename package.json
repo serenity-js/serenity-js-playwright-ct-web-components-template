@@ -59,13 +59,11 @@
   "engines": {
     "node": "^20 || ^22.0.0 || ^24.0.0"
   },
-  "dependencies": {
-  },
   "peerDependencies": {
-    "clsx": "^2.1.1",
-    "lit": "3.3.3",
     "@serenity-js/core": "^3.44.3",
-    "@serenity-js/web": "^3.44.3"
+    "@serenity-js/web": "^3.44.3",
+    "clsx": "^2.1.1",
+    "lit": "3.3.3"
   },
   "peerDependenciesMeta": {
     "clsx": {

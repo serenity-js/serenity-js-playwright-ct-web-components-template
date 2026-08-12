@@ -11,10 +11,10 @@
     "strictNullChecks": true,
     "target": "es2021",
     "skipLibCheck": true,
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false
   },
   "include": [
-    "src/index.ts",
-    "src/serenity.ts"
+    "src/**/*.ts"
   ]
 }

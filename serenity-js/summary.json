@@ -1,0 +1,66 @@
+{
+  "$schema": "https://serenity-js.org/schemas/report-summary.json",
+  "generated": "2026-08-18T23:07:33.105Z",
+  "title": "Playwright",
+  "schemaVersion": 1,
+  "reportUrl": "./index.html",
+  "ci": {
+    "commit": "97f3bc1e90c216f5655b928ca00950d55e55125d",
+    "branch": "main",
+    "jobUrl": "https://github.com/serenity-js/serenity-js-playwright-ct-web-components-template/actions/runs/32195422192"
+  },
+  "latestRun": {
+    "timestamp": "2026-08-18T23:07:06.992Z",
+    "label": "1140",
+    "totals": {
+      "passed": 18,
+      "failed": 0,
+      "pending": 0,
+      "skipped": 0,
+      "compromised": 0,
+      "error": 0
+    },
+    "duration": 25926
+  },
+  "runs": 1,
+  "failureClusters": [],
+  "consistency": {
+    "flaky": [],
+    "inconsistent": [],
+    "degraded": [],
+    "recovered": []
+  },
+  "scores": {
+    "passRate": 100,
+    "completeness": 100,
+    "consistency": 100,
+    "confidence": 100
+  },
+  "slowest": [
+    {
+      "name": "goes back to showing the placeholder when all the selected options get deselected",
+      "source": "components/Dropdown/Dropdown.spec.ts:139",
+      "duration": 2862
+    },
+    {
+      "name": "allows for selected options to be deselected",
+      "source": "components/Dropdown/Dropdown.spec.ts:113",
+      "duration": 2742
+    },
+    {
+      "name": "selects the desired options",
+      "source": "components/Dropdown/Dropdown.spec.ts:60",
+      "duration": 1849
+    },
+    {
+      "name": "triggers onChange with selected options",
+      "source": "components/Dropdown/Dropdown.spec.ts:81",
+      "duration": 1804
+    },
+    {
+      "name": "shows the placeholder when no option is selected yet",
+      "source": "components/Dropdown/Dropdown.spec.ts:25",
+      "duration": 1366
+    }
+  ]
+}

@@ -60,8 +60,8 @@
     "node": "^20 || ^22.0.0 || ^24.0.0"
   },
   "peerDependencies": {
-    "@serenity-js/core": "^3.45.6",
-    "@serenity-js/web": "^3.45.6",
+    "@serenity-js/core": "^3.45.7",
+    "@serenity-js/web": "^3.45.7",
     "clsx": "^2.1.1",
     "lit": "3.3.3"
   },
@@ -87,14 +87,14 @@
   "devDependencies": {
     "@eslint/js": "^9.39.5",
     "@sand4rt/experimental-ct-web": "^1.62.1",
-    "@serenity-js/assertions": "^3.45.6",
-    "@serenity-js/console-reporter": "^3.45.6",
-    "@serenity-js/core": "^3.45.6",
-    "@serenity-js/playwright": "^3.45.6",
-    "@serenity-js/playwright-test": "^3.45.6",
-    "@serenity-js/rest": "^3.45.6",
-    "@serenity-js/serenity-bdd": "^3.45.6",
-    "@serenity-js/web": "^3.45.6",
+    "@serenity-js/assertions": "^3.45.7",
+    "@serenity-js/console-reporter": "^3.45.7",
+    "@serenity-js/core": "^3.45.7",
+    "@serenity-js/playwright": "^3.45.7",
+    "@serenity-js/playwright-test": "^3.45.7",
+    "@serenity-js/rest": "^3.45.7",
+    "@serenity-js/serenity-bdd": "^3.45.7",
+    "@serenity-js/web": "^3.45.7",
     "@stylistic/eslint-plugin": "^5.10.0",
     "@types/node": "^24.13.3",
     "cpy-cli": "^7.0.0",

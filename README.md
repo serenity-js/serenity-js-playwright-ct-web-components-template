@@ -193,6 +193,8 @@ Ensure your component exports are correct in the `index.ts` files and that you'r
 
 ## Documentation
 
+- [Using Serenity/JS with Playwright Test](https://serenity-js.org/handbook/test-runners/playwright-test/)
+- [Serenity/JS HTML Reporter](https://serenity-js.org/handbook/reporting/html-reporter/)
 - [API Reference](https://serenity-js.org/api/)
 - [Screenplay Pattern Guide](https://serenity-js.org/handbook/design/screenplay-pattern/)
 - [Serenity/JS Project Templates](https://serenity-js.org/handbook/project-templates/)

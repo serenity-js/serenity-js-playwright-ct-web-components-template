@@ -1,17 +1,17 @@
 {
   "$schema": "https://serenity-js.org/schemas/report-summary.json",
-  "generated": "2026-08-25T22:42:16.619Z",
+  "generated": "2026-08-26T23:10:49.522Z",
   "title": "@serenity-js/serenity-js-playwright-ct-react-template",
   "schemaVersion": 1,
   "reportUrl": "./index.html",
   "ci": {
-    "commit": "8a31188aaaa951eec2dfb41d737f22bf311b40ed",
+    "commit": "f0ab3dee017df7f3a296dc50f5f903a3a73a62cf",
     "branch": "main",
-    "jobUrl": "https://github.com/serenity-js/serenity-js-playwright-ct-web-components-template/actions/runs/32907293298"
+    "jobUrl": "https://github.com/serenity-js/serenity-js-playwright-ct-web-components-template/actions/runs/33022216412"
   },
   "latestRun": {
-    "timestamp": "2026-08-25T22:41:51.165Z",
-    "label": "1157",
+    "timestamp": "2026-08-26T23:10:23.646Z",
+    "label": "1161",
     "totals": {
       "passed": 18,
       "failed": 0,
@@ -20,9 +20,9 @@
       "compromised": 0,
       "error": 0
     },
-    "duration": 25264
+    "duration": 25680
   },
-  "runs": 6,
+  "runs": 7,
   "delta": {
     "passed": 0,
     "failed": 0,
@@ -48,27 +48,27 @@
     {
       "name": "goes back to showing the placeholder when all the selected options get deselected",
       "source": "components/Dropdown/Dropdown.spec.ts:139",
-      "duration": 2749
+      "duration": 2730
     },
     {
       "name": "allows for selected options to be deselected",
       "source": "components/Dropdown/Dropdown.spec.ts:113",
-      "duration": 2635
+      "duration": 2630
     },
     {
       "name": "selects the desired options",
       "source": "components/Dropdown/Dropdown.spec.ts:60",
-      "duration": 1826
+      "duration": 1856
     },
     {
       "name": "triggers onChange with selected options",
       "source": "components/Dropdown/Dropdown.spec.ts:81",
-      "duration": 1785
+      "duration": 1789
     },
     {
       "name": "shows the placeholder when no option is selected yet",
       "source": "components/Dropdown/Dropdown.spec.ts:25",
-      "duration": 1289
+      "duration": 1373
     }
   ]
 }

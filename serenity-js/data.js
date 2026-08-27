@@ -11,9 +11,9 @@ window.__SERENITY_REPORT_DATA__ = {
       "compromised": 0,
       "error": 0
     },
-    "duration": 25680,
-    "startedAt": "2026-08-26T23:10:23.646Z",
-    "finishedAt": "2026-08-26T23:10:49.326Z",
+    "duration": 26100,
+    "startedAt": "2026-08-27T13:49:53.512Z",
+    "finishedAt": "2026-08-27T13:50:19.612Z",
     "testRunner": "Playwright"
   },
   "scenarios": [
@@ -21,8 +21,8 @@ window.__SERENITY_REPORT_DATA__ = {
       "name": "shows the placeholder when no option is selected yet",
       "category": "Dropdown",
       "outcome": "SUCCESS",
-      "duration": 390,
-      "startedAt": "2026-08-26T23:10:23.646Z",
+      "duration": 401,
+      "startedAt": "2026-08-27T13:49:53.512Z",
       "source": {
         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
         "line": 25
@@ -61,10 +61,10 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Tess ensures that placeholder of dropdown does eventually equal \"Select option\"",
           "outcome": "SUCCESS",
-          "duration": 53,
+          "duration": 50,
           "children": [],
           "type": "Interaction",
-          "startedAt": "2026-08-26T23:10:24.145Z",
+          "startedAt": "2026-08-27T13:49:54.018Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 36,
@@ -72,7 +72,7 @@ window.__SERENITY_REPORT_DATA__ = {
           },
           "artifacts": [
             {
-              "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-placeholder-of-dr-53fc04e9a2.png",
+              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-placeholder-of-dr-53fc04e9a2.png",
               "type": "screenshot"
             }
           ]
@@ -267,6 +267,33 @@ window.__SERENITY_REPORT_DATA__ = {
               ]
             }
           ]
+        },
+        {
+          "outcome": "SUCCESS",
+          "run": "1164",
+          "timestamp": "2026-08-27T13:49:53.512Z",
+          "duration": 401,
+          "activities": [
+            {
+              "name": "Tess ensures that placeholder of dropdown does eventually equal \"Select option\"",
+              "outcome": "SUCCESS",
+              "duration": 50,
+              "children": [],
+              "type": "Interaction",
+              "startedAt": "2026-08-27T13:49:54.018Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 36,
+                "column": 20
+              },
+              "artifacts": [
+                {
+                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-placeholder-of-dr-53fc04e9a2.png",
+                  "type": "screenshot"
+                }
+              ]
+            }
+          ]
         }
       ],
       "cast": [
@@ -305,8 +332,8 @@ window.__SERENITY_REPORT_DATA__ = {
       "name": "shows the placeholder when no option is selected yet",
       "category": "Dropdown",
       "outcome": "SUCCESS",
-      "duration": 1373,
-      "startedAt": "2026-08-26T23:10:29.983Z",
+      "duration": 1385,
+      "startedAt": "2026-08-27T13:49:59.835Z",
       "source": {
         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
         "line": 25
@@ -345,10 +372,10 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Tess ensures that placeholder of dropdown does eventually equal \"Select option\"",
           "outcome": "SUCCESS",
-          "duration": 59,
+          "duration": 89,
           "children": [],
           "type": "Interaction",
-          "startedAt": "2026-08-26T23:10:31.682Z",
+          "startedAt": "2026-08-27T13:50:01.522Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 36,
@@ -356,7 +383,7 @@ window.__SERENITY_REPORT_DATA__ = {
           },
           "artifacts": [
             {
-              "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-placeholder-of-dropdown-do-b1a38d1d83.png",
+              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-placeholder-of-dropdown-do-b1a38d1d83.png",
               "type": "screenshot"
             }
           ]
@@ -551,6 +578,33 @@ window.__SERENITY_REPORT_DATA__ = {
               ]
             }
           ]
+        },
+        {
+          "outcome": "SUCCESS",
+          "run": "1164",
+          "timestamp": "2026-08-27T13:49:53.512Z",
+          "duration": 1385,
+          "activities": [
+            {
+              "name": "Tess ensures that placeholder of dropdown does eventually equal \"Select option\"",
+              "outcome": "SUCCESS",
+              "duration": 89,
+              "children": [],
+              "type": "Interaction",
+              "startedAt": "2026-08-27T13:50:01.522Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 36,
+                "column": 20
+              },
+              "artifacts": [
+                {
+                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-placeholder-of-dropdown-do-b1a38d1d83.png",
+                  "type": "screenshot"
+                }
+              ]
+            }
+          ]
         }
       ],
       "cast": [
@@ -589,8 +643,8 @@ window.__SERENITY_REPORT_DATA__ = {
       "name": "shows the placeholder when no option is selected yet",
       "category": "Dropdown",
       "outcome": "SUCCESS",
-      "duration": 749,
-      "startedAt": "2026-08-26T23:10:38.103Z",
+      "duration": 757,
+      "startedAt": "2026-08-27T13:50:08.257Z",
       "source": {
         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
         "line": 25
@@ -632,7 +686,7 @@ window.__SERENITY_REPORT_DATA__ = {
           "duration": 63,
           "children": [],
           "type": "Interaction",
-          "startedAt": "2026-08-26T23:10:39.080Z",
+          "startedAt": "2026-08-27T13:50:09.238Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 36,
@@ -640,7 +694,7 @@ window.__SERENITY_REPORT_DATA__ = {
           },
           "artifacts": [
             {
-              "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-placeholder-of-dropdown-does-59709b94f1.png",
+              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-placeholder-of-dropdown-does-59709b94f1.png",
               "type": "screenshot"
             }
           ]
@@ -835,6 +889,33 @@ window.__SERENITY_REPORT_DATA__ = {
               ]
             }
           ]
+        },
+        {
+          "outcome": "SUCCESS",
+          "run": "1164",
+          "timestamp": "2026-08-27T13:49:53.512Z",
+          "duration": 757,
+          "activities": [
+            {
+              "name": "Tess ensures that placeholder of dropdown does eventually equal \"Select option\"",
+              "outcome": "SUCCESS",
+              "duration": 63,
+              "children": [],
+              "type": "Interaction",
+              "startedAt": "2026-08-27T13:50:09.238Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 36,
+                "column": 20
+              },
+              "artifacts": [
+                {
+                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-placeholder-of-dropdown-does-59709b94f1.png",
+                  "type": "screenshot"
+                }
+              ]
+            }
+          ]
         }
       ],
       "cast": [
@@ -873,8 +954,8 @@ window.__SERENITY_REPORT_DATA__ = {
       "name": "shows the available options when the menu is expanded",
       "category": "Dropdown",
       "outcome": "SUCCESS",
-      "duration": 417,
-      "startedAt": "2026-08-26T23:10:24.274Z",
+      "duration": 423,
+      "startedAt": "2026-08-27T13:49:54.144Z",
       "source": {
         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
         "line": 43
@@ -913,20 +994,20 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Tess opens the dropdown",
           "outcome": "SUCCESS",
-          "duration": 204,
+          "duration": 219,
           "children": [
             {
               "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
               "outcome": "SUCCESS",
-              "duration": 193,
+              "duration": 208,
               "children": [
                 {
                   "name": "Tess clicks on input field",
                   "outcome": "SUCCESS",
-                  "duration": 54,
+                  "duration": 69,
                   "children": [],
                   "type": "Interaction",
-                  "startedAt": "2026-08-26T23:10:24.429Z",
+                  "startedAt": "2026-08-27T13:49:54.302Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 110,
@@ -934,7 +1015,7 @@ window.__SERENITY_REPORT_DATA__ = {
                   },
                   "artifacts": [
                     {
-                      "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-input-field-5a32e9ada1.png",
+                      "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-input-field-5a32e9ada1.png",
                       "type": "screenshot"
                     }
                   ]
@@ -942,10 +1023,10 @@ window.__SERENITY_REPORT_DATA__ = {
                 {
                   "name": "Tess waits until page element located by deep css ('.dropdown-available-options') does become visible",
                   "outcome": "SUCCESS",
-                  "duration": 31,
+                  "duration": 32,
                   "children": [],
                   "type": "Interaction",
-                  "startedAt": "2026-08-26T23:10:24.515Z",
+                  "startedAt": "2026-08-27T13:49:54.401Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
                     "line": 51,
@@ -953,14 +1034,14 @@ window.__SERENITY_REPORT_DATA__ = {
                   },
                   "artifacts": [
                     {
-                      "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-waits-until-page-element-locat-bfc16cca9d.png",
+                      "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-waits-until-page-element-locat-bfc16cca9d.png",
                       "type": "screenshot"
                     }
                   ]
                 }
               ],
               "type": "Task",
-              "startedAt": "2026-08-26T23:10:24.394Z",
+              "startedAt": "2026-08-27T13:49:54.266Z",
               "location": {
                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
                 "line": 51,
@@ -969,7 +1050,7 @@ window.__SERENITY_REPORT_DATA__ = {
             }
           ],
           "type": "Task",
-          "startedAt": "2026-08-26T23:10:24.393Z",
+          "startedAt": "2026-08-27T13:49:54.265Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 51,
@@ -979,10 +1060,10 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Tess ensures that available options of dropdown does eventually equal [ \"First\", \"Second\", \"Third\" ]",
           "outcome": "SUCCESS",
-          "duration": 30,
+          "duration": 29,
           "children": [],
           "type": "Interaction",
-          "startedAt": "2026-08-26T23:10:24.608Z",
+          "startedAt": "2026-08-27T13:49:54.496Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 53,
@@ -990,7 +1071,7 @@ window.__SERENITY_REPORT_DATA__ = {
           },
           "artifacts": [
             {
-              "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-available-options-4669f0a67a.png",
+              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-available-options-1500d68d25.png",
               "type": "screenshot"
             }
           ]
@@ -1647,6 +1728,99 @@ window.__SERENITY_REPORT_DATA__ = {
               ]
             }
           ]
+        },
+        {
+          "outcome": "SUCCESS",
+          "run": "1164",
+          "timestamp": "2026-08-27T13:49:53.512Z",
+          "duration": 423,
+          "activities": [
+            {
+              "name": "Tess opens the dropdown",
+              "outcome": "SUCCESS",
+              "duration": 219,
+              "children": [
+                {
+                  "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
+                  "outcome": "SUCCESS",
+                  "duration": 208,
+                  "children": [
+                    {
+                      "name": "Tess clicks on input field",
+                      "outcome": "SUCCESS",
+                      "duration": 69,
+                      "children": [],
+                      "type": "Interaction",
+                      "startedAt": "2026-08-27T13:49:54.302Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 110,
+                        "column": 27
+                      },
+                      "artifacts": [
+                        {
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-input-field-5a32e9ada1.png",
+                          "type": "screenshot"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Tess waits until page element located by deep css ('.dropdown-available-options') does become visible",
+                      "outcome": "SUCCESS",
+                      "duration": 32,
+                      "children": [],
+                      "type": "Interaction",
+                      "startedAt": "2026-08-27T13:49:54.401Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                        "line": 51,
+                        "column": 22
+                      },
+                      "artifacts": [
+                        {
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-waits-until-page-element-locat-bfc16cca9d.png",
+                          "type": "screenshot"
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "Task",
+                  "startedAt": "2026-08-27T13:49:54.266Z",
+                  "location": {
+                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                    "line": 51,
+                    "column": 22
+                  }
+                }
+              ],
+              "type": "Task",
+              "startedAt": "2026-08-27T13:49:54.265Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 51,
+                "column": 22
+              }
+            },
+            {
+              "name": "Tess ensures that available options of dropdown does eventually equal [ \"First\", \"Second\", \"Third\" ]",
+              "outcome": "SUCCESS",
+              "duration": 29,
+              "children": [],
+              "type": "Interaction",
+              "startedAt": "2026-08-27T13:49:54.496Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 53,
+                "column": 20
+              },
+              "artifacts": [
+                {
+                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-available-options-1500d68d25.png",
+                  "type": "screenshot"
+                }
+              ]
+            }
+          ]
         }
       ],
       "cast": [
@@ -1685,8 +1859,8 @@ window.__SERENITY_REPORT_DATA__ = {
       "name": "shows the available options when the menu is expanded",
       "category": "Dropdown",
       "outcome": "SUCCESS",
-      "duration": 512,
-      "startedAt": "2026-08-26T23:10:31.822Z",
+      "duration": 701,
+      "startedAt": "2026-08-27T13:50:01.674Z",
       "source": {
         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
         "line": 43
@@ -1725,12 +1899,12 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Tess opens the dropdown",
           "outcome": "SUCCESS",
-          "duration": 224,
+          "duration": 229,
           "children": [
             {
               "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
               "outcome": "SUCCESS",
-              "duration": 212,
+              "duration": 217,
               "children": [
                 {
                   "name": "Tess clicks on input field",
@@ -1738,7 +1912,7 @@ window.__SERENITY_REPORT_DATA__ = {
                   "duration": 87,
                   "children": [],
                   "type": "Interaction",
-                  "startedAt": "2026-08-26T23:10:32.084Z",
+                  "startedAt": "2026-08-27T13:50:02.117Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 110,
@@ -1746,7 +1920,7 @@ window.__SERENITY_REPORT_DATA__ = {
                   },
                   "artifacts": [
                     {
-                      "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-input-field-b029cbc9ff.png",
+                      "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-input-field-3240161bee.png",
                       "type": "screenshot"
                     }
                   ]
@@ -1754,10 +1928,10 @@ window.__SERENITY_REPORT_DATA__ = {
                 {
                   "name": "Tess waits until page element located by deep css ('.dropdown-available-options') does become visible",
                   "outcome": "SUCCESS",
-                  "duration": 34,
+                  "duration": 40,
                   "children": [],
                   "type": "Interaction",
-                  "startedAt": "2026-08-26T23:10:32.193Z",
+                  "startedAt": "2026-08-27T13:50:02.226Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
                     "line": 51,
@@ -1765,14 +1939,14 @@ window.__SERENITY_REPORT_DATA__ = {
                   },
                   "artifacts": [
                     {
-                      "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-waits-until-page-element-located-by-dee-59160d9635.png",
+                      "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-waits-until-page-element-located-by-dee-da551ad289.png",
                       "type": "screenshot"
                     }
                   ]
                 }
               ],
               "type": "Task",
-              "startedAt": "2026-08-26T23:10:32.036Z",
+              "startedAt": "2026-08-27T13:50:02.070Z",
               "location": {
                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
                 "line": 51,
@@ -1781,7 +1955,7 @@ window.__SERENITY_REPORT_DATA__ = {
             }
           ],
           "type": "Task",
-          "startedAt": "2026-08-26T23:10:32.035Z",
+          "startedAt": "2026-08-27T13:50:02.069Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 51,
@@ -1791,10 +1965,10 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Tess ensures that available options of dropdown does eventually equal [ \"First\", \"Second\", \"Third\" ]",
           "outcome": "SUCCESS",
-          "duration": 33,
+          "duration": 36,
           "children": [],
           "type": "Interaction",
-          "startedAt": "2026-08-26T23:10:32.271Z",
+          "startedAt": "2026-08-27T13:50:02.309Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 53,
@@ -1802,7 +1976,7 @@ window.__SERENITY_REPORT_DATA__ = {
           },
           "artifacts": [
             {
-              "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-available-options-of-dropd-8d6c58827c.png",
+              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-available-options-of-dropd-0a70479585.png",
               "type": "screenshot"
             }
           ]
@@ -2459,6 +2633,99 @@ window.__SERENITY_REPORT_DATA__ = {
               ]
             }
           ]
+        },
+        {
+          "outcome": "SUCCESS",
+          "run": "1164",
+          "timestamp": "2026-08-27T13:49:53.512Z",
+          "duration": 701,
+          "activities": [
+            {
+              "name": "Tess opens the dropdown",
+              "outcome": "SUCCESS",
+              "duration": 229,
+              "children": [
+                {
+                  "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
+                  "outcome": "SUCCESS",
+                  "duration": 217,
+                  "children": [
+                    {
+                      "name": "Tess clicks on input field",
+                      "outcome": "SUCCESS",
+                      "duration": 87,
+                      "children": [],
+                      "type": "Interaction",
+                      "startedAt": "2026-08-27T13:50:02.117Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 110,
+                        "column": 27
+                      },
+                      "artifacts": [
+                        {
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-input-field-3240161bee.png",
+                          "type": "screenshot"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Tess waits until page element located by deep css ('.dropdown-available-options') does become visible",
+                      "outcome": "SUCCESS",
+                      "duration": 40,
+                      "children": [],
+                      "type": "Interaction",
+                      "startedAt": "2026-08-27T13:50:02.226Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                        "line": 51,
+                        "column": 22
+                      },
+                      "artifacts": [
+                        {
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-waits-until-page-element-located-by-dee-da551ad289.png",
+                          "type": "screenshot"
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "Task",
+                  "startedAt": "2026-08-27T13:50:02.070Z",
+                  "location": {
+                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                    "line": 51,
+                    "column": 22
+                  }
+                }
+              ],
+              "type": "Task",
+              "startedAt": "2026-08-27T13:50:02.069Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 51,
+                "column": 22
+              }
+            },
+            {
+              "name": "Tess ensures that available options of dropdown does eventually equal [ \"First\", \"Second\", \"Third\" ]",
+              "outcome": "SUCCESS",
+              "duration": 36,
+              "children": [],
+              "type": "Interaction",
+              "startedAt": "2026-08-27T13:50:02.309Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 53,
+                "column": 20
+              },
+              "artifacts": [
+                {
+                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-available-options-of-dropd-0a70479585.png",
+                  "type": "screenshot"
+                }
+              ]
+            }
+          ]
         }
       ],
       "cast": [
@@ -2497,8 +2764,8 @@ window.__SERENITY_REPORT_DATA__ = {
       "name": "shows the available options when the menu is expanded",
       "category": "Dropdown",
       "outcome": "SUCCESS",
-      "duration": 875,
-      "startedAt": "2026-08-26T23:10:39.343Z",
+      "duration": 896,
+      "startedAt": "2026-08-27T13:50:09.505Z",
       "source": {
         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
         "line": 43
@@ -2537,20 +2804,20 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Tess opens the dropdown",
           "outcome": "SUCCESS",
-          "duration": 484,
+          "duration": 509,
           "children": [
             {
               "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
               "outcome": "SUCCESS",
-              "duration": 472,
+              "duration": 496,
               "children": [
                 {
                   "name": "Tess clicks on input field",
                   "outcome": "SUCCESS",
-                  "duration": 78,
+                  "duration": 81,
                   "children": [],
                   "type": "Interaction",
-                  "startedAt": "2026-08-26T23:10:39.506Z",
+                  "startedAt": "2026-08-27T13:50:09.682Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 110,
@@ -2558,7 +2825,7 @@ window.__SERENITY_REPORT_DATA__ = {
                   },
                   "artifacts": [
                     {
-                      "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-input-field-bea7f7b144.png",
+                      "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-input-field-bea7f7b144.png",
                       "type": "screenshot"
                     }
                   ]
@@ -2566,10 +2833,10 @@ window.__SERENITY_REPORT_DATA__ = {
                 {
                   "name": "Tess waits until page element located by deep css ('.dropdown-available-options') does become visible",
                   "outcome": "SUCCESS",
-                  "duration": 40,
+                  "duration": 37,
                   "children": [],
                   "type": "Interaction",
-                  "startedAt": "2026-08-26T23:10:39.736Z",
+                  "startedAt": "2026-08-27T13:50:09.915Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
                     "line": 51,
@@ -2577,14 +2844,14 @@ window.__SERENITY_REPORT_DATA__ = {
                   },
                   "artifacts": [
                     {
-                      "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-waits-until-page-element-located-by-deep--f8c547eaba.png",
+                      "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-waits-until-page-element-located-by-deep--388ccd5892.png",
                       "type": "screenshot"
                     }
                   ]
                 }
               ],
               "type": "Task",
-              "startedAt": "2026-08-26T23:10:39.481Z",
+              "startedAt": "2026-08-27T13:50:09.643Z",
               "location": {
                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
                 "line": 51,
@@ -2593,7 +2860,7 @@ window.__SERENITY_REPORT_DATA__ = {
             }
           ],
           "type": "Task",
-          "startedAt": "2026-08-26T23:10:39.480Z",
+          "startedAt": "2026-08-27T13:50:09.642Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 51,
@@ -2603,10 +2870,10 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Tess ensures that available options of dropdown does eventually equal [ \"First\", \"Second\", \"Third\" ]",
           "outcome": "SUCCESS",
-          "duration": 45,
+          "duration": 50,
           "children": [],
           "type": "Interaction",
-          "startedAt": "2026-08-26T23:10:39.976Z",
+          "startedAt": "2026-08-27T13:50:10.168Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 53,
@@ -2614,7 +2881,7 @@ window.__SERENITY_REPORT_DATA__ = {
           },
           "artifacts": [
             {
-              "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-available-options-of-dropdow-76cd2f4f29.png",
+              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-available-options-of-dropdow-0964cfa897.png",
               "type": "screenshot"
             }
           ]
@@ -3271,6 +3538,99 @@ window.__SERENITY_REPORT_DATA__ = {
               ]
             }
           ]
+        },
+        {
+          "outcome": "SUCCESS",
+          "run": "1164",
+          "timestamp": "2026-08-27T13:49:53.512Z",
+          "duration": 896,
+          "activities": [
+            {
+              "name": "Tess opens the dropdown",
+              "outcome": "SUCCESS",
+              "duration": 509,
+              "children": [
+                {
+                  "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
+                  "outcome": "SUCCESS",
+                  "duration": 496,
+                  "children": [
+                    {
+                      "name": "Tess clicks on input field",
+                      "outcome": "SUCCESS",
+                      "duration": 81,
+                      "children": [],
+                      "type": "Interaction",
+                      "startedAt": "2026-08-27T13:50:09.682Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 110,
+                        "column": 27
+                      },
+                      "artifacts": [
+                        {
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-input-field-bea7f7b144.png",
+                          "type": "screenshot"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Tess waits until page element located by deep css ('.dropdown-available-options') does become visible",
+                      "outcome": "SUCCESS",
+                      "duration": 37,
+                      "children": [],
+                      "type": "Interaction",
+                      "startedAt": "2026-08-27T13:50:09.915Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                        "line": 51,
+                        "column": 22
+                      },
+                      "artifacts": [
+                        {
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-waits-until-page-element-located-by-deep--388ccd5892.png",
+                          "type": "screenshot"
+                        }
+                      ]
+                    }
+                  ],
+                  "type": "Task",
+                  "startedAt": "2026-08-27T13:50:09.643Z",
+                  "location": {
+                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                    "line": 51,
+                    "column": 22
+                  }
+                }
+              ],
+              "type": "Task",
+              "startedAt": "2026-08-27T13:50:09.642Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 51,
+                "column": 22
+              }
+            },
+            {
+              "name": "Tess ensures that available options of dropdown does eventually equal [ \"First\", \"Second\", \"Third\" ]",
+              "outcome": "SUCCESS",
+              "duration": 50,
+              "children": [],
+              "type": "Interaction",
+              "startedAt": "2026-08-27T13:50:10.168Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 53,
+                "column": 20
+              },
+              "artifacts": [
+                {
+                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-available-options-of-dropdow-0964cfa897.png",
+                  "type": "screenshot"
+                }
+              ]
+            }
+          ]
         }
       ],
       "cast": [
@@ -3309,8 +3669,8 @@ window.__SERENITY_REPORT_DATA__ = {
       "name": "selects the desired options",
       "category": "Dropdown",
       "outcome": "SUCCESS",
-      "duration": 888,
-      "startedAt": "2026-08-26T23:10:24.713Z",
+      "duration": 915,
+      "startedAt": "2026-08-27T13:49:54.592Z",
       "source": {
         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
         "line": 60
@@ -3349,35 +3709,35 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Tess selects [ 'First', 'Third' ] from dropdown",
           "outcome": "SUCCESS",
-          "duration": 719,
+          "duration": 734,
           "children": [
             {
               "name": "Tess iterates over [ 'First', 'Third' ]",
               "outcome": "SUCCESS",
-              "duration": 708,
+              "duration": 722,
               "children": [
                 {
                   "name": "Tess selects 'First' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 383,
+                  "duration": 397,
                   "children": [
                     {
                       "name": "Tess opens the dropdown",
                       "outcome": "SUCCESS",
-                      "duration": 196,
+                      "duration": 195,
                       "children": [
                         {
                           "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
                           "outcome": "SUCCESS",
-                          "duration": 184,
+                          "duration": 183,
                           "children": [
                             {
                               "name": "Tess clicks on input field",
                               "outcome": "SUCCESS",
-                              "duration": 64,
+                              "duration": 59,
                               "children": [],
                               "type": "Interaction",
-                              "startedAt": "2026-08-26T23:10:24.884Z",
+                              "startedAt": "2026-08-27T13:49:54.776Z",
                               "location": {
                                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                                 "line": 110,
@@ -3385,7 +3745,7 @@ window.__SERENITY_REPORT_DATA__ = {
                               },
                               "artifacts": [
                                 {
-                                  "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-input-field-5a32e9ada1.png",
+                                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-input-field-5a32e9ada1.png",
                                   "type": "screenshot"
                                 }
                               ]
@@ -3393,10 +3753,10 @@ window.__SERENITY_REPORT_DATA__ = {
                             {
                               "name": "Tess waits until page element located by deep css ('.dropdown-available-options') does become visible",
                               "outcome": "SUCCESS",
-                              "duration": 26,
+                              "duration": 29,
                               "children": [],
                               "type": "Interaction",
-                              "startedAt": "2026-08-26T23:10:24.990Z",
+                              "startedAt": "2026-08-27T13:49:54.877Z",
                               "location": {
                                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                                 "line": 92,
@@ -3404,14 +3764,14 @@ window.__SERENITY_REPORT_DATA__ = {
                               },
                               "artifacts": [
                                 {
-                                  "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-waits-until-page-element-locat-bfc16cca9d.png",
+                                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-waits-until-page-element-locat-bfc16cca9d.png",
                                   "type": "screenshot"
                                 }
                               ]
                             }
                           ],
                           "type": "Task",
-                          "startedAt": "2026-08-26T23:10:24.862Z",
+                          "startedAt": "2026-08-27T13:49:54.754Z",
                           "location": {
                             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                             "line": 92,
@@ -3420,7 +3780,7 @@ window.__SERENITY_REPORT_DATA__ = {
                         }
                       ],
                       "type": "Task",
-                      "startedAt": "2026-08-26T23:10:24.861Z",
+                      "startedAt": "2026-08-27T13:49:54.753Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 92,
@@ -3430,10 +3790,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"First\"",
                       "outcome": "SUCCESS",
-                      "duration": 96,
+                      "duration": 109,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:25.068Z",
+                      "startedAt": "2026-08-27T13:49:54.959Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 93,
@@ -3441,7 +3801,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-the-first-of-page-el-f3bb44e501.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-the-first-of-page-el-cd201c4154.png",
                           "type": "screenshot"
                         }
                       ]
@@ -3452,7 +3812,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       "duration": 8,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:25.206Z",
+                      "startedAt": "2026-08-27T13:49:55.110Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -3460,14 +3820,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--db7313f6f2.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--2bb8c765ea.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:24.861Z",
+                  "startedAt": "2026-08-27T13:49:54.752Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 72,
@@ -3477,7 +3837,7 @@ window.__SERENITY_REPORT_DATA__ = {
                 {
                   "name": "Tess selects 'Third' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 233,
+                  "duration": 230,
                   "children": [
                     {
                       "name": "Tess opens the dropdown",
@@ -3490,7 +3850,7 @@ window.__SERENITY_REPORT_DATA__ = {
                           "duration": 4,
                           "children": [],
                           "type": "Task",
-                          "startedAt": "2026-08-26T23:10:25.281Z",
+                          "startedAt": "2026-08-27T13:49:55.187Z",
                           "location": {
                             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                             "line": 92,
@@ -3499,7 +3859,7 @@ window.__SERENITY_REPORT_DATA__ = {
                         }
                       ],
                       "type": "Task",
-                      "startedAt": "2026-08-26T23:10:25.280Z",
+                      "startedAt": "2026-08-27T13:49:55.186Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 92,
@@ -3509,10 +3869,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"Third\"",
                       "outcome": "SUCCESS",
-                      "duration": 123,
+                      "duration": 121,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:25.307Z",
+                      "startedAt": "2026-08-27T13:49:55.213Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 93,
@@ -3520,7 +3880,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-the-first-of-page-el-9e9ccc74e7.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-the-first-of-page-el-1e15c82be0.png",
                           "type": "screenshot"
                         }
                       ]
@@ -3531,7 +3891,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       "duration": 10,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:25.472Z",
+                      "startedAt": "2026-08-27T13:49:55.375Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -3539,14 +3899,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--1e15c82be0.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--1e15c82be0.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:25.280Z",
+                  "startedAt": "2026-08-27T13:49:55.186Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 72,
@@ -3555,7 +3915,7 @@ window.__SERENITY_REPORT_DATA__ = {
                 }
               ],
               "type": "Task",
-              "startedAt": "2026-08-26T23:10:24.815Z",
+              "startedAt": "2026-08-27T13:49:54.704Z",
               "location": {
                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
                 "line": 72,
@@ -3564,7 +3924,7 @@ window.__SERENITY_REPORT_DATA__ = {
             }
           ],
           "type": "Task",
-          "startedAt": "2026-08-26T23:10:24.814Z",
+          "startedAt": "2026-08-27T13:49:54.703Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 72,
@@ -3577,7 +3937,7 @@ window.__SERENITY_REPORT_DATA__ = {
           "duration": 12,
           "children": [],
           "type": "Interaction",
-          "startedAt": "2026-08-26T23:10:25.544Z",
+          "startedAt": "2026-08-27T13:49:55.448Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 74,
@@ -3585,7 +3945,7 @@ window.__SERENITY_REPORT_DATA__ = {
           },
           "artifacts": [
             {
-              "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-selected-options--1e15c82be0.png",
+              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-selected-options--1e15c82be0.png",
               "type": "screenshot"
             }
           ]
@@ -5355,6 +5715,258 @@ window.__SERENITY_REPORT_DATA__ = {
               ]
             }
           ]
+        },
+        {
+          "outcome": "SUCCESS",
+          "run": "1164",
+          "timestamp": "2026-08-27T13:49:53.512Z",
+          "duration": 915,
+          "activities": [
+            {
+              "name": "Tess selects [ 'First', 'Third' ] from dropdown",
+              "outcome": "SUCCESS",
+              "duration": 734,
+              "children": [
+                {
+                  "name": "Tess iterates over [ 'First', 'Third' ]",
+                  "outcome": "SUCCESS",
+                  "duration": 722,
+                  "children": [
+                    {
+                      "name": "Tess selects 'First' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 397,
+                      "children": [
+                        {
+                          "name": "Tess opens the dropdown",
+                          "outcome": "SUCCESS",
+                          "duration": 195,
+                          "children": [
+                            {
+                              "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
+                              "outcome": "SUCCESS",
+                              "duration": 183,
+                              "children": [
+                                {
+                                  "name": "Tess clicks on input field",
+                                  "outcome": "SUCCESS",
+                                  "duration": 59,
+                                  "children": [],
+                                  "type": "Interaction",
+                                  "startedAt": "2026-08-27T13:49:54.776Z",
+                                  "location": {
+                                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                    "line": 110,
+                                    "column": 27
+                                  },
+                                  "artifacts": [
+                                    {
+                                      "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-input-field-5a32e9ada1.png",
+                                      "type": "screenshot"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Tess waits until page element located by deep css ('.dropdown-available-options') does become visible",
+                                  "outcome": "SUCCESS",
+                                  "duration": 29,
+                                  "children": [],
+                                  "type": "Interaction",
+                                  "startedAt": "2026-08-27T13:49:54.877Z",
+                                  "location": {
+                                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                    "line": 92,
+                                    "column": 26
+                                  },
+                                  "artifacts": [
+                                    {
+                                      "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-waits-until-page-element-locat-bfc16cca9d.png",
+                                      "type": "screenshot"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "type": "Task",
+                              "startedAt": "2026-08-27T13:49:54.754Z",
+                              "location": {
+                                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                "line": 92,
+                                "column": 26
+                              }
+                            }
+                          ],
+                          "type": "Task",
+                          "startedAt": "2026-08-27T13:49:54.753Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 92,
+                            "column": 26
+                          }
+                        },
+                        {
+                          "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 109,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:49:54.959Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 93,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-the-first-of-page-el-cd201c4154.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 8,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:49:55.110Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--2bb8c765ea.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:49:54.752Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 72,
+                        "column": 50
+                      }
+                    },
+                    {
+                      "name": "Tess selects 'Third' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 230,
+                      "children": [
+                        {
+                          "name": "Tess opens the dropdown",
+                          "outcome": "SUCCESS",
+                          "duration": 16,
+                          "children": [
+                            {
+                              "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
+                              "outcome": "SUCCESS",
+                              "duration": 4,
+                              "children": [],
+                              "type": "Task",
+                              "startedAt": "2026-08-27T13:49:55.187Z",
+                              "location": {
+                                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                "line": 92,
+                                "column": 26
+                              }
+                            }
+                          ],
+                          "type": "Task",
+                          "startedAt": "2026-08-27T13:49:55.186Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 92,
+                            "column": 26
+                          }
+                        },
+                        {
+                          "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"Third\"",
+                          "outcome": "SUCCESS",
+                          "duration": 121,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:49:55.213Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 93,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-the-first-of-page-el-1e15c82be0.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"Third\"",
+                          "outcome": "SUCCESS",
+                          "duration": 10,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:49:55.375Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--1e15c82be0.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:49:55.186Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 72,
+                        "column": 50
+                      }
+                    }
+                  ],
+                  "type": "Task",
+                  "startedAt": "2026-08-27T13:49:54.704Z",
+                  "location": {
+                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                    "line": 72,
+                    "column": 16
+                  }
+                }
+              ],
+              "type": "Task",
+              "startedAt": "2026-08-27T13:49:54.703Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 72,
+                "column": 16
+              }
+            },
+            {
+              "name": "Tess ensures that selected options does equal [ \"First\", \"Third\" ]",
+              "outcome": "SUCCESS",
+              "duration": 12,
+              "children": [],
+              "type": "Interaction",
+              "startedAt": "2026-08-27T13:49:55.448Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 74,
+                "column": 20
+              },
+              "artifacts": [
+                {
+                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-selected-options--1e15c82be0.png",
+                  "type": "screenshot"
+                }
+              ]
+            }
+          ]
         }
       ],
       "cast": [
@@ -5393,8 +6005,8 @@ window.__SERENITY_REPORT_DATA__ = {
       "name": "selects the desired options",
       "category": "Dropdown",
       "outcome": "SUCCESS",
-      "duration": 977,
-      "startedAt": "2026-08-26T23:10:32.358Z",
+      "duration": 1024,
+      "startedAt": "2026-08-27T13:50:02.399Z",
       "source": {
         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
         "line": 60
@@ -5433,22 +6045,22 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Tess selects [ 'First', 'Third' ] from dropdown",
           "outcome": "SUCCESS",
-          "duration": 738,
+          "duration": 763,
           "children": [
             {
               "name": "Tess iterates over [ 'First', 'Third' ]",
               "outcome": "SUCCESS",
-              "duration": 726,
+              "duration": 753,
               "children": [
                 {
                   "name": "Tess selects 'First' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 401,
+                  "duration": 396,
                   "children": [
                     {
                       "name": "Tess opens the dropdown",
                       "outcome": "SUCCESS",
-                      "duration": 201,
+                      "duration": 202,
                       "children": [
                         {
                           "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
@@ -5458,10 +6070,10 @@ window.__SERENITY_REPORT_DATA__ = {
                             {
                               "name": "Tess clicks on input field",
                               "outcome": "SUCCESS",
-                              "duration": 85,
+                              "duration": 78,
                               "children": [],
                               "type": "Interaction",
-                              "startedAt": "2026-08-26T23:10:32.603Z",
+                              "startedAt": "2026-08-27T13:50:02.674Z",
                               "location": {
                                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                                 "line": 110,
@@ -5469,7 +6081,7 @@ window.__SERENITY_REPORT_DATA__ = {
                               },
                               "artifacts": [
                                 {
-                                  "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-input-field-b029cbc9ff.png",
+                                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-input-field-3240161bee.png",
                                   "type": "screenshot"
                                 }
                               ]
@@ -5477,10 +6089,10 @@ window.__SERENITY_REPORT_DATA__ = {
                             {
                               "name": "Tess waits until page element located by deep css ('.dropdown-available-options') does become visible",
                               "outcome": "SUCCESS",
-                              "duration": 31,
+                              "duration": 37,
                               "children": [],
                               "type": "Interaction",
-                              "startedAt": "2026-08-26T23:10:32.710Z",
+                              "startedAt": "2026-08-27T13:50:02.774Z",
                               "location": {
                                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                                 "line": 92,
@@ -5488,14 +6100,14 @@ window.__SERENITY_REPORT_DATA__ = {
                               },
                               "artifacts": [
                                 {
-                                  "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-waits-until-page-element-located-by-dee-cf15dcb819.png",
+                                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-waits-until-page-element-located-by-dee-da551ad289.png",
                                   "type": "screenshot"
                                 }
                               ]
                             }
                           ],
                           "type": "Task",
-                          "startedAt": "2026-08-26T23:10:32.572Z",
+                          "startedAt": "2026-08-27T13:50:02.642Z",
                           "location": {
                             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                             "line": 92,
@@ -5504,7 +6116,7 @@ window.__SERENITY_REPORT_DATA__ = {
                         }
                       ],
                       "type": "Task",
-                      "startedAt": "2026-08-26T23:10:32.571Z",
+                      "startedAt": "2026-08-27T13:50:02.641Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 92,
@@ -5514,10 +6126,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"First\"",
                       "outcome": "SUCCESS",
-                      "duration": 135,
+                      "duration": 128,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:32.784Z",
+                      "startedAt": "2026-08-27T13:50:02.854Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 93,
@@ -5525,7 +6137,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-the-first-of-page-elements-lo-04bd1cd27d.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-the-first-of-page-elements-lo-9ecf9c3673.png",
                           "type": "screenshot"
                         }
                       ]
@@ -5533,10 +6145,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"First\"",
                       "outcome": "SUCCESS",
-                      "duration": 10,
+                      "duration": 12,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:32.940Z",
+                      "startedAt": "2026-08-27T13:50:03.003Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -5544,14 +6156,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--aa2ddef4c6.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--251e1836ac.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:32.571Z",
+                  "startedAt": "2026-08-27T13:50:02.640Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 72,
@@ -5561,12 +6173,12 @@ window.__SERENITY_REPORT_DATA__ = {
                 {
                   "name": "Tess selects 'Third' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 236,
+                  "duration": 261,
                   "children": [
                     {
                       "name": "Tess opens the dropdown",
                       "outcome": "SUCCESS",
-                      "duration": 17,
+                      "duration": 18,
                       "children": [
                         {
                           "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
@@ -5574,7 +6186,7 @@ window.__SERENITY_REPORT_DATA__ = {
                           "duration": 6,
                           "children": [],
                           "type": "Task",
-                          "startedAt": "2026-08-26T23:10:33.007Z",
+                          "startedAt": "2026-08-27T13:50:03.074Z",
                           "location": {
                             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                             "line": 92,
@@ -5583,7 +6195,7 @@ window.__SERENITY_REPORT_DATA__ = {
                         }
                       ],
                       "type": "Task",
-                      "startedAt": "2026-08-26T23:10:33.007Z",
+                      "startedAt": "2026-08-27T13:50:03.073Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 92,
@@ -5593,10 +6205,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"Third\"",
                       "outcome": "SUCCESS",
-                      "duration": 150,
+                      "duration": 162,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:33.035Z",
+                      "startedAt": "2026-08-27T13:50:03.103Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 93,
@@ -5604,7 +6216,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-the-first-of-page-elements-lo-8795f227a6.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-the-first-of-page-elements-lo-f3d4310ad9.png",
                           "type": "screenshot"
                         }
                       ]
@@ -5612,10 +6224,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"Third\"",
                       "outcome": "SUCCESS",
-                      "duration": 14,
+                      "duration": 16,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:33.207Z",
+                      "startedAt": "2026-08-27T13:50:03.287Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -5623,14 +6235,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--f3d4310ad9.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--f3d4310ad9.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:33.006Z",
+                  "startedAt": "2026-08-27T13:50:03.072Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 72,
@@ -5639,7 +6251,7 @@ window.__SERENITY_REPORT_DATA__ = {
                 }
               ],
               "type": "Task",
-              "startedAt": "2026-08-26T23:10:32.526Z",
+              "startedAt": "2026-08-27T13:50:02.590Z",
               "location": {
                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
                 "line": 72,
@@ -5648,7 +6260,7 @@ window.__SERENITY_REPORT_DATA__ = {
             }
           ],
           "type": "Task",
-          "startedAt": "2026-08-26T23:10:32.525Z",
+          "startedAt": "2026-08-27T13:50:02.590Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 72,
@@ -5658,10 +6270,10 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Tess ensures that selected options does equal [ \"First\", \"Third\" ]",
           "outcome": "SUCCESS",
-          "duration": 14,
+          "duration": 15,
           "children": [],
           "type": "Interaction",
-          "startedAt": "2026-08-26T23:10:33.275Z",
+          "startedAt": "2026-08-27T13:50:03.364Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 74,
@@ -5669,7 +6281,7 @@ window.__SERENITY_REPORT_DATA__ = {
           },
           "artifacts": [
             {
-              "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-selected-options-does-equa-f3d4310ad9.png",
+              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-selected-options-does-equa-f3d4310ad9.png",
               "type": "screenshot"
             }
           ]
@@ -7439,6 +8051,258 @@ window.__SERENITY_REPORT_DATA__ = {
               ]
             }
           ]
+        },
+        {
+          "outcome": "SUCCESS",
+          "run": "1164",
+          "timestamp": "2026-08-27T13:49:53.512Z",
+          "duration": 1024,
+          "activities": [
+            {
+              "name": "Tess selects [ 'First', 'Third' ] from dropdown",
+              "outcome": "SUCCESS",
+              "duration": 763,
+              "children": [
+                {
+                  "name": "Tess iterates over [ 'First', 'Third' ]",
+                  "outcome": "SUCCESS",
+                  "duration": 753,
+                  "children": [
+                    {
+                      "name": "Tess selects 'First' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 396,
+                      "children": [
+                        {
+                          "name": "Tess opens the dropdown",
+                          "outcome": "SUCCESS",
+                          "duration": 202,
+                          "children": [
+                            {
+                              "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
+                              "outcome": "SUCCESS",
+                              "duration": 190,
+                              "children": [
+                                {
+                                  "name": "Tess clicks on input field",
+                                  "outcome": "SUCCESS",
+                                  "duration": 78,
+                                  "children": [],
+                                  "type": "Interaction",
+                                  "startedAt": "2026-08-27T13:50:02.674Z",
+                                  "location": {
+                                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                    "line": 110,
+                                    "column": 27
+                                  },
+                                  "artifacts": [
+                                    {
+                                      "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-input-field-3240161bee.png",
+                                      "type": "screenshot"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Tess waits until page element located by deep css ('.dropdown-available-options') does become visible",
+                                  "outcome": "SUCCESS",
+                                  "duration": 37,
+                                  "children": [],
+                                  "type": "Interaction",
+                                  "startedAt": "2026-08-27T13:50:02.774Z",
+                                  "location": {
+                                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                    "line": 92,
+                                    "column": 26
+                                  },
+                                  "artifacts": [
+                                    {
+                                      "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-waits-until-page-element-located-by-dee-da551ad289.png",
+                                      "type": "screenshot"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "type": "Task",
+                              "startedAt": "2026-08-27T13:50:02.642Z",
+                              "location": {
+                                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                "line": 92,
+                                "column": 26
+                              }
+                            }
+                          ],
+                          "type": "Task",
+                          "startedAt": "2026-08-27T13:50:02.641Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 92,
+                            "column": 26
+                          }
+                        },
+                        {
+                          "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 128,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:02.854Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 93,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-the-first-of-page-elements-lo-9ecf9c3673.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 12,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:03.003Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--251e1836ac.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:50:02.640Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 72,
+                        "column": 50
+                      }
+                    },
+                    {
+                      "name": "Tess selects 'Third' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 261,
+                      "children": [
+                        {
+                          "name": "Tess opens the dropdown",
+                          "outcome": "SUCCESS",
+                          "duration": 18,
+                          "children": [
+                            {
+                              "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
+                              "outcome": "SUCCESS",
+                              "duration": 6,
+                              "children": [],
+                              "type": "Task",
+                              "startedAt": "2026-08-27T13:50:03.074Z",
+                              "location": {
+                                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                "line": 92,
+                                "column": 26
+                              }
+                            }
+                          ],
+                          "type": "Task",
+                          "startedAt": "2026-08-27T13:50:03.073Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 92,
+                            "column": 26
+                          }
+                        },
+                        {
+                          "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"Third\"",
+                          "outcome": "SUCCESS",
+                          "duration": 162,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:03.103Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 93,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-the-first-of-page-elements-lo-f3d4310ad9.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"Third\"",
+                          "outcome": "SUCCESS",
+                          "duration": 16,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:03.287Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--f3d4310ad9.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:50:03.072Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 72,
+                        "column": 50
+                      }
+                    }
+                  ],
+                  "type": "Task",
+                  "startedAt": "2026-08-27T13:50:02.590Z",
+                  "location": {
+                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                    "line": 72,
+                    "column": 16
+                  }
+                }
+              ],
+              "type": "Task",
+              "startedAt": "2026-08-27T13:50:02.590Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 72,
+                "column": 16
+              }
+            },
+            {
+              "name": "Tess ensures that selected options does equal [ \"First\", \"Third\" ]",
+              "outcome": "SUCCESS",
+              "duration": 15,
+              "children": [],
+              "type": "Interaction",
+              "startedAt": "2026-08-27T13:50:03.364Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 74,
+                "column": 20
+              },
+              "artifacts": [
+                {
+                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-selected-options-does-equa-f3d4310ad9.png",
+                  "type": "screenshot"
+                }
+              ]
+            }
+          ]
         }
       ],
       "cast": [
@@ -7477,8 +8341,8 @@ window.__SERENITY_REPORT_DATA__ = {
       "name": "selects the desired options",
       "category": "Dropdown",
       "outcome": "SUCCESS",
-      "duration": 1856,
-      "startedAt": "2026-08-26T23:10:40.241Z",
+      "duration": 1833,
+      "startedAt": "2026-08-27T13:50:10.427Z",
       "source": {
         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
         "line": 60
@@ -7517,17 +8381,17 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Tess selects [ 'First', 'Third' ] from dropdown",
           "outcome": "SUCCESS",
-          "duration": 1553,
+          "duration": 1512,
           "children": [
             {
               "name": "Tess iterates over [ 'First', 'Third' ]",
               "outcome": "SUCCESS",
-              "duration": 1542,
+              "duration": 1501,
               "children": [
                 {
                   "name": "Tess selects 'First' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 993,
+                  "duration": 973,
                   "children": [
                     {
                       "name": "Tess opens the dropdown",
@@ -7537,15 +8401,15 @@ window.__SERENITY_REPORT_DATA__ = {
                         {
                           "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
                           "outcome": "SUCCESS",
-                          "duration": 518,
+                          "duration": 521,
                           "children": [
                             {
                               "name": "Tess clicks on input field",
                               "outcome": "SUCCESS",
-                              "duration": 87,
+                              "duration": 70,
                               "children": [],
                               "type": "Interaction",
-                              "startedAt": "2026-08-26T23:10:40.405Z",
+                              "startedAt": "2026-08-27T13:50:10.612Z",
                               "location": {
                                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                                 "line": 110,
@@ -7553,7 +8417,7 @@ window.__SERENITY_REPORT_DATA__ = {
                               },
                               "artifacts": [
                                 {
-                                  "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-input-field-bea7f7b144.png",
+                                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-input-field-bea7f7b144.png",
                                   "type": "screenshot"
                                 }
                               ]
@@ -7561,10 +8425,10 @@ window.__SERENITY_REPORT_DATA__ = {
                             {
                               "name": "Tess waits until page element located by deep css ('.dropdown-available-options') does become visible",
                               "outcome": "SUCCESS",
-                              "duration": 45,
+                              "duration": 63,
                               "children": [],
                               "type": "Interaction",
-                              "startedAt": "2026-08-26T23:10:40.645Z",
+                              "startedAt": "2026-08-27T13:50:10.836Z",
                               "location": {
                                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                                 "line": 92,
@@ -7572,14 +8436,14 @@ window.__SERENITY_REPORT_DATA__ = {
                               },
                               "artifacts": [
                                 {
-                                  "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-waits-until-page-element-located-by-deep--a3a20e1d9c.png",
+                                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-waits-until-page-element-located-by-deep--6666654bf2.png",
                                   "type": "screenshot"
                                 }
                               ]
                             }
                           ],
                           "type": "Task",
-                          "startedAt": "2026-08-26T23:10:40.380Z",
+                          "startedAt": "2026-08-27T13:50:10.589Z",
                           "location": {
                             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                             "line": 92,
@@ -7588,7 +8452,7 @@ window.__SERENITY_REPORT_DATA__ = {
                         }
                       ],
                       "type": "Task",
-                      "startedAt": "2026-08-26T23:10:40.380Z",
+                      "startedAt": "2026-08-27T13:50:10.589Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 92,
@@ -7598,10 +8462,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"First\"",
                       "outcome": "SUCCESS",
-                      "duration": 127,
+                      "duration": 111,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:40.922Z",
+                      "startedAt": "2026-08-27T13:50:11.135Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 93,
@@ -7609,7 +8473,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-the-first-of-page-elements-loca-efccbf4739.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-the-first-of-page-elements-loca-efccbf4739.png",
                           "type": "screenshot"
                         }
                       ]
@@ -7620,7 +8484,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       "duration": 9,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:41.212Z",
+                      "startedAt": "2026-08-27T13:50:11.399Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -7628,14 +8492,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-efccbf4739.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-efccbf4739.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:40.379Z",
+                  "startedAt": "2026-08-27T13:50:10.588Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 72,
@@ -7645,20 +8509,20 @@ window.__SERENITY_REPORT_DATA__ = {
                 {
                   "name": "Tess selects 'Third' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 455,
+                  "duration": 451,
                   "children": [
                     {
                       "name": "Tess opens the dropdown",
                       "outcome": "SUCCESS",
-                      "duration": 29,
+                      "duration": 33,
                       "children": [
                         {
                           "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
                           "outcome": "SUCCESS",
-                          "duration": 17,
+                          "duration": 23,
                           "children": [],
                           "type": "Task",
-                          "startedAt": "2026-08-26T23:10:41.431Z",
+                          "startedAt": "2026-08-27T13:50:11.599Z",
                           "location": {
                             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                             "line": 92,
@@ -7667,7 +8531,7 @@ window.__SERENITY_REPORT_DATA__ = {
                         }
                       ],
                       "type": "Task",
-                      "startedAt": "2026-08-26T23:10:41.431Z",
+                      "startedAt": "2026-08-27T13:50:11.598Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 92,
@@ -7677,10 +8541,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"Third\"",
                       "outcome": "SUCCESS",
-                      "duration": 91,
+                      "duration": 82,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:41.472Z",
+                      "startedAt": "2026-08-27T13:50:11.645Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 93,
@@ -7688,7 +8552,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-the-first-of-page-elements-loca-7c194d682c.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-the-first-of-page-elements-loca-7c194d682c.png",
                           "type": "screenshot"
                         }
                       ]
@@ -7696,10 +8560,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"Third\"",
                       "outcome": "SUCCESS",
-                      "duration": 14,
+                      "duration": 13,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:41.717Z",
+                      "startedAt": "2026-08-27T13:50:11.881Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -7707,14 +8571,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-7c194d682c.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-7c194d682c.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:41.430Z",
+                  "startedAt": "2026-08-27T13:50:11.597Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 72,
@@ -7723,7 +8587,7 @@ window.__SERENITY_REPORT_DATA__ = {
                 }
               ],
               "type": "Task",
-              "startedAt": "2026-08-26T23:10:40.353Z",
+              "startedAt": "2026-08-27T13:50:10.557Z",
               "location": {
                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
                 "line": 72,
@@ -7732,7 +8596,7 @@ window.__SERENITY_REPORT_DATA__ = {
             }
           ],
           "type": "Task",
-          "startedAt": "2026-08-26T23:10:40.352Z",
+          "startedAt": "2026-08-27T13:50:10.556Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 72,
@@ -7742,10 +8606,10 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Tess ensures that selected options does equal [ \"First\", \"Third\" ]",
           "outcome": "SUCCESS",
-          "duration": 12,
+          "duration": 13,
           "children": [],
           "type": "Interaction",
-          "startedAt": "2026-08-26T23:10:41.916Z",
+          "startedAt": "2026-08-27T13:50:12.079Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 74,
@@ -7753,7 +8617,7 @@ window.__SERENITY_REPORT_DATA__ = {
           },
           "artifacts": [
             {
-              "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-selected-options-does-equal--7c194d682c.png",
+              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-selected-options-does-equal--7c194d682c.png",
               "type": "screenshot"
             }
           ]
@@ -9523,6 +10387,258 @@ window.__SERENITY_REPORT_DATA__ = {
               ]
             }
           ]
+        },
+        {
+          "outcome": "SUCCESS",
+          "run": "1164",
+          "timestamp": "2026-08-27T13:49:53.512Z",
+          "duration": 1833,
+          "activities": [
+            {
+              "name": "Tess selects [ 'First', 'Third' ] from dropdown",
+              "outcome": "SUCCESS",
+              "duration": 1512,
+              "children": [
+                {
+                  "name": "Tess iterates over [ 'First', 'Third' ]",
+                  "outcome": "SUCCESS",
+                  "duration": 1501,
+                  "children": [
+                    {
+                      "name": "Tess selects 'First' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 973,
+                      "children": [
+                        {
+                          "name": "Tess opens the dropdown",
+                          "outcome": "SUCCESS",
+                          "duration": 531,
+                          "children": [
+                            {
+                              "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
+                              "outcome": "SUCCESS",
+                              "duration": 521,
+                              "children": [
+                                {
+                                  "name": "Tess clicks on input field",
+                                  "outcome": "SUCCESS",
+                                  "duration": 70,
+                                  "children": [],
+                                  "type": "Interaction",
+                                  "startedAt": "2026-08-27T13:50:10.612Z",
+                                  "location": {
+                                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                    "line": 110,
+                                    "column": 27
+                                  },
+                                  "artifacts": [
+                                    {
+                                      "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-input-field-bea7f7b144.png",
+                                      "type": "screenshot"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Tess waits until page element located by deep css ('.dropdown-available-options') does become visible",
+                                  "outcome": "SUCCESS",
+                                  "duration": 63,
+                                  "children": [],
+                                  "type": "Interaction",
+                                  "startedAt": "2026-08-27T13:50:10.836Z",
+                                  "location": {
+                                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                    "line": 92,
+                                    "column": 26
+                                  },
+                                  "artifacts": [
+                                    {
+                                      "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-waits-until-page-element-located-by-deep--6666654bf2.png",
+                                      "type": "screenshot"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "type": "Task",
+                              "startedAt": "2026-08-27T13:50:10.589Z",
+                              "location": {
+                                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                "line": 92,
+                                "column": 26
+                              }
+                            }
+                          ],
+                          "type": "Task",
+                          "startedAt": "2026-08-27T13:50:10.589Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 92,
+                            "column": 26
+                          }
+                        },
+                        {
+                          "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 111,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:11.135Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 93,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-the-first-of-page-elements-loca-efccbf4739.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 9,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:11.399Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-efccbf4739.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:50:10.588Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 72,
+                        "column": 50
+                      }
+                    },
+                    {
+                      "name": "Tess selects 'Third' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 451,
+                      "children": [
+                        {
+                          "name": "Tess opens the dropdown",
+                          "outcome": "SUCCESS",
+                          "duration": 33,
+                          "children": [
+                            {
+                              "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
+                              "outcome": "SUCCESS",
+                              "duration": 23,
+                              "children": [],
+                              "type": "Task",
+                              "startedAt": "2026-08-27T13:50:11.599Z",
+                              "location": {
+                                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                "line": 92,
+                                "column": 26
+                              }
+                            }
+                          ],
+                          "type": "Task",
+                          "startedAt": "2026-08-27T13:50:11.598Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 92,
+                            "column": 26
+                          }
+                        },
+                        {
+                          "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"Third\"",
+                          "outcome": "SUCCESS",
+                          "duration": 82,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:11.645Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 93,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-the-first-of-page-elements-loca-7c194d682c.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"Third\"",
+                          "outcome": "SUCCESS",
+                          "duration": 13,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:11.881Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-7c194d682c.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:50:11.597Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 72,
+                        "column": 50
+                      }
+                    }
+                  ],
+                  "type": "Task",
+                  "startedAt": "2026-08-27T13:50:10.557Z",
+                  "location": {
+                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                    "line": 72,
+                    "column": 16
+                  }
+                }
+              ],
+              "type": "Task",
+              "startedAt": "2026-08-27T13:50:10.556Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 72,
+                "column": 16
+              }
+            },
+            {
+              "name": "Tess ensures that selected options does equal [ \"First\", \"Third\" ]",
+              "outcome": "SUCCESS",
+              "duration": 13,
+              "children": [],
+              "type": "Interaction",
+              "startedAt": "2026-08-27T13:50:12.079Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 74,
+                "column": 20
+              },
+              "artifacts": [
+                {
+                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-selected-options-does-equal--7c194d682c.png",
+                  "type": "screenshot"
+                }
+              ]
+            }
+          ]
         }
       ],
       "cast": [
@@ -9561,8 +10677,8 @@ window.__SERENITY_REPORT_DATA__ = {
       "name": "triggers onChange with selected options",
       "category": "Dropdown",
       "outcome": "SUCCESS",
-      "duration": 796,
-      "startedAt": "2026-08-26T23:10:25.624Z",
+      "duration": 818,
+      "startedAt": "2026-08-27T13:49:55.533Z",
       "source": {
         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
         "line": 81
@@ -9601,35 +10717,35 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Tess selects [ 'First', 'Third' ] from dropdown",
           "outcome": "SUCCESS",
-          "duration": 643,
+          "duration": 640,
           "children": [
             {
               "name": "Tess iterates over [ 'First', 'Third' ]",
               "outcome": "SUCCESS",
-              "duration": 633,
+              "duration": 629,
               "children": [
                 {
                   "name": "Tess selects 'First' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 373,
+                  "duration": 367,
                   "children": [
                     {
                       "name": "Tess opens the dropdown",
                       "outcome": "SUCCESS",
-                      "duration": 190,
+                      "duration": 197,
                       "children": [
                         {
                           "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
                           "outcome": "SUCCESS",
-                          "duration": 179,
+                          "duration": 187,
                           "children": [
                             {
                               "name": "Tess clicks on input field",
                               "outcome": "SUCCESS",
-                              "duration": 57,
+                              "duration": 53,
                               "children": [],
                               "type": "Interaction",
-                              "startedAt": "2026-08-26T23:10:25.756Z",
+                              "startedAt": "2026-08-27T13:49:55.681Z",
                               "location": {
                                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                                 "line": 110,
@@ -9637,7 +10753,7 @@ window.__SERENITY_REPORT_DATA__ = {
                               },
                               "artifacts": [
                                 {
-                                  "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-input-field-5a32e9ada1.png",
+                                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-input-field-5a32e9ada1.png",
                                   "type": "screenshot"
                                 }
                               ]
@@ -9645,10 +10761,10 @@ window.__SERENITY_REPORT_DATA__ = {
                             {
                               "name": "Tess waits until page element located by deep css ('.dropdown-available-options') does become visible",
                               "outcome": "SUCCESS",
-                              "duration": 24,
+                              "duration": 26,
                               "children": [],
                               "type": "Interaction",
-                              "startedAt": "2026-08-26T23:10:25.855Z",
+                              "startedAt": "2026-08-27T13:49:55.776Z",
                               "location": {
                                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                                 "line": 92,
@@ -9656,14 +10772,14 @@ window.__SERENITY_REPORT_DATA__ = {
                               },
                               "artifacts": [
                                 {
-                                  "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-waits-until-page-element-locat-bfc16cca9d.png",
+                                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-waits-until-page-element-locat-bfc16cca9d.png",
                                   "type": "screenshot"
                                 }
                               ]
                             }
                           ],
                           "type": "Task",
-                          "startedAt": "2026-08-26T23:10:25.732Z",
+                          "startedAt": "2026-08-27T13:49:55.655Z",
                           "location": {
                             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                             "line": 92,
@@ -9672,7 +10788,7 @@ window.__SERENITY_REPORT_DATA__ = {
                         }
                       ],
                       "type": "Task",
-                      "startedAt": "2026-08-26T23:10:25.731Z",
+                      "startedAt": "2026-08-27T13:49:55.655Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 92,
@@ -9682,10 +10798,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"First\"",
                       "outcome": "SUCCESS",
-                      "duration": 82,
+                      "duration": 89,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:25.932Z",
+                      "startedAt": "2026-08-27T13:49:55.863Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 93,
@@ -9693,7 +10809,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-the-first-of-page-el-fa7645c62d.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-the-first-of-page-el-f3bb44e501.png",
                           "type": "screenshot"
                         }
                       ]
@@ -9704,7 +10820,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       "duration": 7,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:26.055Z",
+                      "startedAt": "2026-08-27T13:49:55.983Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -9712,14 +10828,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--3e3bd76d3f.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--3e3bd76d3f.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:25.730Z",
+                  "startedAt": "2026-08-27T13:49:55.654Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 72,
@@ -9729,20 +10845,20 @@ window.__SERENITY_REPORT_DATA__ = {
                 {
                   "name": "Tess selects 'Third' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 191,
+                  "duration": 196,
                   "children": [
                     {
                       "name": "Tess opens the dropdown",
                       "outcome": "SUCCESS",
-                      "duration": 20,
+                      "duration": 21,
                       "children": [
                         {
                           "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
                           "outcome": "SUCCESS",
-                          "duration": 9,
+                          "duration": 10,
                           "children": [],
                           "type": "Task",
-                          "startedAt": "2026-08-26T23:10:26.139Z",
+                          "startedAt": "2026-08-27T13:49:56.056Z",
                           "location": {
                             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                             "line": 92,
@@ -9751,7 +10867,7 @@ window.__SERENITY_REPORT_DATA__ = {
                         }
                       ],
                       "type": "Task",
-                      "startedAt": "2026-08-26T23:10:26.138Z",
+                      "startedAt": "2026-08-27T13:49:56.055Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 92,
@@ -9761,10 +10877,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"Third\"",
                       "outcome": "SUCCESS",
-                      "duration": 78,
+                      "duration": 81,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:26.169Z",
+                      "startedAt": "2026-08-27T13:49:56.087Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 93,
@@ -9772,7 +10888,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-the-first-of-page-el-4b22f6fdbc.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-the-first-of-page-el-4b22f6fdbc.png",
                           "type": "screenshot"
                         }
                       ]
@@ -9780,10 +10896,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"Third\"",
                       "outcome": "SUCCESS",
-                      "duration": 9,
+                      "duration": 11,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:26.289Z",
+                      "startedAt": "2026-08-27T13:49:56.209Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -9791,14 +10907,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--9e9ccc74e7.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--9e9ccc74e7.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:26.137Z",
+                  "startedAt": "2026-08-27T13:49:56.054Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 72,
@@ -9807,7 +10923,7 @@ window.__SERENITY_REPORT_DATA__ = {
                 }
               ],
               "type": "Task",
-              "startedAt": "2026-08-26T23:10:25.706Z",
+              "startedAt": "2026-08-27T13:49:55.631Z",
               "location": {
                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
                 "line": 104,
@@ -9816,7 +10932,7 @@ window.__SERENITY_REPORT_DATA__ = {
             }
           ],
           "type": "Task",
-          "startedAt": "2026-08-26T23:10:25.706Z",
+          "startedAt": "2026-08-27T13:49:55.630Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 104,
@@ -9829,7 +10945,7 @@ window.__SERENITY_REPORT_DATA__ = {
           "duration": 11,
           "children": [],
           "type": "Interaction",
-          "startedAt": "2026-08-26T23:10:26.360Z",
+          "startedAt": "2026-08-27T13:49:56.282Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 106,
@@ -9837,7 +10953,7 @@ window.__SERENITY_REPORT_DATA__ = {
           },
           "artifacts": [
             {
-              "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-----value---first-1e15c82be0.png",
+              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-----value---first-1e15c82be0.png",
               "type": "screenshot"
             }
           ]
@@ -11607,6 +12723,258 @@ window.__SERENITY_REPORT_DATA__ = {
               ]
             }
           ]
+        },
+        {
+          "outcome": "SUCCESS",
+          "run": "1164",
+          "timestamp": "2026-08-27T13:49:53.512Z",
+          "duration": 818,
+          "activities": [
+            {
+              "name": "Tess selects [ 'First', 'Third' ] from dropdown",
+              "outcome": "SUCCESS",
+              "duration": 640,
+              "children": [
+                {
+                  "name": "Tess iterates over [ 'First', 'Third' ]",
+                  "outcome": "SUCCESS",
+                  "duration": 629,
+                  "children": [
+                    {
+                      "name": "Tess selects 'First' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 367,
+                      "children": [
+                        {
+                          "name": "Tess opens the dropdown",
+                          "outcome": "SUCCESS",
+                          "duration": 197,
+                          "children": [
+                            {
+                              "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
+                              "outcome": "SUCCESS",
+                              "duration": 187,
+                              "children": [
+                                {
+                                  "name": "Tess clicks on input field",
+                                  "outcome": "SUCCESS",
+                                  "duration": 53,
+                                  "children": [],
+                                  "type": "Interaction",
+                                  "startedAt": "2026-08-27T13:49:55.681Z",
+                                  "location": {
+                                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                    "line": 110,
+                                    "column": 27
+                                  },
+                                  "artifacts": [
+                                    {
+                                      "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-input-field-5a32e9ada1.png",
+                                      "type": "screenshot"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Tess waits until page element located by deep css ('.dropdown-available-options') does become visible",
+                                  "outcome": "SUCCESS",
+                                  "duration": 26,
+                                  "children": [],
+                                  "type": "Interaction",
+                                  "startedAt": "2026-08-27T13:49:55.776Z",
+                                  "location": {
+                                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                    "line": 92,
+                                    "column": 26
+                                  },
+                                  "artifacts": [
+                                    {
+                                      "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-waits-until-page-element-locat-bfc16cca9d.png",
+                                      "type": "screenshot"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "type": "Task",
+                              "startedAt": "2026-08-27T13:49:55.655Z",
+                              "location": {
+                                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                "line": 92,
+                                "column": 26
+                              }
+                            }
+                          ],
+                          "type": "Task",
+                          "startedAt": "2026-08-27T13:49:55.655Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 92,
+                            "column": 26
+                          }
+                        },
+                        {
+                          "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 89,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:49:55.863Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 93,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-the-first-of-page-el-f3bb44e501.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 7,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:49:55.983Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--3e3bd76d3f.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:49:55.654Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 72,
+                        "column": 50
+                      }
+                    },
+                    {
+                      "name": "Tess selects 'Third' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 196,
+                      "children": [
+                        {
+                          "name": "Tess opens the dropdown",
+                          "outcome": "SUCCESS",
+                          "duration": 21,
+                          "children": [
+                            {
+                              "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
+                              "outcome": "SUCCESS",
+                              "duration": 10,
+                              "children": [],
+                              "type": "Task",
+                              "startedAt": "2026-08-27T13:49:56.056Z",
+                              "location": {
+                                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                "line": 92,
+                                "column": 26
+                              }
+                            }
+                          ],
+                          "type": "Task",
+                          "startedAt": "2026-08-27T13:49:56.055Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 92,
+                            "column": 26
+                          }
+                        },
+                        {
+                          "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"Third\"",
+                          "outcome": "SUCCESS",
+                          "duration": 81,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:49:56.087Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 93,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-the-first-of-page-el-4b22f6fdbc.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"Third\"",
+                          "outcome": "SUCCESS",
+                          "duration": 11,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:49:56.209Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--9e9ccc74e7.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:49:56.054Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 72,
+                        "column": 50
+                      }
+                    }
+                  ],
+                  "type": "Task",
+                  "startedAt": "2026-08-27T13:49:55.631Z",
+                  "location": {
+                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                    "line": 104,
+                    "column": 16
+                  }
+                }
+              ],
+              "type": "Task",
+              "startedAt": "2026-08-27T13:49:55.630Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 104,
+                "column": 16
+              }
+            },
+            {
+              "name": "Tess ensures that a note of selectedOptions does eventually equal [ { label: \"First\", value: \"first\" }, { label: \"Third\", value: \"third\" } ]",
+              "outcome": "SUCCESS",
+              "duration": 11,
+              "children": [],
+              "type": "Interaction",
+              "startedAt": "2026-08-27T13:49:56.282Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 106,
+                "column": 20
+              },
+              "artifacts": [
+                {
+                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-----value---first-1e15c82be0.png",
+                  "type": "screenshot"
+                }
+              ]
+            }
+          ]
         }
       ],
       "cast": [
@@ -11645,8 +13013,8 @@ window.__SERENITY_REPORT_DATA__ = {
       "name": "triggers onChange with selected options",
       "category": "Dropdown",
       "outcome": "SUCCESS",
-      "duration": 914,
-      "startedAt": "2026-08-26T23:10:33.359Z",
+      "duration": 919,
+      "startedAt": "2026-08-27T13:50:03.449Z",
       "source": {
         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
         "line": 81
@@ -11685,35 +13053,35 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Tess selects [ 'First', 'Third' ] from dropdown",
           "outcome": "SUCCESS",
-          "duration": 683,
+          "duration": 678,
           "children": [
             {
               "name": "Tess iterates over [ 'First', 'Third' ]",
               "outcome": "SUCCESS",
-              "duration": 671,
+              "duration": 668,
               "children": [
                 {
                   "name": "Tess selects 'First' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 402,
+                  "duration": 398,
                   "children": [
                     {
                       "name": "Tess opens the dropdown",
                       "outcome": "SUCCESS",
-                      "duration": 217,
+                      "duration": 222,
                       "children": [
                         {
                           "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
                           "outcome": "SUCCESS",
-                          "duration": 207,
+                          "duration": 211,
                           "children": [
                             {
                               "name": "Tess clicks on input field",
                               "outcome": "SUCCESS",
-                              "duration": 83,
+                              "duration": 71,
                               "children": [],
                               "type": "Interaction",
-                              "startedAt": "2026-08-26T23:10:33.606Z",
+                              "startedAt": "2026-08-27T13:50:03.694Z",
                               "location": {
                                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                                 "line": 110,
@@ -11721,7 +13089,7 @@ window.__SERENITY_REPORT_DATA__ = {
                               },
                               "artifacts": [
                                 {
-                                  "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-input-field-b029cbc9ff.png",
+                                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-input-field-b029cbc9ff.png",
                                   "type": "screenshot"
                                 }
                               ]
@@ -11729,10 +13097,10 @@ window.__SERENITY_REPORT_DATA__ = {
                             {
                               "name": "Tess waits until page element located by deep css ('.dropdown-available-options') does become visible",
                               "outcome": "SUCCESS",
-                              "duration": 32,
+                              "duration": 49,
                               "children": [],
                               "type": "Interaction",
-                              "startedAt": "2026-08-26T23:10:33.710Z",
+                              "startedAt": "2026-08-27T13:50:03.797Z",
                               "location": {
                                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                                 "line": 92,
@@ -11740,14 +13108,14 @@ window.__SERENITY_REPORT_DATA__ = {
                               },
                               "artifacts": [
                                 {
-                                  "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-waits-until-page-element-located-by-dee-59160d9635.png",
+                                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-waits-until-page-element-located-by-dee-bff2d6161f.png",
                                   "type": "screenshot"
                                 }
                               ]
                             }
                           ],
                           "type": "Task",
-                          "startedAt": "2026-08-26T23:10:33.555Z",
+                          "startedAt": "2026-08-27T13:50:03.655Z",
                           "location": {
                             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                             "line": 92,
@@ -11756,7 +13124,7 @@ window.__SERENITY_REPORT_DATA__ = {
                         }
                       ],
                       "type": "Task",
-                      "startedAt": "2026-08-26T23:10:33.555Z",
+                      "startedAt": "2026-08-27T13:50:03.654Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 92,
@@ -11766,10 +13134,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"First\"",
                       "outcome": "SUCCESS",
-                      "duration": 121,
+                      "duration": 114,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:33.783Z",
+                      "startedAt": "2026-08-27T13:50:03.887Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 93,
@@ -11777,7 +13145,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-the-first-of-page-elements-lo-81e5e1ae36.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-the-first-of-page-elements-lo-eef1caaac1.png",
                           "type": "screenshot"
                         }
                       ]
@@ -11788,7 +13156,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       "duration": 9,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:33.926Z",
+                      "startedAt": "2026-08-27T13:50:04.022Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -11796,14 +13164,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--b33106151d.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--c3356d7bbc.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:33.554Z",
+                  "startedAt": "2026-08-27T13:50:03.653Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 72,
@@ -11813,7 +13181,7 @@ window.__SERENITY_REPORT_DATA__ = {
                 {
                   "name": "Tess selects 'Third' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 202,
+                  "duration": 203,
                   "children": [
                     {
                       "name": "Tess opens the dropdown",
@@ -11826,7 +13194,7 @@ window.__SERENITY_REPORT_DATA__ = {
                           "duration": 11,
                           "children": [],
                           "type": "Task",
-                          "startedAt": "2026-08-26T23:10:33.992Z",
+                          "startedAt": "2026-08-27T13:50:04.087Z",
                           "location": {
                             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                             "line": 92,
@@ -11835,7 +13203,7 @@ window.__SERENITY_REPORT_DATA__ = {
                         }
                       ],
                       "type": "Task",
-                      "startedAt": "2026-08-26T23:10:33.991Z",
+                      "startedAt": "2026-08-27T13:50:04.086Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 92,
@@ -11845,10 +13213,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"Third\"",
                       "outcome": "SUCCESS",
-                      "duration": 113,
+                      "duration": 114,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:34.024Z",
+                      "startedAt": "2026-08-27T13:50:04.118Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 93,
@@ -11856,7 +13224,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-the-first-of-page-elements-lo-b8937ffcc7.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-the-first-of-page-elements-lo-aea179b52f.png",
                           "type": "screenshot"
                         }
                       ]
@@ -11864,10 +13232,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"Third\"",
                       "outcome": "SUCCESS",
-                      "duration": 14,
+                      "duration": 15,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:34.158Z",
+                      "startedAt": "2026-08-27T13:50:04.253Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -11875,14 +13243,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--10f1f71cf1.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--8795f227a6.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:33.990Z",
+                  "startedAt": "2026-08-27T13:50:04.085Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 72,
@@ -11891,7 +13259,7 @@ window.__SERENITY_REPORT_DATA__ = {
                 }
               ],
               "type": "Task",
-              "startedAt": "2026-08-26T23:10:33.531Z",
+              "startedAt": "2026-08-27T13:50:03.630Z",
               "location": {
                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
                 "line": 104,
@@ -11900,7 +13268,7 @@ window.__SERENITY_REPORT_DATA__ = {
             }
           ],
           "type": "Task",
-          "startedAt": "2026-08-26T23:10:33.530Z",
+          "startedAt": "2026-08-27T13:50:03.630Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 104,
@@ -11913,7 +13281,7 @@ window.__SERENITY_REPORT_DATA__ = {
           "duration": 11,
           "children": [],
           "type": "Interaction",
-          "startedAt": "2026-08-26T23:10:34.224Z",
+          "startedAt": "2026-08-27T13:50:04.320Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 106,
@@ -11921,7 +13289,7 @@ window.__SERENITY_REPORT_DATA__ = {
           },
           "artifacts": [
             {
-              "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-----value---first---label--f3d4310ad9.png",
+              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-----value---first---label--f3d4310ad9.png",
               "type": "screenshot"
             }
           ]
@@ -13691,6 +15059,258 @@ window.__SERENITY_REPORT_DATA__ = {
               ]
             }
           ]
+        },
+        {
+          "outcome": "SUCCESS",
+          "run": "1164",
+          "timestamp": "2026-08-27T13:49:53.512Z",
+          "duration": 919,
+          "activities": [
+            {
+              "name": "Tess selects [ 'First', 'Third' ] from dropdown",
+              "outcome": "SUCCESS",
+              "duration": 678,
+              "children": [
+                {
+                  "name": "Tess iterates over [ 'First', 'Third' ]",
+                  "outcome": "SUCCESS",
+                  "duration": 668,
+                  "children": [
+                    {
+                      "name": "Tess selects 'First' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 398,
+                      "children": [
+                        {
+                          "name": "Tess opens the dropdown",
+                          "outcome": "SUCCESS",
+                          "duration": 222,
+                          "children": [
+                            {
+                              "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
+                              "outcome": "SUCCESS",
+                              "duration": 211,
+                              "children": [
+                                {
+                                  "name": "Tess clicks on input field",
+                                  "outcome": "SUCCESS",
+                                  "duration": 71,
+                                  "children": [],
+                                  "type": "Interaction",
+                                  "startedAt": "2026-08-27T13:50:03.694Z",
+                                  "location": {
+                                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                    "line": 110,
+                                    "column": 27
+                                  },
+                                  "artifacts": [
+                                    {
+                                      "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-input-field-b029cbc9ff.png",
+                                      "type": "screenshot"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Tess waits until page element located by deep css ('.dropdown-available-options') does become visible",
+                                  "outcome": "SUCCESS",
+                                  "duration": 49,
+                                  "children": [],
+                                  "type": "Interaction",
+                                  "startedAt": "2026-08-27T13:50:03.797Z",
+                                  "location": {
+                                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                    "line": 92,
+                                    "column": 26
+                                  },
+                                  "artifacts": [
+                                    {
+                                      "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-waits-until-page-element-located-by-dee-bff2d6161f.png",
+                                      "type": "screenshot"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "type": "Task",
+                              "startedAt": "2026-08-27T13:50:03.655Z",
+                              "location": {
+                                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                "line": 92,
+                                "column": 26
+                              }
+                            }
+                          ],
+                          "type": "Task",
+                          "startedAt": "2026-08-27T13:50:03.654Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 92,
+                            "column": 26
+                          }
+                        },
+                        {
+                          "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 114,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:03.887Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 93,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-the-first-of-page-elements-lo-eef1caaac1.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 9,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:04.022Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--c3356d7bbc.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:50:03.653Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 72,
+                        "column": 50
+                      }
+                    },
+                    {
+                      "name": "Tess selects 'Third' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 203,
+                      "children": [
+                        {
+                          "name": "Tess opens the dropdown",
+                          "outcome": "SUCCESS",
+                          "duration": 22,
+                          "children": [
+                            {
+                              "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
+                              "outcome": "SUCCESS",
+                              "duration": 11,
+                              "children": [],
+                              "type": "Task",
+                              "startedAt": "2026-08-27T13:50:04.087Z",
+                              "location": {
+                                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                "line": 92,
+                                "column": 26
+                              }
+                            }
+                          ],
+                          "type": "Task",
+                          "startedAt": "2026-08-27T13:50:04.086Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 92,
+                            "column": 26
+                          }
+                        },
+                        {
+                          "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"Third\"",
+                          "outcome": "SUCCESS",
+                          "duration": 114,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:04.118Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 93,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-the-first-of-page-elements-lo-aea179b52f.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"Third\"",
+                          "outcome": "SUCCESS",
+                          "duration": 15,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:04.253Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--8795f227a6.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:50:04.085Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 72,
+                        "column": 50
+                      }
+                    }
+                  ],
+                  "type": "Task",
+                  "startedAt": "2026-08-27T13:50:03.630Z",
+                  "location": {
+                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                    "line": 104,
+                    "column": 16
+                  }
+                }
+              ],
+              "type": "Task",
+              "startedAt": "2026-08-27T13:50:03.630Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 104,
+                "column": 16
+              }
+            },
+            {
+              "name": "Tess ensures that a note of selectedOptions does eventually equal [ { label: \"First\", value: \"first\" }, { label: \"Third\", value: \"third\" } ]",
+              "outcome": "SUCCESS",
+              "duration": 11,
+              "children": [],
+              "type": "Interaction",
+              "startedAt": "2026-08-27T13:50:04.320Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 106,
+                "column": 20
+              },
+              "artifacts": [
+                {
+                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-----value---first---label--f3d4310ad9.png",
+                  "type": "screenshot"
+                }
+              ]
+            }
+          ]
         }
       ],
       "cast": [
@@ -13729,8 +15349,8 @@ window.__SERENITY_REPORT_DATA__ = {
       "name": "triggers onChange with selected options",
       "category": "Dropdown",
       "outcome": "SUCCESS",
-      "duration": 1789,
-      "startedAt": "2026-08-26T23:10:42.121Z",
+      "duration": 1804,
+      "startedAt": "2026-08-27T13:50:12.286Z",
       "source": {
         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
         "line": 81
@@ -13769,27 +15389,27 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Tess selects [ 'First', 'Third' ] from dropdown",
           "outcome": "SUCCESS",
-          "duration": 1486,
+          "duration": 1507,
           "children": [
             {
               "name": "Tess iterates over [ 'First', 'Third' ]",
               "outcome": "SUCCESS",
-              "duration": 1476,
+              "duration": 1496,
               "children": [
                 {
                   "name": "Tess selects 'First' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 959,
+                  "duration": 985,
                   "children": [
                     {
                       "name": "Tess opens the dropdown",
                       "outcome": "SUCCESS",
-                      "duration": 521,
+                      "duration": 512,
                       "children": [
                         {
                           "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
                           "outcome": "SUCCESS",
-                          "duration": 510,
+                          "duration": 500,
                           "children": [
                             {
                               "name": "Tess clicks on input field",
@@ -13797,7 +15417,7 @@ window.__SERENITY_REPORT_DATA__ = {
                               "duration": 72,
                               "children": [],
                               "type": "Interaction",
-                              "startedAt": "2026-08-26T23:10:42.289Z",
+                              "startedAt": "2026-08-27T13:50:12.453Z",
                               "location": {
                                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                                 "line": 110,
@@ -13805,7 +15425,7 @@ window.__SERENITY_REPORT_DATA__ = {
                               },
                               "artifacts": [
                                 {
-                                  "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-input-field-bea7f7b144.png",
+                                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-input-field-bea7f7b144.png",
                                   "type": "screenshot"
                                 }
                               ]
@@ -13813,10 +15433,10 @@ window.__SERENITY_REPORT_DATA__ = {
                             {
                               "name": "Tess waits until page element located by deep css ('.dropdown-available-options') does become visible",
                               "outcome": "SUCCESS",
-                              "duration": 47,
+                              "duration": 48,
                               "children": [],
                               "type": "Interaction",
-                              "startedAt": "2026-08-26T23:10:42.516Z",
+                              "startedAt": "2026-08-27T13:50:12.679Z",
                               "location": {
                                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                                 "line": 92,
@@ -13824,14 +15444,14 @@ window.__SERENITY_REPORT_DATA__ = {
                               },
                               "artifacts": [
                                 {
-                                  "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-waits-until-page-element-located-by-deep--de6e0b28d8.png",
+                                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-waits-until-page-element-located-by-deep--de6e0b28d8.png",
                                   "type": "screenshot"
                                 }
                               ]
                             }
                           ],
                           "type": "Task",
-                          "startedAt": "2026-08-26T23:10:42.266Z",
+                          "startedAt": "2026-08-27T13:50:12.429Z",
                           "location": {
                             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                             "line": 92,
@@ -13840,7 +15460,7 @@ window.__SERENITY_REPORT_DATA__ = {
                         }
                       ],
                       "type": "Task",
-                      "startedAt": "2026-08-26T23:10:42.265Z",
+                      "startedAt": "2026-08-27T13:50:12.428Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 92,
@@ -13850,10 +15470,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"First\"",
                       "outcome": "SUCCESS",
-                      "duration": 120,
+                      "duration": 128,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:42.800Z",
+                      "startedAt": "2026-08-27T13:50:12.951Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 93,
@@ -13861,7 +15481,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-the-first-of-page-elements-loca-efccbf4739.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-the-first-of-page-elements-loca-efccbf4739.png",
                           "type": "screenshot"
                         }
                       ]
@@ -13869,10 +15489,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"First\"",
                       "outcome": "SUCCESS",
-                      "duration": 7,
+                      "duration": 8,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:43.073Z",
+                      "startedAt": "2026-08-27T13:50:13.232Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -13880,14 +15500,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-efccbf4739.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-efccbf4739.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:42.264Z",
+                  "startedAt": "2026-08-27T13:50:12.427Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 72,
@@ -13897,20 +15517,20 @@ window.__SERENITY_REPORT_DATA__ = {
                 {
                   "name": "Tess selects 'Third' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 432,
+                  "duration": 423,
                   "children": [
                     {
                       "name": "Tess opens the dropdown",
                       "outcome": "SUCCESS",
-                      "duration": 16,
+                      "duration": 15,
                       "children": [
                         {
                           "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
                           "outcome": "SUCCESS",
-                          "duration": 4,
+                          "duration": 5,
                           "children": [],
                           "type": "Task",
-                          "startedAt": "2026-08-26T23:10:43.268Z",
+                          "startedAt": "2026-08-27T13:50:13.456Z",
                           "location": {
                             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                             "line": 92,
@@ -13919,7 +15539,7 @@ window.__SERENITY_REPORT_DATA__ = {
                         }
                       ],
                       "type": "Task",
-                      "startedAt": "2026-08-26T23:10:43.267Z",
+                      "startedAt": "2026-08-27T13:50:13.456Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 92,
@@ -13929,10 +15549,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"Third\"",
                       "outcome": "SUCCESS",
-                      "duration": 90,
+                      "duration": 78,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:43.294Z",
+                      "startedAt": "2026-08-27T13:50:13.482Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 93,
@@ -13940,7 +15560,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-the-first-of-page-elements-loca-7c194d682c.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-the-first-of-page-elements-loca-7c194d682c.png",
                           "type": "screenshot"
                         }
                       ]
@@ -13948,10 +15568,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"Third\"",
                       "outcome": "SUCCESS",
-                      "duration": 10,
+                      "duration": 14,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:43.537Z",
+                      "startedAt": "2026-08-27T13:50:13.713Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -13959,14 +15579,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-7c194d682c.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-7c194d682c.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:43.267Z",
+                  "startedAt": "2026-08-27T13:50:13.455Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 72,
@@ -13975,7 +15595,7 @@ window.__SERENITY_REPORT_DATA__ = {
                 }
               ],
               "type": "Task",
-              "startedAt": "2026-08-26T23:10:42.233Z",
+              "startedAt": "2026-08-27T13:50:12.393Z",
               "location": {
                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
                 "line": 104,
@@ -13984,7 +15604,7 @@ window.__SERENITY_REPORT_DATA__ = {
             }
           ],
           "type": "Task",
-          "startedAt": "2026-08-26T23:10:42.233Z",
+          "startedAt": "2026-08-27T13:50:12.392Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 104,
@@ -13997,7 +15617,7 @@ window.__SERENITY_REPORT_DATA__ = {
           "duration": 11,
           "children": [],
           "type": "Interaction",
-          "startedAt": "2026-08-26T23:10:43.730Z",
+          "startedAt": "2026-08-27T13:50:13.910Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 106,
@@ -14005,7 +15625,7 @@ window.__SERENITY_REPORT_DATA__ = {
           },
           "artifacts": [
             {
-              "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-----value---first---label----7c194d682c.png",
+              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-----value---first---label----7c194d682c.png",
               "type": "screenshot"
             }
           ]
@@ -15775,6 +17395,258 @@ window.__SERENITY_REPORT_DATA__ = {
               ]
             }
           ]
+        },
+        {
+          "outcome": "SUCCESS",
+          "run": "1164",
+          "timestamp": "2026-08-27T13:49:53.512Z",
+          "duration": 1804,
+          "activities": [
+            {
+              "name": "Tess selects [ 'First', 'Third' ] from dropdown",
+              "outcome": "SUCCESS",
+              "duration": 1507,
+              "children": [
+                {
+                  "name": "Tess iterates over [ 'First', 'Third' ]",
+                  "outcome": "SUCCESS",
+                  "duration": 1496,
+                  "children": [
+                    {
+                      "name": "Tess selects 'First' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 985,
+                      "children": [
+                        {
+                          "name": "Tess opens the dropdown",
+                          "outcome": "SUCCESS",
+                          "duration": 512,
+                          "children": [
+                            {
+                              "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
+                              "outcome": "SUCCESS",
+                              "duration": 500,
+                              "children": [
+                                {
+                                  "name": "Tess clicks on input field",
+                                  "outcome": "SUCCESS",
+                                  "duration": 72,
+                                  "children": [],
+                                  "type": "Interaction",
+                                  "startedAt": "2026-08-27T13:50:12.453Z",
+                                  "location": {
+                                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                    "line": 110,
+                                    "column": 27
+                                  },
+                                  "artifacts": [
+                                    {
+                                      "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-input-field-bea7f7b144.png",
+                                      "type": "screenshot"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Tess waits until page element located by deep css ('.dropdown-available-options') does become visible",
+                                  "outcome": "SUCCESS",
+                                  "duration": 48,
+                                  "children": [],
+                                  "type": "Interaction",
+                                  "startedAt": "2026-08-27T13:50:12.679Z",
+                                  "location": {
+                                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                    "line": 92,
+                                    "column": 26
+                                  },
+                                  "artifacts": [
+                                    {
+                                      "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-waits-until-page-element-located-by-deep--de6e0b28d8.png",
+                                      "type": "screenshot"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "type": "Task",
+                              "startedAt": "2026-08-27T13:50:12.429Z",
+                              "location": {
+                                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                "line": 92,
+                                "column": 26
+                              }
+                            }
+                          ],
+                          "type": "Task",
+                          "startedAt": "2026-08-27T13:50:12.428Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 92,
+                            "column": 26
+                          }
+                        },
+                        {
+                          "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 128,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:12.951Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 93,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-the-first-of-page-elements-loca-efccbf4739.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 8,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:13.232Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-efccbf4739.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:50:12.427Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 72,
+                        "column": 50
+                      }
+                    },
+                    {
+                      "name": "Tess selects 'Third' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 423,
+                      "children": [
+                        {
+                          "name": "Tess opens the dropdown",
+                          "outcome": "SUCCESS",
+                          "duration": 15,
+                          "children": [
+                            {
+                              "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
+                              "outcome": "SUCCESS",
+                              "duration": 5,
+                              "children": [],
+                              "type": "Task",
+                              "startedAt": "2026-08-27T13:50:13.456Z",
+                              "location": {
+                                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                "line": 92,
+                                "column": 26
+                              }
+                            }
+                          ],
+                          "type": "Task",
+                          "startedAt": "2026-08-27T13:50:13.456Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 92,
+                            "column": 26
+                          }
+                        },
+                        {
+                          "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"Third\"",
+                          "outcome": "SUCCESS",
+                          "duration": 78,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:13.482Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 93,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-the-first-of-page-elements-loca-7c194d682c.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"Third\"",
+                          "outcome": "SUCCESS",
+                          "duration": 14,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:13.713Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-7c194d682c.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:50:13.455Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 72,
+                        "column": 50
+                      }
+                    }
+                  ],
+                  "type": "Task",
+                  "startedAt": "2026-08-27T13:50:12.393Z",
+                  "location": {
+                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                    "line": 104,
+                    "column": 16
+                  }
+                }
+              ],
+              "type": "Task",
+              "startedAt": "2026-08-27T13:50:12.392Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 104,
+                "column": 16
+              }
+            },
+            {
+              "name": "Tess ensures that a note of selectedOptions does eventually equal [ { label: \"First\", value: \"first\" }, { label: \"Third\", value: \"third\" } ]",
+              "outcome": "SUCCESS",
+              "duration": 11,
+              "children": [],
+              "type": "Interaction",
+              "startedAt": "2026-08-27T13:50:13.910Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 106,
+                "column": 20
+              },
+              "artifacts": [
+                {
+                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-----value---first---label----7c194d682c.png",
+                  "type": "screenshot"
+                }
+              ]
+            }
+          ]
         }
       ],
       "cast": [
@@ -15813,8 +17685,8 @@ window.__SERENITY_REPORT_DATA__ = {
       "name": "allows for selected options to be deselected",
       "category": "Dropdown",
       "outcome": "SUCCESS",
-      "duration": 1271,
-      "startedAt": "2026-08-26T23:10:26.444Z",
+      "duration": 1306,
+      "startedAt": "2026-08-27T13:49:56.375Z",
       "source": {
         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
         "line": 113
@@ -15853,35 +17725,35 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Tess selects [ 'First', 'Third', 'Second' ] from dropdown",
           "outcome": "SUCCESS",
-          "duration": 881,
+          "duration": 890,
           "children": [
             {
               "name": "Tess iterates over [ 'First', 'Third', 'Second' ]",
               "outcome": "SUCCESS",
-              "duration": 870,
+              "duration": 879,
               "children": [
                 {
                   "name": "Tess selects 'First' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 376,
+                  "duration": 386,
                   "children": [
                     {
                       "name": "Tess opens the dropdown",
                       "outcome": "SUCCESS",
-                      "duration": 190,
+                      "duration": 195,
                       "children": [
                         {
                           "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
                           "outcome": "SUCCESS",
-                          "duration": 180,
+                          "duration": 184,
                           "children": [
                             {
                               "name": "Tess clicks on input field",
                               "outcome": "SUCCESS",
-                              "duration": 59,
+                              "duration": 55,
                               "children": [],
                               "type": "Interaction",
-                              "startedAt": "2026-08-26T23:10:26.587Z",
+                              "startedAt": "2026-08-27T13:49:56.562Z",
                               "location": {
                                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                                 "line": 110,
@@ -15889,7 +17761,7 @@ window.__SERENITY_REPORT_DATA__ = {
                               },
                               "artifacts": [
                                 {
-                                  "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-input-field-5a32e9ada1.png",
+                                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-input-field-5a32e9ada1.png",
                                   "type": "screenshot"
                                 }
                               ]
@@ -15900,7 +17772,7 @@ window.__SERENITY_REPORT_DATA__ = {
                               "duration": 25,
                               "children": [],
                               "type": "Interaction",
-                              "startedAt": "2026-08-26T23:10:26.689Z",
+                              "startedAt": "2026-08-27T13:49:56.659Z",
                               "location": {
                                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                                 "line": 92,
@@ -15908,14 +17780,14 @@ window.__SERENITY_REPORT_DATA__ = {
                               },
                               "artifacts": [
                                 {
-                                  "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-waits-until-page-element-locat-bfc16cca9d.png",
+                                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-waits-until-page-element-locat-bfc16cca9d.png",
                                   "type": "screenshot"
                                 }
                               ]
                             }
                           ],
                           "type": "Task",
-                          "startedAt": "2026-08-26T23:10:26.565Z",
+                          "startedAt": "2026-08-27T13:49:56.541Z",
                           "location": {
                             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                             "line": 92,
@@ -15924,7 +17796,7 @@ window.__SERENITY_REPORT_DATA__ = {
                         }
                       ],
                       "type": "Task",
-                      "startedAt": "2026-08-26T23:10:26.565Z",
+                      "startedAt": "2026-08-27T13:49:56.540Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 92,
@@ -15934,10 +17806,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"First\"",
                       "outcome": "SUCCESS",
-                      "duration": 80,
+                      "duration": 88,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:26.766Z",
+                      "startedAt": "2026-08-27T13:49:56.746Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 93,
@@ -15945,7 +17817,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-the-first-of-page-el-fa7645c62d.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-the-first-of-page-el-f3bb44e501.png",
                           "type": "screenshot"
                         }
                       ]
@@ -15956,7 +17828,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       "duration": 7,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:26.889Z",
+                      "startedAt": "2026-08-27T13:49:56.876Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -15964,14 +17836,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--3e3bd76d3f.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--db7313f6f2.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:26.561Z",
+                  "startedAt": "2026-08-27T13:49:56.537Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 72,
@@ -15981,20 +17853,20 @@ window.__SERENITY_REPORT_DATA__ = {
                 {
                   "name": "Tess selects 'Third' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 192,
+                  "duration": 207,
                   "children": [
                     {
                       "name": "Tess opens the dropdown",
                       "outcome": "SUCCESS",
-                      "duration": 19,
+                      "duration": 20,
                       "children": [
                         {
                           "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
                           "outcome": "SUCCESS",
-                          "duration": 8,
+                          "duration": 9,
                           "children": [],
                           "type": "Task",
-                          "startedAt": "2026-08-26T23:10:26.973Z",
+                          "startedAt": "2026-08-27T13:49:56.960Z",
                           "location": {
                             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                             "line": 92,
@@ -16003,7 +17875,7 @@ window.__SERENITY_REPORT_DATA__ = {
                         }
                       ],
                       "type": "Task",
-                      "startedAt": "2026-08-26T23:10:26.972Z",
+                      "startedAt": "2026-08-27T13:49:56.959Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 92,
@@ -16013,10 +17885,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"Third\"",
                       "outcome": "SUCCESS",
-                      "duration": 77,
+                      "duration": 93,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:27.002Z",
+                      "startedAt": "2026-08-27T13:49:56.990Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 93,
@@ -16024,7 +17896,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-the-first-of-page-el-4b22f6fdbc.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-the-first-of-page-el-e660a11a20.png",
                           "type": "screenshot"
                         }
                       ]
@@ -16032,10 +17904,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"Third\"",
                       "outcome": "SUCCESS",
-                      "duration": 10,
+                      "duration": 9,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:27.122Z",
+                      "startedAt": "2026-08-27T13:49:57.125Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -16043,14 +17915,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--9e9ccc74e7.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--1e15c82be0.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:26.971Z",
+                  "startedAt": "2026-08-27T13:49:56.958Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 72,
@@ -16060,20 +17932,20 @@ window.__SERENITY_REPORT_DATA__ = {
                 {
                   "name": "Tess selects 'Second' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 191,
+                  "duration": 187,
                   "children": [
                     {
                       "name": "Tess opens the dropdown",
                       "outcome": "SUCCESS",
-                      "duration": 17,
+                      "duration": 15,
                       "children": [
                         {
                           "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
                           "outcome": "SUCCESS",
-                          "duration": 6,
+                          "duration": 4,
                           "children": [],
                           "type": "Task",
-                          "startedAt": "2026-08-26T23:10:27.208Z",
+                          "startedAt": "2026-08-27T13:49:57.199Z",
                           "location": {
                             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                             "line": 92,
@@ -16082,7 +17954,7 @@ window.__SERENITY_REPORT_DATA__ = {
                         }
                       ],
                       "type": "Task",
-                      "startedAt": "2026-08-26T23:10:27.207Z",
+                      "startedAt": "2026-08-27T13:49:57.198Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 92,
@@ -16092,10 +17964,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"Second\"",
                       "outcome": "SUCCESS",
-                      "duration": 78,
+                      "duration": 76,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:27.235Z",
+                      "startedAt": "2026-08-27T13:49:57.224Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 93,
@@ -16103,7 +17975,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-the-first-of-page-el-abf8b9e0e4.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-the-first-of-page-el-abf8b9e0e4.png",
                           "type": "screenshot"
                         }
                       ]
@@ -16111,10 +17983,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"Second\"",
                       "outcome": "SUCCESS",
-                      "duration": 13,
+                      "duration": 12,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:27.355Z",
+                      "startedAt": "2026-08-27T13:49:57.342Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -16122,14 +17994,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--abf8b9e0e4.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--abf8b9e0e4.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:27.207Z",
+                  "startedAt": "2026-08-27T13:49:57.197Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 72,
@@ -16138,7 +18010,7 @@ window.__SERENITY_REPORT_DATA__ = {
                 }
               ],
               "type": "Task",
-              "startedAt": "2026-08-26T23:10:26.538Z",
+              "startedAt": "2026-08-27T13:49:56.515Z",
               "location": {
                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
                 "line": 126,
@@ -16147,7 +18019,7 @@ window.__SERENITY_REPORT_DATA__ = {
             }
           ],
           "type": "Task",
-          "startedAt": "2026-08-26T23:10:26.537Z",
+          "startedAt": "2026-08-27T13:49:56.514Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 126,
@@ -16157,25 +18029,25 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Tess deselects [ 'First' ] from dropdown",
           "outcome": "SUCCESS",
-          "duration": 198,
+          "duration": 192,
           "children": [
             {
               "name": "Tess iterates over [ 'First' ]",
               "outcome": "SUCCESS",
-              "duration": 187,
+              "duration": 181,
               "children": [
                 {
                   "name": "Tess deselects 'First' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 162,
+                  "duration": 155,
                   "children": [
                     {
                       "name": "Tess clicks on deselect button of the first of page elements located by deep css ('.dropdown-selected-option') of input field where Text does include \"First\"",
                       "outcome": "SUCCESS",
-                      "duration": 68,
+                      "duration": 69,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:27.445Z",
+                      "startedAt": "2026-08-27T13:49:57.431Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 101,
@@ -16183,7 +18055,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-deselect-button-of-t-00d27d6636.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-deselect-button-of-t-00d27d6636.png",
                           "type": "screenshot"
                         }
                       ]
@@ -16191,10 +18063,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does not contain \"First\"",
                       "outcome": "SUCCESS",
-                      "duration": 12,
+                      "duration": 13,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:27.554Z",
+                      "startedAt": "2026-08-27T13:49:57.542Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -16202,14 +18074,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--00d27d6636.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--00d27d6636.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:27.445Z",
+                  "startedAt": "2026-08-27T13:49:57.431Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 83,
@@ -16218,7 +18090,7 @@ window.__SERENITY_REPORT_DATA__ = {
                 }
               ],
               "type": "Task",
-              "startedAt": "2026-08-26T23:10:27.430Z",
+              "startedAt": "2026-08-27T13:49:57.416Z",
               "location": {
                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
                 "line": 130,
@@ -16227,7 +18099,7 @@ window.__SERENITY_REPORT_DATA__ = {
             }
           ],
           "type": "Task",
-          "startedAt": "2026-08-26T23:10:27.429Z",
+          "startedAt": "2026-08-27T13:49:57.415Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 130,
@@ -16237,10 +18109,10 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Tess ensures that selected options does equal [ \"Third\", \"Second\" ]",
           "outcome": "SUCCESS",
-          "duration": 12,
+          "duration": 10,
           "children": [],
           "type": "Interaction",
-          "startedAt": "2026-08-26T23:10:27.638Z",
+          "startedAt": "2026-08-27T13:49:57.618Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 132,
@@ -16248,7 +18120,7 @@ window.__SERENITY_REPORT_DATA__ = {
           },
           "artifacts": [
             {
-              "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-selected-options--00d27d6636.png",
+              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-selected-options--00d27d6636.png",
               "type": "screenshot"
             }
           ]
@@ -19131,6 +21003,417 @@ window.__SERENITY_REPORT_DATA__ = {
               ]
             }
           ]
+        },
+        {
+          "outcome": "SUCCESS",
+          "run": "1164",
+          "timestamp": "2026-08-27T13:49:53.512Z",
+          "duration": 1306,
+          "activities": [
+            {
+              "name": "Tess selects [ 'First', 'Third', 'Second' ] from dropdown",
+              "outcome": "SUCCESS",
+              "duration": 890,
+              "children": [
+                {
+                  "name": "Tess iterates over [ 'First', 'Third', 'Second' ]",
+                  "outcome": "SUCCESS",
+                  "duration": 879,
+                  "children": [
+                    {
+                      "name": "Tess selects 'First' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 386,
+                      "children": [
+                        {
+                          "name": "Tess opens the dropdown",
+                          "outcome": "SUCCESS",
+                          "duration": 195,
+                          "children": [
+                            {
+                              "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
+                              "outcome": "SUCCESS",
+                              "duration": 184,
+                              "children": [
+                                {
+                                  "name": "Tess clicks on input field",
+                                  "outcome": "SUCCESS",
+                                  "duration": 55,
+                                  "children": [],
+                                  "type": "Interaction",
+                                  "startedAt": "2026-08-27T13:49:56.562Z",
+                                  "location": {
+                                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                    "line": 110,
+                                    "column": 27
+                                  },
+                                  "artifacts": [
+                                    {
+                                      "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-input-field-5a32e9ada1.png",
+                                      "type": "screenshot"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Tess waits until page element located by deep css ('.dropdown-available-options') does become visible",
+                                  "outcome": "SUCCESS",
+                                  "duration": 25,
+                                  "children": [],
+                                  "type": "Interaction",
+                                  "startedAt": "2026-08-27T13:49:56.659Z",
+                                  "location": {
+                                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                    "line": 92,
+                                    "column": 26
+                                  },
+                                  "artifacts": [
+                                    {
+                                      "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-waits-until-page-element-locat-bfc16cca9d.png",
+                                      "type": "screenshot"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "type": "Task",
+                              "startedAt": "2026-08-27T13:49:56.541Z",
+                              "location": {
+                                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                "line": 92,
+                                "column": 26
+                              }
+                            }
+                          ],
+                          "type": "Task",
+                          "startedAt": "2026-08-27T13:49:56.540Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 92,
+                            "column": 26
+                          }
+                        },
+                        {
+                          "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 88,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:49:56.746Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 93,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-the-first-of-page-el-f3bb44e501.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 7,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:49:56.876Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--db7313f6f2.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:49:56.537Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 72,
+                        "column": 50
+                      }
+                    },
+                    {
+                      "name": "Tess selects 'Third' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 207,
+                      "children": [
+                        {
+                          "name": "Tess opens the dropdown",
+                          "outcome": "SUCCESS",
+                          "duration": 20,
+                          "children": [
+                            {
+                              "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
+                              "outcome": "SUCCESS",
+                              "duration": 9,
+                              "children": [],
+                              "type": "Task",
+                              "startedAt": "2026-08-27T13:49:56.960Z",
+                              "location": {
+                                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                "line": 92,
+                                "column": 26
+                              }
+                            }
+                          ],
+                          "type": "Task",
+                          "startedAt": "2026-08-27T13:49:56.959Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 92,
+                            "column": 26
+                          }
+                        },
+                        {
+                          "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"Third\"",
+                          "outcome": "SUCCESS",
+                          "duration": 93,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:49:56.990Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 93,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-the-first-of-page-el-e660a11a20.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"Third\"",
+                          "outcome": "SUCCESS",
+                          "duration": 9,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:49:57.125Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--1e15c82be0.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:49:56.958Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 72,
+                        "column": 50
+                      }
+                    },
+                    {
+                      "name": "Tess selects 'Second' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 187,
+                      "children": [
+                        {
+                          "name": "Tess opens the dropdown",
+                          "outcome": "SUCCESS",
+                          "duration": 15,
+                          "children": [
+                            {
+                              "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
+                              "outcome": "SUCCESS",
+                              "duration": 4,
+                              "children": [],
+                              "type": "Task",
+                              "startedAt": "2026-08-27T13:49:57.199Z",
+                              "location": {
+                                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                "line": 92,
+                                "column": 26
+                              }
+                            }
+                          ],
+                          "type": "Task",
+                          "startedAt": "2026-08-27T13:49:57.198Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 92,
+                            "column": 26
+                          }
+                        },
+                        {
+                          "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"Second\"",
+                          "outcome": "SUCCESS",
+                          "duration": 76,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:49:57.224Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 93,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-the-first-of-page-el-abf8b9e0e4.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"Second\"",
+                          "outcome": "SUCCESS",
+                          "duration": 12,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:49:57.342Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--abf8b9e0e4.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:49:57.197Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 72,
+                        "column": 50
+                      }
+                    }
+                  ],
+                  "type": "Task",
+                  "startedAt": "2026-08-27T13:49:56.515Z",
+                  "location": {
+                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                    "line": 126,
+                    "column": 16
+                  }
+                }
+              ],
+              "type": "Task",
+              "startedAt": "2026-08-27T13:49:56.514Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 126,
+                "column": 16
+              }
+            },
+            {
+              "name": "Tess deselects [ 'First' ] from dropdown",
+              "outcome": "SUCCESS",
+              "duration": 192,
+              "children": [
+                {
+                  "name": "Tess iterates over [ 'First' ]",
+                  "outcome": "SUCCESS",
+                  "duration": 181,
+                  "children": [
+                    {
+                      "name": "Tess deselects 'First' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 155,
+                      "children": [
+                        {
+                          "name": "Tess clicks on deselect button of the first of page elements located by deep css ('.dropdown-selected-option') of input field where Text does include \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 69,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:49:57.431Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 101,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-deselect-button-of-t-00d27d6636.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does not contain \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 13,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:49:57.542Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--00d27d6636.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:49:57.431Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 83,
+                        "column": 52
+                      }
+                    }
+                  ],
+                  "type": "Task",
+                  "startedAt": "2026-08-27T13:49:57.416Z",
+                  "location": {
+                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                    "line": 130,
+                    "column": 16
+                  }
+                }
+              ],
+              "type": "Task",
+              "startedAt": "2026-08-27T13:49:57.415Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 130,
+                "column": 16
+              }
+            },
+            {
+              "name": "Tess ensures that selected options does equal [ \"Third\", \"Second\" ]",
+              "outcome": "SUCCESS",
+              "duration": 10,
+              "children": [],
+              "type": "Interaction",
+              "startedAt": "2026-08-27T13:49:57.618Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 132,
+                "column": 20
+              },
+              "artifacts": [
+                {
+                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-selected-options--00d27d6636.png",
+                  "type": "screenshot"
+                }
+              ]
+            }
+          ]
         }
       ],
       "cast": [
@@ -19169,8 +21452,8 @@ window.__SERENITY_REPORT_DATA__ = {
       "name": "allows for selected options to be deselected",
       "category": "Dropdown",
       "outcome": "SUCCESS",
-      "duration": 1312,
-      "startedAt": "2026-08-26T23:10:34.296Z",
+      "duration": 1316,
+      "startedAt": "2026-08-27T13:50:04.392Z",
       "source": {
         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
         "line": 113
@@ -19209,35 +21492,35 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Tess selects [ 'First', 'Third', 'Second' ] from dropdown",
           "outcome": "SUCCESS",
-          "duration": 885,
+          "duration": 889,
           "children": [
             {
               "name": "Tess iterates over [ 'First', 'Third', 'Second' ]",
               "outcome": "SUCCESS",
-              "duration": 875,
+              "duration": 878,
               "children": [
                 {
                   "name": "Tess selects 'First' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 367,
+                  "duration": 384,
                   "children": [
                     {
                       "name": "Tess opens the dropdown",
                       "outcome": "SUCCESS",
-                      "duration": 185,
+                      "duration": 200,
                       "children": [
                         {
                           "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
                           "outcome": "SUCCESS",
-                          "duration": 174,
+                          "duration": 189,
                           "children": [
                             {
                               "name": "Tess clicks on input field",
                               "outcome": "SUCCESS",
-                              "duration": 69,
+                              "duration": 85,
                               "children": [],
                               "type": "Interaction",
-                              "startedAt": "2026-08-26T23:10:34.518Z",
+                              "startedAt": "2026-08-27T13:50:04.615Z",
                               "location": {
                                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                                 "line": 110,
@@ -19245,7 +21528,7 @@ window.__SERENITY_REPORT_DATA__ = {
                               },
                               "artifacts": [
                                 {
-                                  "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-input-field-b029cbc9ff.png",
+                                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-input-field-b029cbc9ff.png",
                                   "type": "screenshot"
                                 }
                               ]
@@ -19253,10 +21536,10 @@ window.__SERENITY_REPORT_DATA__ = {
                             {
                               "name": "Tess waits until page element located by deep css ('.dropdown-available-options') does become visible",
                               "outcome": "SUCCESS",
-                              "duration": 30,
+                              "duration": 31,
                               "children": [],
                               "type": "Interaction",
-                              "startedAt": "2026-08-26T23:10:34.609Z",
+                              "startedAt": "2026-08-27T13:50:04.722Z",
                               "location": {
                                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                                 "line": 92,
@@ -19264,14 +21547,14 @@ window.__SERENITY_REPORT_DATA__ = {
                               },
                               "artifacts": [
                                 {
-                                  "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-waits-until-page-element-located-by-dee-59160d9635.png",
+                                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-waits-until-page-element-located-by-dee-2d03a55872.png",
                                   "type": "screenshot"
                                 }
                               ]
                             }
                           ],
                           "type": "Task",
-                          "startedAt": "2026-08-26T23:10:34.487Z",
+                          "startedAt": "2026-08-27T13:50:04.584Z",
                           "location": {
                             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                             "line": 92,
@@ -19280,7 +21563,7 @@ window.__SERENITY_REPORT_DATA__ = {
                         }
                       ],
                       "type": "Task",
-                      "startedAt": "2026-08-26T23:10:34.486Z",
+                      "startedAt": "2026-08-27T13:50:04.583Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 92,
@@ -19293,7 +21576,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       "duration": 120,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:34.683Z",
+                      "startedAt": "2026-08-27T13:50:04.795Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 93,
@@ -19301,7 +21584,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-the-first-of-page-elements-lo-cb27fe66f7.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-the-first-of-page-elements-lo-ff0810043b.png",
                           "type": "screenshot"
                         }
                       ]
@@ -19309,10 +21592,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"First\"",
                       "outcome": "SUCCESS",
-                      "duration": 8,
+                      "duration": 9,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:34.824Z",
+                      "startedAt": "2026-08-27T13:50:04.937Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -19320,14 +21603,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--ad08e47e40.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--01583b31a8.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:34.486Z",
+                  "startedAt": "2026-08-27T13:50:04.583Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 72,
@@ -19337,20 +21620,20 @@ window.__SERENITY_REPORT_DATA__ = {
                 {
                   "name": "Tess selects 'Third' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 220,
+                  "duration": 202,
                   "children": [
                     {
                       "name": "Tess opens the dropdown",
                       "outcome": "SUCCESS",
-                      "duration": 37,
+                      "duration": 22,
                       "children": [
                         {
                           "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
                           "outcome": "SUCCESS",
-                          "duration": 25,
+                          "duration": 10,
                           "children": [],
                           "type": "Task",
-                          "startedAt": "2026-08-26T23:10:34.889Z",
+                          "startedAt": "2026-08-27T13:50:05.004Z",
                           "location": {
                             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                             "line": 92,
@@ -19359,7 +21642,7 @@ window.__SERENITY_REPORT_DATA__ = {
                         }
                       ],
                       "type": "Task",
-                      "startedAt": "2026-08-26T23:10:34.888Z",
+                      "startedAt": "2026-08-27T13:50:05.003Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 92,
@@ -19369,10 +21652,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"Third\"",
                       "outcome": "SUCCESS",
-                      "duration": 115,
+                      "duration": 112,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:34.936Z",
+                      "startedAt": "2026-08-27T13:50:05.036Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 93,
@@ -19380,7 +21663,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-the-first-of-page-elements-lo-fe71e38b0d.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-the-first-of-page-elements-lo-5c4d6e5653.png",
                           "type": "screenshot"
                         }
                       ]
@@ -19388,10 +21671,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"Third\"",
                       "outcome": "SUCCESS",
-                      "duration": 12,
+                      "duration": 14,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:35.074Z",
+                      "startedAt": "2026-08-27T13:50:05.169Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -19399,14 +21682,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--8795f227a6.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--cf8ddca142.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:34.887Z",
+                  "startedAt": "2026-08-27T13:50:05.002Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 72,
@@ -19416,20 +21699,20 @@ window.__SERENITY_REPORT_DATA__ = {
                 {
                   "name": "Tess selects 'Second' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 186,
+                  "duration": 187,
                   "children": [
                     {
                       "name": "Tess opens the dropdown",
                       "outcome": "SUCCESS",
-                      "duration": 17,
+                      "duration": 18,
                       "children": [
                         {
                           "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
                           "outcome": "SUCCESS",
-                          "duration": 6,
+                          "duration": 7,
                           "children": [],
                           "type": "Task",
-                          "startedAt": "2026-08-26T23:10:35.141Z",
+                          "startedAt": "2026-08-27T13:50:05.238Z",
                           "location": {
                             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                             "line": 92,
@@ -19438,7 +21721,7 @@ window.__SERENITY_REPORT_DATA__ = {
                         }
                       ],
                       "type": "Task",
-                      "startedAt": "2026-08-26T23:10:35.140Z",
+                      "startedAt": "2026-08-27T13:50:05.237Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 92,
@@ -19448,10 +21731,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"Second\"",
                       "outcome": "SUCCESS",
-                      "duration": 100,
+                      "duration": 98,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:35.168Z",
+                      "startedAt": "2026-08-27T13:50:05.266Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 93,
@@ -19459,7 +21742,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-the-first-of-page-elements-lo-4c78de545e.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-the-first-of-page-elements-lo-4c78de545e.png",
                           "type": "screenshot"
                         }
                       ]
@@ -19467,10 +21750,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"Second\"",
                       "outcome": "SUCCESS",
-                      "duration": 16,
+                      "duration": 17,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:35.289Z",
+                      "startedAt": "2026-08-27T13:50:05.386Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -19478,14 +21761,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--4c78de545e.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--4c78de545e.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:35.139Z",
+                  "startedAt": "2026-08-27T13:50:05.237Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 72,
@@ -19494,7 +21777,7 @@ window.__SERENITY_REPORT_DATA__ = {
                 }
               ],
               "type": "Task",
-              "startedAt": "2026-08-26T23:10:34.460Z",
+              "startedAt": "2026-08-27T13:50:04.557Z",
               "location": {
                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
                 "line": 126,
@@ -19503,7 +21786,7 @@ window.__SERENITY_REPORT_DATA__ = {
             }
           ],
           "type": "Task",
-          "startedAt": "2026-08-26T23:10:34.460Z",
+          "startedAt": "2026-08-27T13:50:04.556Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 126,
@@ -19513,25 +21796,25 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Tess deselects [ 'First' ] from dropdown",
           "outcome": "SUCCESS",
-          "duration": 189,
+          "duration": 186,
           "children": [
             {
               "name": "Tess iterates over [ 'First' ]",
               "outcome": "SUCCESS",
-              "duration": 179,
+              "duration": 176,
               "children": [
                 {
                   "name": "Tess deselects 'First' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 154,
+                  "duration": 150,
                   "children": [
                     {
                       "name": "Tess clicks on deselect button of the first of page elements located by deep css ('.dropdown-selected-option') of input field where Text does include \"First\"",
                       "outcome": "SUCCESS",
-                      "duration": 96,
+                      "duration": 92,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:35.372Z",
+                      "startedAt": "2026-08-27T13:50:05.472Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 101,
@@ -19539,7 +21822,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-deselect-button-of-the-first--3f34c2e04d.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-deselect-button-of-the-first--3f34c2e04d.png",
                           "type": "screenshot"
                         }
                       ]
@@ -19547,10 +21830,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does not contain \"First\"",
                       "outcome": "SUCCESS",
-                      "duration": 16,
+                      "duration": 15,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:35.489Z",
+                      "startedAt": "2026-08-27T13:50:05.585Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -19558,14 +21841,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--3f34c2e04d.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--3f34c2e04d.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:35.371Z",
+                  "startedAt": "2026-08-27T13:50:05.471Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 83,
@@ -19574,7 +21857,7 @@ window.__SERENITY_REPORT_DATA__ = {
                 }
               ],
               "type": "Task",
-              "startedAt": "2026-08-26T23:10:35.356Z",
+              "startedAt": "2026-08-27T13:50:05.456Z",
               "location": {
                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
                 "line": 130,
@@ -19583,7 +21866,7 @@ window.__SERENITY_REPORT_DATA__ = {
             }
           ],
           "type": "Task",
-          "startedAt": "2026-08-26T23:10:35.356Z",
+          "startedAt": "2026-08-27T13:50:05.456Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 130,
@@ -19593,10 +21876,10 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Tess ensures that selected options does equal [ \"Third\", \"Second\" ]",
           "outcome": "SUCCESS",
-          "duration": 13,
+          "duration": 14,
           "children": [],
           "type": "Interaction",
-          "startedAt": "2026-08-26T23:10:35.556Z",
+          "startedAt": "2026-08-27T13:50:05.653Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 132,
@@ -19604,7 +21887,7 @@ window.__SERENITY_REPORT_DATA__ = {
           },
           "artifacts": [
             {
-              "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-selected-options-does-equa-3f34c2e04d.png",
+              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-selected-options-does-equa-3f34c2e04d.png",
               "type": "screenshot"
             }
           ]
@@ -22487,6 +24770,417 @@ window.__SERENITY_REPORT_DATA__ = {
               ]
             }
           ]
+        },
+        {
+          "outcome": "SUCCESS",
+          "run": "1164",
+          "timestamp": "2026-08-27T13:49:53.512Z",
+          "duration": 1316,
+          "activities": [
+            {
+              "name": "Tess selects [ 'First', 'Third', 'Second' ] from dropdown",
+              "outcome": "SUCCESS",
+              "duration": 889,
+              "children": [
+                {
+                  "name": "Tess iterates over [ 'First', 'Third', 'Second' ]",
+                  "outcome": "SUCCESS",
+                  "duration": 878,
+                  "children": [
+                    {
+                      "name": "Tess selects 'First' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 384,
+                      "children": [
+                        {
+                          "name": "Tess opens the dropdown",
+                          "outcome": "SUCCESS",
+                          "duration": 200,
+                          "children": [
+                            {
+                              "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
+                              "outcome": "SUCCESS",
+                              "duration": 189,
+                              "children": [
+                                {
+                                  "name": "Tess clicks on input field",
+                                  "outcome": "SUCCESS",
+                                  "duration": 85,
+                                  "children": [],
+                                  "type": "Interaction",
+                                  "startedAt": "2026-08-27T13:50:04.615Z",
+                                  "location": {
+                                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                    "line": 110,
+                                    "column": 27
+                                  },
+                                  "artifacts": [
+                                    {
+                                      "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-input-field-b029cbc9ff.png",
+                                      "type": "screenshot"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Tess waits until page element located by deep css ('.dropdown-available-options') does become visible",
+                                  "outcome": "SUCCESS",
+                                  "duration": 31,
+                                  "children": [],
+                                  "type": "Interaction",
+                                  "startedAt": "2026-08-27T13:50:04.722Z",
+                                  "location": {
+                                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                    "line": 92,
+                                    "column": 26
+                                  },
+                                  "artifacts": [
+                                    {
+                                      "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-waits-until-page-element-located-by-dee-2d03a55872.png",
+                                      "type": "screenshot"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "type": "Task",
+                              "startedAt": "2026-08-27T13:50:04.584Z",
+                              "location": {
+                                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                "line": 92,
+                                "column": 26
+                              }
+                            }
+                          ],
+                          "type": "Task",
+                          "startedAt": "2026-08-27T13:50:04.583Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 92,
+                            "column": 26
+                          }
+                        },
+                        {
+                          "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 120,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:04.795Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 93,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-the-first-of-page-elements-lo-ff0810043b.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 9,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:04.937Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--01583b31a8.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:50:04.583Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 72,
+                        "column": 50
+                      }
+                    },
+                    {
+                      "name": "Tess selects 'Third' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 202,
+                      "children": [
+                        {
+                          "name": "Tess opens the dropdown",
+                          "outcome": "SUCCESS",
+                          "duration": 22,
+                          "children": [
+                            {
+                              "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
+                              "outcome": "SUCCESS",
+                              "duration": 10,
+                              "children": [],
+                              "type": "Task",
+                              "startedAt": "2026-08-27T13:50:05.004Z",
+                              "location": {
+                                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                "line": 92,
+                                "column": 26
+                              }
+                            }
+                          ],
+                          "type": "Task",
+                          "startedAt": "2026-08-27T13:50:05.003Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 92,
+                            "column": 26
+                          }
+                        },
+                        {
+                          "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"Third\"",
+                          "outcome": "SUCCESS",
+                          "duration": 112,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:05.036Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 93,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-the-first-of-page-elements-lo-5c4d6e5653.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"Third\"",
+                          "outcome": "SUCCESS",
+                          "duration": 14,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:05.169Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--cf8ddca142.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:50:05.002Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 72,
+                        "column": 50
+                      }
+                    },
+                    {
+                      "name": "Tess selects 'Second' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 187,
+                      "children": [
+                        {
+                          "name": "Tess opens the dropdown",
+                          "outcome": "SUCCESS",
+                          "duration": 18,
+                          "children": [
+                            {
+                              "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
+                              "outcome": "SUCCESS",
+                              "duration": 7,
+                              "children": [],
+                              "type": "Task",
+                              "startedAt": "2026-08-27T13:50:05.238Z",
+                              "location": {
+                                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                "line": 92,
+                                "column": 26
+                              }
+                            }
+                          ],
+                          "type": "Task",
+                          "startedAt": "2026-08-27T13:50:05.237Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 92,
+                            "column": 26
+                          }
+                        },
+                        {
+                          "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"Second\"",
+                          "outcome": "SUCCESS",
+                          "duration": 98,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:05.266Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 93,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-the-first-of-page-elements-lo-4c78de545e.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"Second\"",
+                          "outcome": "SUCCESS",
+                          "duration": 17,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:05.386Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--4c78de545e.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:50:05.237Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 72,
+                        "column": 50
+                      }
+                    }
+                  ],
+                  "type": "Task",
+                  "startedAt": "2026-08-27T13:50:04.557Z",
+                  "location": {
+                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                    "line": 126,
+                    "column": 16
+                  }
+                }
+              ],
+              "type": "Task",
+              "startedAt": "2026-08-27T13:50:04.556Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 126,
+                "column": 16
+              }
+            },
+            {
+              "name": "Tess deselects [ 'First' ] from dropdown",
+              "outcome": "SUCCESS",
+              "duration": 186,
+              "children": [
+                {
+                  "name": "Tess iterates over [ 'First' ]",
+                  "outcome": "SUCCESS",
+                  "duration": 176,
+                  "children": [
+                    {
+                      "name": "Tess deselects 'First' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 150,
+                      "children": [
+                        {
+                          "name": "Tess clicks on deselect button of the first of page elements located by deep css ('.dropdown-selected-option') of input field where Text does include \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 92,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:05.472Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 101,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-deselect-button-of-the-first--3f34c2e04d.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does not contain \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 15,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:05.585Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--3f34c2e04d.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:50:05.471Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 83,
+                        "column": 52
+                      }
+                    }
+                  ],
+                  "type": "Task",
+                  "startedAt": "2026-08-27T13:50:05.456Z",
+                  "location": {
+                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                    "line": 130,
+                    "column": 16
+                  }
+                }
+              ],
+              "type": "Task",
+              "startedAt": "2026-08-27T13:50:05.456Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 130,
+                "column": 16
+              }
+            },
+            {
+              "name": "Tess ensures that selected options does equal [ \"Third\", \"Second\" ]",
+              "outcome": "SUCCESS",
+              "duration": 14,
+              "children": [],
+              "type": "Interaction",
+              "startedAt": "2026-08-27T13:50:05.653Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 132,
+                "column": 20
+              },
+              "artifacts": [
+                {
+                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-selected-options-does-equa-3f34c2e04d.png",
+                  "type": "screenshot"
+                }
+              ]
+            }
+          ]
         }
       ],
       "cast": [
@@ -22525,8 +25219,8 @@ window.__SERENITY_REPORT_DATA__ = {
       "name": "allows for selected options to be deselected",
       "category": "Dropdown",
       "outcome": "SUCCESS",
-      "duration": 2630,
-      "startedAt": "2026-08-26T23:10:43.934Z",
+      "duration": 2691,
+      "startedAt": "2026-08-27T13:50:14.115Z",
       "source": {
         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
         "line": 113
@@ -22565,35 +25259,35 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Tess selects [ 'First', 'Third', 'Second' ] from dropdown",
           "outcome": "SUCCESS",
-          "duration": 1882,
+          "duration": 1927,
           "children": [
             {
               "name": "Tess iterates over [ 'First', 'Third', 'Second' ]",
               "outcome": "SUCCESS",
-              "duration": 1871,
+              "duration": 1916,
               "children": [
                 {
                   "name": "Tess selects 'First' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 928,
+                  "duration": 941,
                   "children": [
                     {
                       "name": "Tess opens the dropdown",
                       "outcome": "SUCCESS",
-                      "duration": 491,
+                      "duration": 504,
                       "children": [
                         {
                           "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
                           "outcome": "SUCCESS",
-                          "duration": 479,
+                          "duration": 493,
                           "children": [
                             {
                               "name": "Tess clicks on input field",
                               "outcome": "SUCCESS",
-                              "duration": 65,
+                              "duration": 69,
                               "children": [],
                               "type": "Interaction",
-                              "startedAt": "2026-08-26T23:10:44.094Z",
+                              "startedAt": "2026-08-27T13:50:14.286Z",
                               "location": {
                                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                                 "line": 110,
@@ -22601,7 +25295,7 @@ window.__SERENITY_REPORT_DATA__ = {
                               },
                               "artifacts": [
                                 {
-                                  "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-input-field-bea7f7b144.png",
+                                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-input-field-bea7f7b144.png",
                                   "type": "screenshot"
                                 }
                               ]
@@ -22609,10 +25303,10 @@ window.__SERENITY_REPORT_DATA__ = {
                             {
                               "name": "Tess waits until page element located by deep css ('.dropdown-available-options') does become visible",
                               "outcome": "SUCCESS",
-                              "duration": 37,
+                              "duration": 39,
                               "children": [],
                               "type": "Interaction",
-                              "startedAt": "2026-08-26T23:10:44.312Z",
+                              "startedAt": "2026-08-27T13:50:14.509Z",
                               "location": {
                                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                                 "line": 92,
@@ -22620,14 +25314,14 @@ window.__SERENITY_REPORT_DATA__ = {
                               },
                               "artifacts": [
                                 {
-                                  "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-waits-until-page-element-located-by-deep--51fb2a81bc.png",
+                                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-waits-until-page-element-located-by-deep--29ab0fe501.png",
                                   "type": "screenshot"
                                 }
                               ]
                             }
                           ],
                           "type": "Task",
-                          "startedAt": "2026-08-26T23:10:44.071Z",
+                          "startedAt": "2026-08-27T13:50:14.263Z",
                           "location": {
                             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                             "line": 92,
@@ -22636,7 +25330,7 @@ window.__SERENITY_REPORT_DATA__ = {
                         }
                       ],
                       "type": "Task",
-                      "startedAt": "2026-08-26T23:10:44.070Z",
+                      "startedAt": "2026-08-27T13:50:14.262Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 92,
@@ -22646,10 +25340,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"First\"",
                       "outcome": "SUCCESS",
-                      "duration": 114,
+                      "duration": 112,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:44.572Z",
+                      "startedAt": "2026-08-27T13:50:14.778Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 93,
@@ -22657,7 +25351,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-the-first-of-page-elements-loca-efccbf4739.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-the-first-of-page-elements-loca-efccbf4739.png",
                           "type": "screenshot"
                         }
                       ]
@@ -22665,10 +25359,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"First\"",
                       "outcome": "SUCCESS",
-                      "duration": 7,
+                      "duration": 8,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:44.840Z",
+                      "startedAt": "2026-08-27T13:50:15.043Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -22676,14 +25370,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-efccbf4739.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-efccbf4739.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:44.070Z",
+                  "startedAt": "2026-08-27T13:50:14.262Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 72,
@@ -22693,12 +25387,12 @@ window.__SERENITY_REPORT_DATA__ = {
                 {
                   "name": "Tess selects 'Third' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 416,
+                  "duration": 422,
                   "children": [
                     {
                       "name": "Tess opens the dropdown",
                       "outcome": "SUCCESS",
-                      "duration": 15,
+                      "duration": 16,
                       "children": [
                         {
                           "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
@@ -22706,7 +25400,7 @@ window.__SERENITY_REPORT_DATA__ = {
                           "duration": 4,
                           "children": [],
                           "type": "Task",
-                          "startedAt": "2026-08-26T23:10:45.033Z",
+                          "startedAt": "2026-08-27T13:50:15.237Z",
                           "location": {
                             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                             "line": 92,
@@ -22715,7 +25409,7 @@ window.__SERENITY_REPORT_DATA__ = {
                         }
                       ],
                       "type": "Task",
-                      "startedAt": "2026-08-26T23:10:45.032Z",
+                      "startedAt": "2026-08-27T13:50:15.236Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 92,
@@ -22725,10 +25419,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"Third\"",
                       "outcome": "SUCCESS",
-                      "duration": 75,
+                      "duration": 76,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:45.058Z",
+                      "startedAt": "2026-08-27T13:50:15.263Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 93,
@@ -22736,7 +25430,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-the-first-of-page-elements-loca-7c194d682c.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-the-first-of-page-elements-loca-7c194d682c.png",
                           "type": "screenshot"
                         }
                       ]
@@ -22744,10 +25438,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"Third\"",
                       "outcome": "SUCCESS",
-                      "duration": 10,
+                      "duration": 11,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:45.286Z",
+                      "startedAt": "2026-08-27T13:50:15.495Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -22755,14 +25449,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-7c194d682c.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-7c194d682c.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:45.031Z",
+                  "startedAt": "2026-08-27T13:50:15.235Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 72,
@@ -22772,12 +25466,12 @@ window.__SERENITY_REPORT_DATA__ = {
                 {
                   "name": "Tess selects 'Second' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 420,
+                  "duration": 445,
                   "children": [
                     {
                       "name": "Tess opens the dropdown",
                       "outcome": "SUCCESS",
-                      "duration": 15,
+                      "duration": 16,
                       "children": [
                         {
                           "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
@@ -22785,7 +25479,7 @@ window.__SERENITY_REPORT_DATA__ = {
                           "duration": 4,
                           "children": [],
                           "type": "Task",
-                          "startedAt": "2026-08-26T23:10:45.482Z",
+                          "startedAt": "2026-08-27T13:50:15.693Z",
                           "location": {
                             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                             "line": 92,
@@ -22794,7 +25488,7 @@ window.__SERENITY_REPORT_DATA__ = {
                         }
                       ],
                       "type": "Task",
-                      "startedAt": "2026-08-26T23:10:45.481Z",
+                      "startedAt": "2026-08-27T13:50:15.692Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 92,
@@ -22804,10 +25498,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"Second\"",
                       "outcome": "SUCCESS",
-                      "duration": 76,
+                      "duration": 88,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:45.507Z",
+                      "startedAt": "2026-08-27T13:50:15.719Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 93,
@@ -22815,7 +25509,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-the-first-of-page-elements-loca-4d5363378d.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-the-first-of-page-elements-loca-4d5363378d.png",
                           "type": "screenshot"
                         }
                       ]
@@ -22823,10 +25517,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"Second\"",
                       "outcome": "SUCCESS",
-                      "duration": 23,
+                      "duration": 25,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:45.735Z",
+                      "startedAt": "2026-08-27T13:50:15.961Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -22834,14 +25528,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-4d5363378d.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-4d5363378d.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:45.481Z",
+                  "startedAt": "2026-08-27T13:50:15.691Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 72,
@@ -22850,7 +25544,7 @@ window.__SERENITY_REPORT_DATA__ = {
                 }
               ],
               "type": "Task",
-              "startedAt": "2026-08-26T23:10:44.040Z",
+              "startedAt": "2026-08-27T13:50:14.231Z",
               "location": {
                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
                 "line": 126,
@@ -22859,7 +25553,7 @@ window.__SERENITY_REPORT_DATA__ = {
             }
           ],
           "type": "Task",
-          "startedAt": "2026-08-26T23:10:44.040Z",
+          "startedAt": "2026-08-27T13:50:14.230Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 126,
@@ -22869,25 +25563,25 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Tess deselects [ 'First' ] from dropdown",
           "outcome": "SUCCESS",
-          "duration": 438,
+          "duration": 441,
           "children": [
             {
               "name": "Tess iterates over [ 'First' ]",
               "outcome": "SUCCESS",
-              "duration": 427,
+              "duration": 431,
               "children": [
                 {
                   "name": "Tess deselects 'First' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 402,
+                  "duration": 405,
                   "children": [
                     {
                       "name": "Tess clicks on deselect button of the first of page elements located by deep css ('.dropdown-selected-option') of input field where Text does include \"First\"",
                       "outcome": "SUCCESS",
-                      "duration": 88,
+                      "duration": 89,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:45.948Z",
+                      "startedAt": "2026-08-27T13:50:16.185Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 101,
@@ -22895,7 +25589,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-deselect-button-of-the-first-of-42ea50e898.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-deselect-button-of-the-first-of-42ea50e898.png",
                           "type": "screenshot"
                         }
                       ]
@@ -22906,7 +25600,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       "duration": 10,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:46.189Z",
+                      "startedAt": "2026-08-27T13:50:16.428Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -22914,14 +25608,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-42ea50e898.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-42ea50e898.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:45.948Z",
+                  "startedAt": "2026-08-27T13:50:16.185Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 83,
@@ -22930,7 +25624,7 @@ window.__SERENITY_REPORT_DATA__ = {
                 }
               ],
               "type": "Task",
-              "startedAt": "2026-08-26T23:10:45.933Z",
+              "startedAt": "2026-08-27T13:50:16.169Z",
               "location": {
                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
                 "line": 130,
@@ -22939,7 +25633,7 @@ window.__SERENITY_REPORT_DATA__ = {
             }
           ],
           "type": "Task",
-          "startedAt": "2026-08-26T23:10:45.932Z",
+          "startedAt": "2026-08-27T13:50:16.169Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 130,
@@ -22952,7 +25646,7 @@ window.__SERENITY_REPORT_DATA__ = {
           "duration": 10,
           "children": [],
           "type": "Interaction",
-          "startedAt": "2026-08-26T23:10:46.381Z",
+          "startedAt": "2026-08-27T13:50:16.621Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 132,
@@ -22960,7 +25654,7 @@ window.__SERENITY_REPORT_DATA__ = {
           },
           "artifacts": [
             {
-              "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-selected-options-does-equal--42ea50e898.png",
+              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-selected-options-does-equal--42ea50e898.png",
               "type": "screenshot"
             }
           ]
@@ -25843,6 +28537,417 @@ window.__SERENITY_REPORT_DATA__ = {
               ]
             }
           ]
+        },
+        {
+          "outcome": "SUCCESS",
+          "run": "1164",
+          "timestamp": "2026-08-27T13:49:53.512Z",
+          "duration": 2691,
+          "activities": [
+            {
+              "name": "Tess selects [ 'First', 'Third', 'Second' ] from dropdown",
+              "outcome": "SUCCESS",
+              "duration": 1927,
+              "children": [
+                {
+                  "name": "Tess iterates over [ 'First', 'Third', 'Second' ]",
+                  "outcome": "SUCCESS",
+                  "duration": 1916,
+                  "children": [
+                    {
+                      "name": "Tess selects 'First' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 941,
+                      "children": [
+                        {
+                          "name": "Tess opens the dropdown",
+                          "outcome": "SUCCESS",
+                          "duration": 504,
+                          "children": [
+                            {
+                              "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
+                              "outcome": "SUCCESS",
+                              "duration": 493,
+                              "children": [
+                                {
+                                  "name": "Tess clicks on input field",
+                                  "outcome": "SUCCESS",
+                                  "duration": 69,
+                                  "children": [],
+                                  "type": "Interaction",
+                                  "startedAt": "2026-08-27T13:50:14.286Z",
+                                  "location": {
+                                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                    "line": 110,
+                                    "column": 27
+                                  },
+                                  "artifacts": [
+                                    {
+                                      "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-input-field-bea7f7b144.png",
+                                      "type": "screenshot"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Tess waits until page element located by deep css ('.dropdown-available-options') does become visible",
+                                  "outcome": "SUCCESS",
+                                  "duration": 39,
+                                  "children": [],
+                                  "type": "Interaction",
+                                  "startedAt": "2026-08-27T13:50:14.509Z",
+                                  "location": {
+                                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                    "line": 92,
+                                    "column": 26
+                                  },
+                                  "artifacts": [
+                                    {
+                                      "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-waits-until-page-element-located-by-deep--29ab0fe501.png",
+                                      "type": "screenshot"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "type": "Task",
+                              "startedAt": "2026-08-27T13:50:14.263Z",
+                              "location": {
+                                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                "line": 92,
+                                "column": 26
+                              }
+                            }
+                          ],
+                          "type": "Task",
+                          "startedAt": "2026-08-27T13:50:14.262Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 92,
+                            "column": 26
+                          }
+                        },
+                        {
+                          "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 112,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:14.778Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 93,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-the-first-of-page-elements-loca-efccbf4739.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 8,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:15.043Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-efccbf4739.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:50:14.262Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 72,
+                        "column": 50
+                      }
+                    },
+                    {
+                      "name": "Tess selects 'Third' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 422,
+                      "children": [
+                        {
+                          "name": "Tess opens the dropdown",
+                          "outcome": "SUCCESS",
+                          "duration": 16,
+                          "children": [
+                            {
+                              "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
+                              "outcome": "SUCCESS",
+                              "duration": 4,
+                              "children": [],
+                              "type": "Task",
+                              "startedAt": "2026-08-27T13:50:15.237Z",
+                              "location": {
+                                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                "line": 92,
+                                "column": 26
+                              }
+                            }
+                          ],
+                          "type": "Task",
+                          "startedAt": "2026-08-27T13:50:15.236Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 92,
+                            "column": 26
+                          }
+                        },
+                        {
+                          "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"Third\"",
+                          "outcome": "SUCCESS",
+                          "duration": 76,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:15.263Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 93,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-the-first-of-page-elements-loca-7c194d682c.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"Third\"",
+                          "outcome": "SUCCESS",
+                          "duration": 11,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:15.495Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-7c194d682c.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:50:15.235Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 72,
+                        "column": 50
+                      }
+                    },
+                    {
+                      "name": "Tess selects 'Second' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 445,
+                      "children": [
+                        {
+                          "name": "Tess opens the dropdown",
+                          "outcome": "SUCCESS",
+                          "duration": 16,
+                          "children": [
+                            {
+                              "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
+                              "outcome": "SUCCESS",
+                              "duration": 4,
+                              "children": [],
+                              "type": "Task",
+                              "startedAt": "2026-08-27T13:50:15.693Z",
+                              "location": {
+                                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                "line": 92,
+                                "column": 26
+                              }
+                            }
+                          ],
+                          "type": "Task",
+                          "startedAt": "2026-08-27T13:50:15.692Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 92,
+                            "column": 26
+                          }
+                        },
+                        {
+                          "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"Second\"",
+                          "outcome": "SUCCESS",
+                          "duration": 88,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:15.719Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 93,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-the-first-of-page-elements-loca-4d5363378d.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"Second\"",
+                          "outcome": "SUCCESS",
+                          "duration": 25,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:15.961Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-4d5363378d.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:50:15.691Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 72,
+                        "column": 50
+                      }
+                    }
+                  ],
+                  "type": "Task",
+                  "startedAt": "2026-08-27T13:50:14.231Z",
+                  "location": {
+                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                    "line": 126,
+                    "column": 16
+                  }
+                }
+              ],
+              "type": "Task",
+              "startedAt": "2026-08-27T13:50:14.230Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 126,
+                "column": 16
+              }
+            },
+            {
+              "name": "Tess deselects [ 'First' ] from dropdown",
+              "outcome": "SUCCESS",
+              "duration": 441,
+              "children": [
+                {
+                  "name": "Tess iterates over [ 'First' ]",
+                  "outcome": "SUCCESS",
+                  "duration": 431,
+                  "children": [
+                    {
+                      "name": "Tess deselects 'First' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 405,
+                      "children": [
+                        {
+                          "name": "Tess clicks on deselect button of the first of page elements located by deep css ('.dropdown-selected-option') of input field where Text does include \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 89,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:16.185Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 101,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-deselect-button-of-the-first-of-42ea50e898.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does not contain \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 10,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:16.428Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-42ea50e898.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:50:16.185Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 83,
+                        "column": 52
+                      }
+                    }
+                  ],
+                  "type": "Task",
+                  "startedAt": "2026-08-27T13:50:16.169Z",
+                  "location": {
+                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                    "line": 130,
+                    "column": 16
+                  }
+                }
+              ],
+              "type": "Task",
+              "startedAt": "2026-08-27T13:50:16.169Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 130,
+                "column": 16
+              }
+            },
+            {
+              "name": "Tess ensures that selected options does equal [ \"Third\", \"Second\" ]",
+              "outcome": "SUCCESS",
+              "duration": 10,
+              "children": [],
+              "type": "Interaction",
+              "startedAt": "2026-08-27T13:50:16.621Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 132,
+                "column": 20
+              },
+              "artifacts": [
+                {
+                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-selected-options-does-equal--42ea50e898.png",
+                  "type": "screenshot"
+                }
+              ]
+            }
+          ]
         }
       ],
       "cast": [
@@ -25881,8 +28986,8 @@ window.__SERENITY_REPORT_DATA__ = {
       "name": "goes back to showing the placeholder when all the selected options get deselected",
       "category": "Dropdown",
       "outcome": "SUCCESS",
-      "duration": 1266,
-      "startedAt": "2026-08-26T23:10:27.753Z",
+      "duration": 1245,
+      "startedAt": "2026-08-27T13:49:57.711Z",
       "source": {
         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
         "line": 139
@@ -25921,35 +29026,35 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Tess selects [ 'First', 'Second' ] from dropdown",
           "outcome": "SUCCESS",
-          "duration": 670,
+          "duration": 656,
           "children": [
             {
               "name": "Tess iterates over [ 'First', 'Second' ]",
               "outcome": "SUCCESS",
-              "duration": 659,
+              "duration": 645,
               "children": [
                 {
                   "name": "Tess selects 'First' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 383,
+                  "duration": 385,
                   "children": [
                     {
                       "name": "Tess opens the dropdown",
                       "outcome": "SUCCESS",
-                      "duration": 186,
+                      "duration": 197,
                       "children": [
                         {
                           "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
                           "outcome": "SUCCESS",
-                          "duration": 176,
+                          "duration": 186,
                           "children": [
                             {
                               "name": "Tess clicks on input field",
                               "outcome": "SUCCESS",
-                              "duration": 50,
+                              "duration": 54,
                               "children": [],
                               "type": "Interaction",
-                              "startedAt": "2026-08-26T23:10:27.914Z",
+                              "startedAt": "2026-08-27T13:49:57.863Z",
                               "location": {
                                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                                 "line": 110,
@@ -25957,7 +29062,7 @@ window.__SERENITY_REPORT_DATA__ = {
                               },
                               "artifacts": [
                                 {
-                                  "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-input-field-5a32e9ada1.png",
+                                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-input-field-5a32e9ada1.png",
                                   "type": "screenshot"
                                 }
                               ]
@@ -25965,10 +29070,10 @@ window.__SERENITY_REPORT_DATA__ = {
                             {
                               "name": "Tess waits until page element located by deep css ('.dropdown-available-options') does become visible",
                               "outcome": "SUCCESS",
-                              "duration": 27,
+                              "duration": 24,
                               "children": [],
                               "type": "Interaction",
-                              "startedAt": "2026-08-26T23:10:28.006Z",
+                              "startedAt": "2026-08-27T13:49:57.959Z",
                               "location": {
                                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                                 "line": 92,
@@ -25976,14 +29081,14 @@ window.__SERENITY_REPORT_DATA__ = {
                               },
                               "artifacts": [
                                 {
-                                  "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-waits-until-page-element-locat-bfc16cca9d.png",
+                                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-waits-until-page-element-locat-bfc16cca9d.png",
                                   "type": "screenshot"
                                 }
                               ]
                             }
                           ],
                           "type": "Task",
-                          "startedAt": "2026-08-26T23:10:27.888Z",
+                          "startedAt": "2026-08-27T13:49:57.838Z",
                           "location": {
                             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                             "line": 92,
@@ -25992,7 +29097,7 @@ window.__SERENITY_REPORT_DATA__ = {
                         }
                       ],
                       "type": "Task",
-                      "startedAt": "2026-08-26T23:10:27.888Z",
+                      "startedAt": "2026-08-27T13:49:57.838Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 92,
@@ -26002,10 +29107,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"First\"",
                       "outcome": "SUCCESS",
-                      "duration": 94,
+                      "duration": 87,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:28.086Z",
+                      "startedAt": "2026-08-27T13:49:58.046Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 93,
@@ -26013,7 +29118,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-the-first-of-page-el-f3bb44e501.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-the-first-of-page-el-f3bb44e501.png",
                           "type": "screenshot"
                         }
                       ]
@@ -26024,7 +29129,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       "duration": 7,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:28.222Z",
+                      "startedAt": "2026-08-27T13:49:58.175Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -26032,14 +29137,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--db7313f6f2.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--db7313f6f2.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:27.887Z",
+                  "startedAt": "2026-08-27T13:49:57.837Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 72,
@@ -26049,20 +29154,20 @@ window.__SERENITY_REPORT_DATA__ = {
                 {
                   "name": "Tess selects 'Second' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 210,
+                  "duration": 195,
                   "children": [
                     {
                       "name": "Tess opens the dropdown",
                       "outcome": "SUCCESS",
-                      "duration": 18,
+                      "duration": 17,
                       "children": [
                         {
                           "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
                           "outcome": "SUCCESS",
-                          "duration": 7,
+                          "duration": 6,
                           "children": [],
                           "type": "Task",
-                          "startedAt": "2026-08-26T23:10:28.305Z",
+                          "startedAt": "2026-08-27T13:49:58.256Z",
                           "location": {
                             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                             "line": 92,
@@ -26071,7 +29176,7 @@ window.__SERENITY_REPORT_DATA__ = {
                         }
                       ],
                       "type": "Task",
-                      "startedAt": "2026-08-26T23:10:28.304Z",
+                      "startedAt": "2026-08-27T13:49:58.255Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 92,
@@ -26081,10 +29186,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"Second\"",
                       "outcome": "SUCCESS",
-                      "duration": 97,
+                      "duration": 83,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:28.333Z",
+                      "startedAt": "2026-08-27T13:49:58.283Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 93,
@@ -26092,7 +29197,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-the-first-of-page-el-1fd088fed2.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-the-first-of-page-el-a4586e7312.png",
                           "type": "screenshot"
                         }
                       ]
@@ -26100,10 +29205,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"Second\"",
                       "outcome": "SUCCESS",
-                      "duration": 13,
+                      "duration": 11,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:28.471Z",
+                      "startedAt": "2026-08-27T13:49:58.409Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -26111,14 +29216,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--3e4adeb145.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--3e4adeb145.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:28.304Z",
+                  "startedAt": "2026-08-27T13:49:58.255Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 72,
@@ -26127,7 +29232,7 @@ window.__SERENITY_REPORT_DATA__ = {
                 }
               ],
               "type": "Task",
-              "startedAt": "2026-08-26T23:10:27.865Z",
+              "startedAt": "2026-08-27T13:49:57.815Z",
               "location": {
                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
                 "line": 154,
@@ -26136,7 +29241,7 @@ window.__SERENITY_REPORT_DATA__ = {
             }
           ],
           "type": "Task",
-          "startedAt": "2026-08-26T23:10:27.865Z",
+          "startedAt": "2026-08-27T13:49:57.814Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 154,
@@ -26146,25 +29251,25 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Tess deselects [ 'First', 'Second' ] from dropdown",
           "outcome": "SUCCESS",
-          "duration": 358,
+          "duration": 359,
           "children": [
             {
               "name": "Tess iterates over [ 'First', 'Second' ]",
               "outcome": "SUCCESS",
-              "duration": 347,
+              "duration": 348,
               "children": [
                 {
                   "name": "Tess deselects 'First' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 153,
+                  "duration": 151,
                   "children": [
                     {
                       "name": "Tess clicks on deselect button of the first of page elements located by deep css ('.dropdown-selected-option') of input field where Text does include \"First\"",
                       "outcome": "SUCCESS",
-                      "duration": 68,
+                      "duration": 69,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:28.561Z",
+                      "startedAt": "2026-08-27T13:49:58.497Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 101,
@@ -26172,7 +29277,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-deselect-button-of-t-745fdf79c8.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-deselect-button-of-t-745fdf79c8.png",
                           "type": "screenshot"
                         }
                       ]
@@ -26180,10 +29285,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does not contain \"First\"",
                       "outcome": "SUCCESS",
-                      "duration": 11,
+                      "duration": 9,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:28.672Z",
+                      "startedAt": "2026-08-27T13:49:58.608Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -26191,14 +29296,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--745fdf79c8.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--745fdf79c8.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:28.560Z",
+                  "startedAt": "2026-08-27T13:49:58.496Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 83,
@@ -26208,15 +29313,15 @@ window.__SERENITY_REPORT_DATA__ = {
                 {
                   "name": "Tess deselects 'Second' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 145,
+                  "duration": 148,
                   "children": [
                     {
                       "name": "Tess clicks on deselect button of the first of page elements located by deep css ('.dropdown-selected-option') of input field where Text does include \"Second\"",
                       "outcome": "SUCCESS",
-                      "duration": 58,
+                      "duration": 60,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:28.738Z",
+                      "startedAt": "2026-08-27T13:49:58.673Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 101,
@@ -26224,7 +29329,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-deselect-button-of-t-461b2d638a.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-deselect-button-of-t-461b2d638a.png",
                           "type": "screenshot"
                         }
                       ]
@@ -26235,7 +29340,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       "duration": 4,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:28.838Z",
+                      "startedAt": "2026-08-27T13:49:58.775Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -26243,14 +29348,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--461b2d638a.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--461b2d638a.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:28.738Z",
+                  "startedAt": "2026-08-27T13:49:58.672Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 83,
@@ -26259,7 +29364,7 @@ window.__SERENITY_REPORT_DATA__ = {
                 }
               ],
               "type": "Task",
-              "startedAt": "2026-08-26T23:10:28.546Z",
+              "startedAt": "2026-08-27T13:49:58.482Z",
               "location": {
                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
                 "line": 159,
@@ -26268,7 +29373,7 @@ window.__SERENITY_REPORT_DATA__ = {
             }
           ],
           "type": "Task",
-          "startedAt": "2026-08-26T23:10:28.545Z",
+          "startedAt": "2026-08-27T13:49:58.481Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 159,
@@ -26278,10 +29383,10 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Tess ensures that <<selected options>>.length does equal 0",
           "outcome": "SUCCESS",
-          "duration": 9,
+          "duration": 8,
           "children": [],
           "type": "Interaction",
-          "startedAt": "2026-08-26T23:10:28.918Z",
+          "startedAt": "2026-08-27T13:49:58.856Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 161,
@@ -26289,7 +29394,7 @@ window.__SERENITY_REPORT_DATA__ = {
           },
           "artifacts": [
             {
-              "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-0-does-equal-0-461b2d638a.png",
+              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-0-does-equal-0-461b2d638a.png",
               "type": "screenshot"
             }
           ]
@@ -26297,10 +29402,10 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Tess ensures that placeholder of dropdown does equal \"Select option\"",
           "outcome": "SUCCESS",
-          "duration": 7,
+          "duration": 6,
           "children": [],
           "type": "Interaction",
-          "startedAt": "2026-08-26T23:10:28.959Z",
+          "startedAt": "2026-08-27T13:49:58.895Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 162,
@@ -26308,7 +29413,7 @@ window.__SERENITY_REPORT_DATA__ = {
           },
           "artifacts": [
             {
-              "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-placeholder-of-dr-461b2d638a.png",
+              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-placeholder-of-dr-461b2d638a.png",
               "type": "screenshot"
             }
           ]
@@ -29135,6 +32240,409 @@ window.__SERENITY_REPORT_DATA__ = {
               ]
             }
           ]
+        },
+        {
+          "outcome": "SUCCESS",
+          "run": "1164",
+          "timestamp": "2026-08-27T13:49:53.512Z",
+          "duration": 1245,
+          "activities": [
+            {
+              "name": "Tess selects [ 'First', 'Second' ] from dropdown",
+              "outcome": "SUCCESS",
+              "duration": 656,
+              "children": [
+                {
+                  "name": "Tess iterates over [ 'First', 'Second' ]",
+                  "outcome": "SUCCESS",
+                  "duration": 645,
+                  "children": [
+                    {
+                      "name": "Tess selects 'First' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 385,
+                      "children": [
+                        {
+                          "name": "Tess opens the dropdown",
+                          "outcome": "SUCCESS",
+                          "duration": 197,
+                          "children": [
+                            {
+                              "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
+                              "outcome": "SUCCESS",
+                              "duration": 186,
+                              "children": [
+                                {
+                                  "name": "Tess clicks on input field",
+                                  "outcome": "SUCCESS",
+                                  "duration": 54,
+                                  "children": [],
+                                  "type": "Interaction",
+                                  "startedAt": "2026-08-27T13:49:57.863Z",
+                                  "location": {
+                                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                    "line": 110,
+                                    "column": 27
+                                  },
+                                  "artifacts": [
+                                    {
+                                      "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-input-field-5a32e9ada1.png",
+                                      "type": "screenshot"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Tess waits until page element located by deep css ('.dropdown-available-options') does become visible",
+                                  "outcome": "SUCCESS",
+                                  "duration": 24,
+                                  "children": [],
+                                  "type": "Interaction",
+                                  "startedAt": "2026-08-27T13:49:57.959Z",
+                                  "location": {
+                                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                    "line": 92,
+                                    "column": 26
+                                  },
+                                  "artifacts": [
+                                    {
+                                      "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-waits-until-page-element-locat-bfc16cca9d.png",
+                                      "type": "screenshot"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "type": "Task",
+                              "startedAt": "2026-08-27T13:49:57.838Z",
+                              "location": {
+                                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                "line": 92,
+                                "column": 26
+                              }
+                            }
+                          ],
+                          "type": "Task",
+                          "startedAt": "2026-08-27T13:49:57.838Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 92,
+                            "column": 26
+                          }
+                        },
+                        {
+                          "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 87,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:49:58.046Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 93,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-the-first-of-page-el-f3bb44e501.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 7,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:49:58.175Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--db7313f6f2.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:49:57.837Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 72,
+                        "column": 50
+                      }
+                    },
+                    {
+                      "name": "Tess selects 'Second' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 195,
+                      "children": [
+                        {
+                          "name": "Tess opens the dropdown",
+                          "outcome": "SUCCESS",
+                          "duration": 17,
+                          "children": [
+                            {
+                              "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
+                              "outcome": "SUCCESS",
+                              "duration": 6,
+                              "children": [],
+                              "type": "Task",
+                              "startedAt": "2026-08-27T13:49:58.256Z",
+                              "location": {
+                                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                "line": 92,
+                                "column": 26
+                              }
+                            }
+                          ],
+                          "type": "Task",
+                          "startedAt": "2026-08-27T13:49:58.255Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 92,
+                            "column": 26
+                          }
+                        },
+                        {
+                          "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"Second\"",
+                          "outcome": "SUCCESS",
+                          "duration": 83,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:49:58.283Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 93,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-the-first-of-page-el-a4586e7312.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"Second\"",
+                          "outcome": "SUCCESS",
+                          "duration": 11,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:49:58.409Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--3e4adeb145.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:49:58.255Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 72,
+                        "column": 50
+                      }
+                    }
+                  ],
+                  "type": "Task",
+                  "startedAt": "2026-08-27T13:49:57.815Z",
+                  "location": {
+                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                    "line": 154,
+                    "column": 16
+                  }
+                }
+              ],
+              "type": "Task",
+              "startedAt": "2026-08-27T13:49:57.814Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 154,
+                "column": 16
+              }
+            },
+            {
+              "name": "Tess deselects [ 'First', 'Second' ] from dropdown",
+              "outcome": "SUCCESS",
+              "duration": 359,
+              "children": [
+                {
+                  "name": "Tess iterates over [ 'First', 'Second' ]",
+                  "outcome": "SUCCESS",
+                  "duration": 348,
+                  "children": [
+                    {
+                      "name": "Tess deselects 'First' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 151,
+                      "children": [
+                        {
+                          "name": "Tess clicks on deselect button of the first of page elements located by deep css ('.dropdown-selected-option') of input field where Text does include \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 69,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:49:58.497Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 101,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-deselect-button-of-t-745fdf79c8.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does not contain \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 9,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:49:58.608Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--745fdf79c8.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:49:58.496Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 83,
+                        "column": 52
+                      }
+                    },
+                    {
+                      "name": "Tess deselects 'Second' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 148,
+                      "children": [
+                        {
+                          "name": "Tess clicks on deselect button of the first of page elements located by deep css ('.dropdown-selected-option') of input field where Text does include \"Second\"",
+                          "outcome": "SUCCESS",
+                          "duration": 60,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:49:58.673Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 101,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-clicks-on-deselect-button-of-t-461b2d638a.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does not contain \"Second\"",
+                          "outcome": "SUCCESS",
+                          "duration": 4,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:49:58.775Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-the-text-of-page--461b2d638a.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:49:58.672Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 83,
+                        "column": 52
+                      }
+                    }
+                  ],
+                  "type": "Task",
+                  "startedAt": "2026-08-27T13:49:58.482Z",
+                  "location": {
+                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                    "line": 159,
+                    "column": 16
+                  }
+                }
+              ],
+              "type": "Task",
+              "startedAt": "2026-08-27T13:49:58.481Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 159,
+                "column": 16
+              }
+            },
+            {
+              "name": "Tess ensures that <<selected options>>.length does equal 0",
+              "outcome": "SUCCESS",
+              "duration": 8,
+              "children": [],
+              "type": "Interaction",
+              "startedAt": "2026-08-27T13:49:58.856Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 161,
+                "column": 20
+              },
+              "artifacts": [
+                {
+                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-0-does-equal-0-461b2d638a.png",
+                  "type": "screenshot"
+                }
+              ]
+            },
+            {
+              "name": "Tess ensures that placeholder of dropdown does equal \"Select option\"",
+              "outcome": "SUCCESS",
+              "duration": 6,
+              "children": [],
+              "type": "Interaction",
+              "startedAt": "2026-08-27T13:49:58.895Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 162,
+                "column": 20
+              },
+              "artifacts": [
+                {
+                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-chromium-151-0-7922-34-tess-ensures-that-placeholder-of-dr-461b2d638a.png",
+                  "type": "screenshot"
+                }
+              ]
+            }
+          ]
         }
       ],
       "cast": [
@@ -29173,8 +32681,8 @@ window.__SERENITY_REPORT_DATA__ = {
       "name": "goes back to showing the placeholder when all the selected options get deselected",
       "category": "Dropdown",
       "outcome": "SUCCESS",
-      "duration": 1249,
-      "startedAt": "2026-08-26T23:10:35.638Z",
+      "duration": 1302,
+      "startedAt": "2026-08-27T13:50:05.738Z",
       "source": {
         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
         "line": 139
@@ -29213,35 +32721,35 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Tess selects [ 'First', 'Second' ] from dropdown",
           "outcome": "SUCCESS",
-          "duration": 646,
+          "duration": 661,
           "children": [
             {
               "name": "Tess iterates over [ 'First', 'Second' ]",
               "outcome": "SUCCESS",
-              "duration": 635,
+              "duration": 650,
               "children": [
                 {
                   "name": "Tess selects 'First' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 366,
+                  "duration": 380,
                   "children": [
                     {
                       "name": "Tess opens the dropdown",
                       "outcome": "SUCCESS",
-                      "duration": 199,
+                      "duration": 201,
                       "children": [
                         {
                           "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
                           "outcome": "SUCCESS",
-                          "duration": 188,
+                          "duration": 190,
                           "children": [
                             {
                               "name": "Tess clicks on input field",
                               "outcome": "SUCCESS",
-                              "duration": 82,
+                              "duration": 79,
                               "children": [],
                               "type": "Interaction",
-                              "startedAt": "2026-08-26T23:10:35.854Z",
+                              "startedAt": "2026-08-27T13:50:05.972Z",
                               "location": {
                                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                                 "line": 110,
@@ -29249,7 +32757,7 @@ window.__SERENITY_REPORT_DATA__ = {
                               },
                               "artifacts": [
                                 {
-                                  "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-input-field-b029cbc9ff.png",
+                                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-input-field-b029cbc9ff.png",
                                   "type": "screenshot"
                                 }
                               ]
@@ -29257,10 +32765,10 @@ window.__SERENITY_REPORT_DATA__ = {
                             {
                               "name": "Tess waits until page element located by deep css ('.dropdown-available-options') does become visible",
                               "outcome": "SUCCESS",
-                              "duration": 30,
+                              "duration": 33,
                               "children": [],
                               "type": "Interaction",
-                              "startedAt": "2026-08-26T23:10:35.959Z",
+                              "startedAt": "2026-08-27T13:50:06.073Z",
                               "location": {
                                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                                 "line": 92,
@@ -29268,14 +32776,14 @@ window.__SERENITY_REPORT_DATA__ = {
                               },
                               "artifacts": [
                                 {
-                                  "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-waits-until-page-element-located-by-dee-e2143a8ceb.png",
+                                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-waits-until-page-element-located-by-dee-52b8995c64.png",
                                   "type": "screenshot"
                                 }
                               ]
                             }
                           ],
                           "type": "Task",
-                          "startedAt": "2026-08-26T23:10:35.822Z",
+                          "startedAt": "2026-08-27T13:50:05.937Z",
                           "location": {
                             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                             "line": 92,
@@ -29284,7 +32792,7 @@ window.__SERENITY_REPORT_DATA__ = {
                         }
                       ],
                       "type": "Task",
-                      "startedAt": "2026-08-26T23:10:35.821Z",
+                      "startedAt": "2026-08-27T13:50:05.936Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 92,
@@ -29294,10 +32802,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"First\"",
                       "outcome": "SUCCESS",
-                      "duration": 104,
+                      "duration": 116,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:36.031Z",
+                      "startedAt": "2026-08-27T13:50:06.148Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 93,
@@ -29305,7 +32813,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-the-first-of-page-elements-lo-be1c446c6b.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-the-first-of-page-elements-lo-cedd79c0f8.png",
                           "type": "screenshot"
                         }
                       ]
@@ -29316,7 +32824,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       "duration": 9,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:36.156Z",
+                      "startedAt": "2026-08-27T13:50:06.286Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -29324,14 +32832,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--1ae3ce007c.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--231f2e528c.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:35.820Z",
+                  "startedAt": "2026-08-27T13:50:05.935Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 72,
@@ -29341,12 +32849,12 @@ window.__SERENITY_REPORT_DATA__ = {
                 {
                   "name": "Tess selects 'Second' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 204,
+                  "duration": 203,
                   "children": [
                     {
                       "name": "Tess opens the dropdown",
                       "outcome": "SUCCESS",
-                      "duration": 18,
+                      "duration": 19,
                       "children": [
                         {
                           "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
@@ -29354,7 +32862,7 @@ window.__SERENITY_REPORT_DATA__ = {
                           "duration": 8,
                           "children": [],
                           "type": "Task",
-                          "startedAt": "2026-08-26T23:10:36.221Z",
+                          "startedAt": "2026-08-27T13:50:06.352Z",
                           "location": {
                             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                             "line": 92,
@@ -29363,7 +32871,7 @@ window.__SERENITY_REPORT_DATA__ = {
                         }
                       ],
                       "type": "Task",
-                      "startedAt": "2026-08-26T23:10:36.221Z",
+                      "startedAt": "2026-08-27T13:50:06.351Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 92,
@@ -29373,10 +32881,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"Second\"",
                       "outcome": "SUCCESS",
-                      "duration": 118,
+                      "duration": 116,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:36.250Z",
+                      "startedAt": "2026-08-27T13:50:06.381Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 93,
@@ -29384,7 +32892,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-the-first-of-page-elements-lo-48cda3704d.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-the-first-of-page-elements-lo-f3194a3339.png",
                           "type": "screenshot"
                         }
                       ]
@@ -29395,7 +32903,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       "duration": 14,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:36.390Z",
+                      "startedAt": "2026-08-27T13:50:06.518Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -29403,14 +32911,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--1c09ade74c.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--38e2481786.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:36.220Z",
+                  "startedAt": "2026-08-27T13:50:06.350Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 72,
@@ -29419,7 +32927,7 @@ window.__SERENITY_REPORT_DATA__ = {
                 }
               ],
               "type": "Task",
-              "startedAt": "2026-08-26T23:10:35.799Z",
+              "startedAt": "2026-08-27T13:50:05.913Z",
               "location": {
                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
                 "line": 154,
@@ -29428,7 +32936,7 @@ window.__SERENITY_REPORT_DATA__ = {
             }
           ],
           "type": "Task",
-          "startedAt": "2026-08-26T23:10:35.798Z",
+          "startedAt": "2026-08-27T13:50:05.912Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 154,
@@ -29438,25 +32946,25 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Tess deselects [ 'First', 'Second' ] from dropdown",
           "outcome": "SUCCESS",
-          "duration": 323,
+          "duration": 340,
           "children": [
             {
               "name": "Tess iterates over [ 'First', 'Second' ]",
               "outcome": "SUCCESS",
-              "duration": 312,
+              "duration": 328,
               "children": [
                 {
                   "name": "Tess deselects 'First' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 131,
+                  "duration": 134,
                   "children": [
                     {
                       "name": "Tess clicks on deselect button of the first of page elements located by deep css ('.dropdown-selected-option') of input field where Text does include \"First\"",
                       "outcome": "SUCCESS",
-                      "duration": 79,
+                      "duration": 80,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:36.472Z",
+                      "startedAt": "2026-08-27T13:50:06.600Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 101,
@@ -29464,7 +32972,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-deselect-button-of-the-first--a208d22e04.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-deselect-button-of-the-first--a208d22e04.png",
                           "type": "screenshot"
                         }
                       ]
@@ -29475,7 +32983,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       "duration": 10,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:36.572Z",
+                      "startedAt": "2026-08-27T13:50:06.701Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -29483,14 +32991,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--a208d22e04.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--a208d22e04.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:36.471Z",
+                  "startedAt": "2026-08-27T13:50:06.599Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 83,
@@ -29500,15 +33008,15 @@ window.__SERENITY_REPORT_DATA__ = {
                 {
                   "name": "Tess deselects 'Second' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 131,
+                  "duration": 145,
                   "children": [
                     {
                       "name": "Tess clicks on deselect button of the first of page elements located by deep css ('.dropdown-selected-option') of input field where Text does include \"Second\"",
                       "outcome": "SUCCESS",
-                      "duration": 73,
+                      "duration": 87,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:36.628Z",
+                      "startedAt": "2026-08-27T13:50:06.759Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 101,
@@ -29516,7 +33024,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-deselect-button-of-the-first--8a730e94fd.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-deselect-button-of-the-first--8a730e94fd.png",
                           "type": "screenshot"
                         }
                       ]
@@ -29527,7 +33035,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       "duration": 5,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:36.723Z",
+                      "startedAt": "2026-08-27T13:50:06.867Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -29535,14 +33043,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--8a730e94fd.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--8a730e94fd.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:36.627Z",
+                  "startedAt": "2026-08-27T13:50:06.758Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 83,
@@ -29551,7 +33059,7 @@ window.__SERENITY_REPORT_DATA__ = {
                 }
               ],
               "type": "Task",
-              "startedAt": "2026-08-26T23:10:36.456Z",
+              "startedAt": "2026-08-27T13:50:06.585Z",
               "location": {
                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
                 "line": 159,
@@ -29560,7 +33068,7 @@ window.__SERENITY_REPORT_DATA__ = {
             }
           ],
           "type": "Task",
-          "startedAt": "2026-08-26T23:10:36.455Z",
+          "startedAt": "2026-08-27T13:50:06.584Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 159,
@@ -29570,10 +33078,10 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Tess ensures that <<selected options>>.length does equal 0",
           "outcome": "SUCCESS",
-          "duration": 9,
+          "duration": 12,
           "children": [],
           "type": "Interaction",
-          "startedAt": "2026-08-26T23:10:36.795Z",
+          "startedAt": "2026-08-27T13:50:06.940Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 161,
@@ -29581,7 +33089,7 @@ window.__SERENITY_REPORT_DATA__ = {
           },
           "artifacts": [
             {
-              "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-0-does-equal-0-8a730e94fd.png",
+              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-0-does-equal-0-8a730e94fd.png",
               "type": "screenshot"
             }
           ]
@@ -29592,7 +33100,7 @@ window.__SERENITY_REPORT_DATA__ = {
           "duration": 7,
           "children": [],
           "type": "Interaction",
-          "startedAt": "2026-08-26T23:10:36.837Z",
+          "startedAt": "2026-08-27T13:50:06.983Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 162,
@@ -29600,7 +33108,7 @@ window.__SERENITY_REPORT_DATA__ = {
           },
           "artifacts": [
             {
-              "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-placeholder-of-dropdown-do-8a730e94fd.png",
+              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-placeholder-of-dropdown-do-8a730e94fd.png",
               "type": "screenshot"
             }
           ]
@@ -32427,6 +35935,409 @@ window.__SERENITY_REPORT_DATA__ = {
               ]
             }
           ]
+        },
+        {
+          "outcome": "SUCCESS",
+          "run": "1164",
+          "timestamp": "2026-08-27T13:49:53.512Z",
+          "duration": 1302,
+          "activities": [
+            {
+              "name": "Tess selects [ 'First', 'Second' ] from dropdown",
+              "outcome": "SUCCESS",
+              "duration": 661,
+              "children": [
+                {
+                  "name": "Tess iterates over [ 'First', 'Second' ]",
+                  "outcome": "SUCCESS",
+                  "duration": 650,
+                  "children": [
+                    {
+                      "name": "Tess selects 'First' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 380,
+                      "children": [
+                        {
+                          "name": "Tess opens the dropdown",
+                          "outcome": "SUCCESS",
+                          "duration": 201,
+                          "children": [
+                            {
+                              "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
+                              "outcome": "SUCCESS",
+                              "duration": 190,
+                              "children": [
+                                {
+                                  "name": "Tess clicks on input field",
+                                  "outcome": "SUCCESS",
+                                  "duration": 79,
+                                  "children": [],
+                                  "type": "Interaction",
+                                  "startedAt": "2026-08-27T13:50:05.972Z",
+                                  "location": {
+                                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                    "line": 110,
+                                    "column": 27
+                                  },
+                                  "artifacts": [
+                                    {
+                                      "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-input-field-b029cbc9ff.png",
+                                      "type": "screenshot"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Tess waits until page element located by deep css ('.dropdown-available-options') does become visible",
+                                  "outcome": "SUCCESS",
+                                  "duration": 33,
+                                  "children": [],
+                                  "type": "Interaction",
+                                  "startedAt": "2026-08-27T13:50:06.073Z",
+                                  "location": {
+                                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                    "line": 92,
+                                    "column": 26
+                                  },
+                                  "artifacts": [
+                                    {
+                                      "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-waits-until-page-element-located-by-dee-52b8995c64.png",
+                                      "type": "screenshot"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "type": "Task",
+                              "startedAt": "2026-08-27T13:50:05.937Z",
+                              "location": {
+                                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                "line": 92,
+                                "column": 26
+                              }
+                            }
+                          ],
+                          "type": "Task",
+                          "startedAt": "2026-08-27T13:50:05.936Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 92,
+                            "column": 26
+                          }
+                        },
+                        {
+                          "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 116,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:06.148Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 93,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-the-first-of-page-elements-lo-cedd79c0f8.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 9,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:06.286Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--231f2e528c.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:50:05.935Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 72,
+                        "column": 50
+                      }
+                    },
+                    {
+                      "name": "Tess selects 'Second' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 203,
+                      "children": [
+                        {
+                          "name": "Tess opens the dropdown",
+                          "outcome": "SUCCESS",
+                          "duration": 19,
+                          "children": [
+                            {
+                              "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
+                              "outcome": "SUCCESS",
+                              "duration": 8,
+                              "children": [],
+                              "type": "Task",
+                              "startedAt": "2026-08-27T13:50:06.352Z",
+                              "location": {
+                                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                "line": 92,
+                                "column": 26
+                              }
+                            }
+                          ],
+                          "type": "Task",
+                          "startedAt": "2026-08-27T13:50:06.351Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 92,
+                            "column": 26
+                          }
+                        },
+                        {
+                          "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"Second\"",
+                          "outcome": "SUCCESS",
+                          "duration": 116,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:06.381Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 93,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-the-first-of-page-elements-lo-f3194a3339.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"Second\"",
+                          "outcome": "SUCCESS",
+                          "duration": 14,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:06.518Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--38e2481786.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:50:06.350Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 72,
+                        "column": 50
+                      }
+                    }
+                  ],
+                  "type": "Task",
+                  "startedAt": "2026-08-27T13:50:05.913Z",
+                  "location": {
+                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                    "line": 154,
+                    "column": 16
+                  }
+                }
+              ],
+              "type": "Task",
+              "startedAt": "2026-08-27T13:50:05.912Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 154,
+                "column": 16
+              }
+            },
+            {
+              "name": "Tess deselects [ 'First', 'Second' ] from dropdown",
+              "outcome": "SUCCESS",
+              "duration": 340,
+              "children": [
+                {
+                  "name": "Tess iterates over [ 'First', 'Second' ]",
+                  "outcome": "SUCCESS",
+                  "duration": 328,
+                  "children": [
+                    {
+                      "name": "Tess deselects 'First' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 134,
+                      "children": [
+                        {
+                          "name": "Tess clicks on deselect button of the first of page elements located by deep css ('.dropdown-selected-option') of input field where Text does include \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 80,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:06.600Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 101,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-deselect-button-of-the-first--a208d22e04.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does not contain \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 10,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:06.701Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--a208d22e04.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:50:06.599Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 83,
+                        "column": 52
+                      }
+                    },
+                    {
+                      "name": "Tess deselects 'Second' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 145,
+                      "children": [
+                        {
+                          "name": "Tess clicks on deselect button of the first of page elements located by deep css ('.dropdown-selected-option') of input field where Text does include \"Second\"",
+                          "outcome": "SUCCESS",
+                          "duration": 87,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:06.759Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 101,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-clicks-on-deselect-button-of-the-first--8a730e94fd.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does not contain \"Second\"",
+                          "outcome": "SUCCESS",
+                          "duration": 5,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:06.867Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-the-text-of-page-elements--8a730e94fd.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:50:06.758Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 83,
+                        "column": 52
+                      }
+                    }
+                  ],
+                  "type": "Task",
+                  "startedAt": "2026-08-27T13:50:06.585Z",
+                  "location": {
+                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                    "line": 159,
+                    "column": 16
+                  }
+                }
+              ],
+              "type": "Task",
+              "startedAt": "2026-08-27T13:50:06.584Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 159,
+                "column": 16
+              }
+            },
+            {
+              "name": "Tess ensures that <<selected options>>.length does equal 0",
+              "outcome": "SUCCESS",
+              "duration": 12,
+              "children": [],
+              "type": "Interaction",
+              "startedAt": "2026-08-27T13:50:06.940Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 161,
+                "column": 20
+              },
+              "artifacts": [
+                {
+                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-0-does-equal-0-8a730e94fd.png",
+                  "type": "screenshot"
+                }
+              ]
+            },
+            {
+              "name": "Tess ensures that placeholder of dropdown does equal \"Select option\"",
+              "outcome": "SUCCESS",
+              "duration": 7,
+              "children": [],
+              "type": "Interaction",
+              "startedAt": "2026-08-27T13:50:06.983Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 162,
+                "column": 20
+              },
+              "artifacts": [
+                {
+                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-firefox-153-0-tess-ensures-that-placeholder-of-dropdown-do-8a730e94fd.png",
+                  "type": "screenshot"
+                }
+              ]
+            }
+          ]
         }
       ],
       "cast": [
@@ -32465,8 +36376,8 @@ window.__SERENITY_REPORT_DATA__ = {
       "name": "goes back to showing the placeholder when all the selected options get deselected",
       "category": "Dropdown",
       "outcome": "SUCCESS",
-      "duration": 2730,
-      "startedAt": "2026-08-26T23:10:46.596Z",
+      "duration": 2775,
+      "startedAt": "2026-08-27T13:50:16.837Z",
       "source": {
         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
         "line": 139
@@ -32505,35 +36416,35 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Tess selects [ 'First', 'Second' ] from dropdown",
           "outcome": "SUCCESS",
-          "duration": 1424,
+          "duration": 1460,
           "children": [
             {
               "name": "Tess iterates over [ 'First', 'Second' ]",
               "outcome": "SUCCESS",
-              "duration": 1414,
+              "duration": 1449,
               "children": [
                 {
                   "name": "Tess selects 'First' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 921,
+                  "duration": 948,
                   "children": [
                     {
                       "name": "Tess opens the dropdown",
                       "outcome": "SUCCESS",
-                      "duration": 497,
+                      "duration": 513,
                       "children": [
                         {
                           "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
                           "outcome": "SUCCESS",
-                          "duration": 486,
+                          "duration": 502,
                           "children": [
                             {
                               "name": "Tess clicks on input field",
                               "outcome": "SUCCESS",
-                              "duration": 63,
+                              "duration": 79,
                               "children": [],
                               "type": "Interaction",
-                              "startedAt": "2026-08-26T23:10:46.747Z",
+                              "startedAt": "2026-08-27T13:50:17.002Z",
                               "location": {
                                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                                 "line": 110,
@@ -32541,7 +36452,7 @@ window.__SERENITY_REPORT_DATA__ = {
                               },
                               "artifacts": [
                                 {
-                                  "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-input-field-bea7f7b144.png",
+                                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-input-field-bea7f7b144.png",
                                   "type": "screenshot"
                                 }
                               ]
@@ -32549,10 +36460,10 @@ window.__SERENITY_REPORT_DATA__ = {
                             {
                               "name": "Tess waits until page element located by deep css ('.dropdown-available-options') does become visible",
                               "outcome": "SUCCESS",
-                              "duration": 44,
+                              "duration": 41,
                               "children": [],
                               "type": "Interaction",
-                              "startedAt": "2026-08-26T23:10:46.964Z",
+                              "startedAt": "2026-08-27T13:50:17.234Z",
                               "location": {
                                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                                 "line": 92,
@@ -32560,14 +36471,14 @@ window.__SERENITY_REPORT_DATA__ = {
                               },
                               "artifacts": [
                                 {
-                                  "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-waits-until-page-element-located-by-deep--6cbf45100d.png",
+                                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-waits-until-page-element-located-by-deep--fccd1f2f36.png",
                                   "type": "screenshot"
                                 }
                               ]
                             }
                           ],
                           "type": "Task",
-                          "startedAt": "2026-08-26T23:10:46.725Z",
+                          "startedAt": "2026-08-27T13:50:16.979Z",
                           "location": {
                             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                             "line": 92,
@@ -32576,7 +36487,7 @@ window.__SERENITY_REPORT_DATA__ = {
                         }
                       ],
                       "type": "Task",
-                      "startedAt": "2026-08-26T23:10:46.724Z",
+                      "startedAt": "2026-08-27T13:50:16.979Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 92,
@@ -32586,10 +36497,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"First\"",
                       "outcome": "SUCCESS",
-                      "duration": 107,
+                      "duration": 108,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:47.234Z",
+                      "startedAt": "2026-08-27T13:50:17.504Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 93,
@@ -32597,7 +36508,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-the-first-of-page-elements-loca-efccbf4739.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-the-first-of-page-elements-loca-efccbf4739.png",
                           "type": "screenshot"
                         }
                       ]
@@ -32605,10 +36516,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"First\"",
                       "outcome": "SUCCESS",
-                      "duration": 8,
+                      "duration": 10,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:47.493Z",
+                      "startedAt": "2026-08-27T13:50:17.764Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -32616,14 +36527,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-efccbf4739.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-efccbf4739.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:46.723Z",
+                  "startedAt": "2026-08-27T13:50:16.978Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 72,
@@ -32633,7 +36544,7 @@ window.__SERENITY_REPORT_DATA__ = {
                 {
                   "name": "Tess selects 'Second' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 422,
+                  "duration": 431,
                   "children": [
                     {
                       "name": "Tess opens the dropdown",
@@ -32643,10 +36554,10 @@ window.__SERENITY_REPORT_DATA__ = {
                         {
                           "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
                           "outcome": "SUCCESS",
-                          "duration": 6,
+                          "duration": 7,
                           "children": [],
                           "type": "Task",
-                          "startedAt": "2026-08-26T23:10:47.679Z",
+                          "startedAt": "2026-08-27T13:50:17.961Z",
                           "location": {
                             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                             "line": 92,
@@ -32655,7 +36566,7 @@ window.__SERENITY_REPORT_DATA__ = {
                         }
                       ],
                       "type": "Task",
-                      "startedAt": "2026-08-26T23:10:47.678Z",
+                      "startedAt": "2026-08-27T13:50:17.961Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 92,
@@ -32665,10 +36576,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"Second\"",
                       "outcome": "SUCCESS",
-                      "duration": 78,
+                      "duration": 85,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:47.706Z",
+                      "startedAt": "2026-08-27T13:50:17.989Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 93,
@@ -32676,7 +36587,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-the-first-of-page-elements-loca-f563318c6d.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-the-first-of-page-elements-loca-f563318c6d.png",
                           "type": "screenshot"
                         }
                       ]
@@ -32684,10 +36595,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"Second\"",
                       "outcome": "SUCCESS",
-                      "duration": 10,
+                      "duration": 12,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:47.938Z",
+                      "startedAt": "2026-08-27T13:50:18.227Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -32695,14 +36606,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-f563318c6d.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-f563318c6d.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:47.677Z",
+                  "startedAt": "2026-08-27T13:50:17.960Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 72,
@@ -32711,7 +36622,7 @@ window.__SERENITY_REPORT_DATA__ = {
                 }
               ],
               "type": "Task",
-              "startedAt": "2026-08-26T23:10:46.696Z",
+              "startedAt": "2026-08-27T13:50:16.952Z",
               "location": {
                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
                 "line": 154,
@@ -32720,7 +36631,7 @@ window.__SERENITY_REPORT_DATA__ = {
             }
           ],
           "type": "Task",
-          "startedAt": "2026-08-26T23:10:46.696Z",
+          "startedAt": "2026-08-27T13:50:16.951Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 154,
@@ -32730,25 +36641,25 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Tess deselects [ 'First', 'Second' ] from dropdown",
           "outcome": "SUCCESS",
-          "duration": 849,
+          "duration": 835,
           "children": [
             {
               "name": "Tess iterates over [ 'First', 'Second' ]",
               "outcome": "SUCCESS",
-              "duration": 839,
+              "duration": 824,
               "children": [
                 {
                   "name": "Tess deselects 'First' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 403,
+                  "duration": 384,
                   "children": [
                     {
                       "name": "Tess clicks on deselect button of the first of page elements located by deep css ('.dropdown-selected-option') of input field where Text does include \"First\"",
                       "outcome": "SUCCESS",
-                      "duration": 89,
+                      "duration": 72,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:48.147Z",
+                      "startedAt": "2026-08-27T13:50:18.438Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 101,
@@ -32756,7 +36667,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-deselect-button-of-the-first-of-9b303aaa7e.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-deselect-button-of-the-first-of-9b303aaa7e.png",
                           "type": "screenshot"
                         }
                       ]
@@ -32764,10 +36675,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does not contain \"First\"",
                       "outcome": "SUCCESS",
-                      "duration": 8,
+                      "duration": 9,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:48.389Z",
+                      "startedAt": "2026-08-27T13:50:18.661Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -32775,14 +36686,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-9b303aaa7e.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-9b303aaa7e.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:48.146Z",
+                  "startedAt": "2026-08-27T13:50:18.437Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 83,
@@ -32792,15 +36703,15 @@ window.__SERENITY_REPORT_DATA__ = {
                 {
                   "name": "Tess deselects 'Second' from dropdown",
                   "outcome": "SUCCESS",
-                  "duration": 387,
+                  "duration": 390,
                   "children": [
                     {
                       "name": "Tess clicks on deselect button of the first of page elements located by deep css ('.dropdown-selected-option') of input field where Text does include \"Second\"",
                       "outcome": "SUCCESS",
-                      "duration": 79,
+                      "duration": 81,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:48.574Z",
+                      "startedAt": "2026-08-27T13:50:18.846Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                         "line": 101,
@@ -32808,7 +36719,7 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-deselect-button-of-the-first-of-e887291e77.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-deselect-button-of-the-first-of-e887291e77.png",
                           "type": "screenshot"
                         }
                       ]
@@ -32816,10 +36727,10 @@ window.__SERENITY_REPORT_DATA__ = {
                     {
                       "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does not contain \"Second\"",
                       "outcome": "SUCCESS",
-                      "duration": 4,
+                      "duration": 5,
                       "children": [],
                       "type": "Interaction",
-                      "startedAt": "2026-08-26T23:10:48.806Z",
+                      "startedAt": "2026-08-27T13:50:19.080Z",
                       "location": {
                         "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
                         "line": 60,
@@ -32827,14 +36738,14 @@ window.__SERENITY_REPORT_DATA__ = {
                       },
                       "artifacts": [
                         {
-                          "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-e887291e77.png",
+                          "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-e887291e77.png",
                           "type": "screenshot"
                         }
                       ]
                     }
                   ],
                   "type": "Task",
-                  "startedAt": "2026-08-26T23:10:48.573Z",
+                  "startedAt": "2026-08-27T13:50:18.846Z",
                   "location": {
                     "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
                     "line": 83,
@@ -32843,7 +36754,7 @@ window.__SERENITY_REPORT_DATA__ = {
                 }
               ],
               "type": "Task",
-              "startedAt": "2026-08-26T23:10:48.131Z",
+              "startedAt": "2026-08-27T13:50:18.422Z",
               "location": {
                 "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
                 "line": 159,
@@ -32852,7 +36763,7 @@ window.__SERENITY_REPORT_DATA__ = {
             }
           ],
           "type": "Task",
-          "startedAt": "2026-08-26T23:10:48.131Z",
+          "startedAt": "2026-08-27T13:50:18.422Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 159,
@@ -32862,10 +36773,10 @@ window.__SERENITY_REPORT_DATA__ = {
         {
           "name": "Tess ensures that <<selected options>>.length does equal 0",
           "outcome": "SUCCESS",
-          "duration": 7,
+          "duration": 9,
           "children": [],
           "type": "Interaction",
-          "startedAt": "2026-08-26T23:10:48.996Z",
+          "startedAt": "2026-08-27T13:50:19.272Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 161,
@@ -32873,7 +36784,7 @@ window.__SERENITY_REPORT_DATA__ = {
           },
           "artifacts": [
             {
-              "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-0-does-equal-0-e887291e77.png",
+              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-0-does-equal-0-e887291e77.png",
               "type": "screenshot"
             }
           ]
@@ -32884,7 +36795,7 @@ window.__SERENITY_REPORT_DATA__ = {
           "duration": 6,
           "children": [],
           "type": "Interaction",
-          "startedAt": "2026-08-26T23:10:49.146Z",
+          "startedAt": "2026-08-27T13:50:19.432Z",
           "location": {
             "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
             "line": 162,
@@ -32892,7 +36803,7 @@ window.__SERENITY_REPORT_DATA__ = {
           },
           "artifacts": [
             {
-              "path": "test-runs/1161/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-placeholder-of-dropdown-does-e887291e77.png",
+              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-placeholder-of-dropdown-does-e887291e77.png",
               "type": "screenshot"
             }
           ]
@@ -35719,6 +39630,409 @@ window.__SERENITY_REPORT_DATA__ = {
               ]
             }
           ]
+        },
+        {
+          "outcome": "SUCCESS",
+          "run": "1164",
+          "timestamp": "2026-08-27T13:49:53.512Z",
+          "duration": 2775,
+          "activities": [
+            {
+              "name": "Tess selects [ 'First', 'Second' ] from dropdown",
+              "outcome": "SUCCESS",
+              "duration": 1460,
+              "children": [
+                {
+                  "name": "Tess iterates over [ 'First', 'Second' ]",
+                  "outcome": "SUCCESS",
+                  "duration": 1449,
+                  "children": [
+                    {
+                      "name": "Tess selects 'First' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 948,
+                      "children": [
+                        {
+                          "name": "Tess opens the dropdown",
+                          "outcome": "SUCCESS",
+                          "duration": 513,
+                          "children": [
+                            {
+                              "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
+                              "outcome": "SUCCESS",
+                              "duration": 502,
+                              "children": [
+                                {
+                                  "name": "Tess clicks on input field",
+                                  "outcome": "SUCCESS",
+                                  "duration": 79,
+                                  "children": [],
+                                  "type": "Interaction",
+                                  "startedAt": "2026-08-27T13:50:17.002Z",
+                                  "location": {
+                                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                    "line": 110,
+                                    "column": 27
+                                  },
+                                  "artifacts": [
+                                    {
+                                      "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-input-field-bea7f7b144.png",
+                                      "type": "screenshot"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "name": "Tess waits until page element located by deep css ('.dropdown-available-options') does become visible",
+                                  "outcome": "SUCCESS",
+                                  "duration": 41,
+                                  "children": [],
+                                  "type": "Interaction",
+                                  "startedAt": "2026-08-27T13:50:17.234Z",
+                                  "location": {
+                                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                    "line": 92,
+                                    "column": 26
+                                  },
+                                  "artifacts": [
+                                    {
+                                      "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-waits-until-page-element-located-by-deep--fccd1f2f36.png",
+                                      "type": "screenshot"
+                                    }
+                                  ]
+                                }
+                              ],
+                              "type": "Task",
+                              "startedAt": "2026-08-27T13:50:16.979Z",
+                              "location": {
+                                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                "line": 92,
+                                "column": 26
+                              }
+                            }
+                          ],
+                          "type": "Task",
+                          "startedAt": "2026-08-27T13:50:16.979Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 92,
+                            "column": 26
+                          }
+                        },
+                        {
+                          "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 108,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:17.504Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 93,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-the-first-of-page-elements-loca-efccbf4739.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 10,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:17.764Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-efccbf4739.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:50:16.978Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 72,
+                        "column": 50
+                      }
+                    },
+                    {
+                      "name": "Tess selects 'Second' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 431,
+                      "children": [
+                        {
+                          "name": "Tess opens the dropdown",
+                          "outcome": "SUCCESS",
+                          "duration": 17,
+                          "children": [
+                            {
+                              "name": "Tess checks whether CSS classes of widget of dropdown does not contain \"dropdown-expanded\"",
+                              "outcome": "SUCCESS",
+                              "duration": 7,
+                              "children": [],
+                              "type": "Task",
+                              "startedAt": "2026-08-27T13:50:17.961Z",
+                              "location": {
+                                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                                "line": 92,
+                                "column": 26
+                              }
+                            }
+                          ],
+                          "type": "Task",
+                          "startedAt": "2026-08-27T13:50:17.961Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 92,
+                            "column": 26
+                          }
+                        },
+                        {
+                          "name": "Tess clicks on the first of page elements located by deep css ('.dropdown-available-option') of page element located by deep css ('.dropdown-available-options') where Text does include \"Second\"",
+                          "outcome": "SUCCESS",
+                          "duration": 85,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:17.989Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 93,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-the-first-of-page-elements-loca-f563318c6d.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does contain at least one item that does start with \"Second\"",
+                          "outcome": "SUCCESS",
+                          "duration": 12,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:18.227Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-f563318c6d.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:50:17.960Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 72,
+                        "column": 50
+                      }
+                    }
+                  ],
+                  "type": "Task",
+                  "startedAt": "2026-08-27T13:50:16.952Z",
+                  "location": {
+                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                    "line": 154,
+                    "column": 16
+                  }
+                }
+              ],
+              "type": "Task",
+              "startedAt": "2026-08-27T13:50:16.951Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 154,
+                "column": 16
+              }
+            },
+            {
+              "name": "Tess deselects [ 'First', 'Second' ] from dropdown",
+              "outcome": "SUCCESS",
+              "duration": 835,
+              "children": [
+                {
+                  "name": "Tess iterates over [ 'First', 'Second' ]",
+                  "outcome": "SUCCESS",
+                  "duration": 824,
+                  "children": [
+                    {
+                      "name": "Tess deselects 'First' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 384,
+                      "children": [
+                        {
+                          "name": "Tess clicks on deselect button of the first of page elements located by deep css ('.dropdown-selected-option') of input field where Text does include \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 72,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:18.438Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 101,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-deselect-button-of-the-first-of-9b303aaa7e.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does not contain \"First\"",
+                          "outcome": "SUCCESS",
+                          "duration": 9,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:18.661Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-9b303aaa7e.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:50:18.437Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 83,
+                        "column": 52
+                      }
+                    },
+                    {
+                      "name": "Tess deselects 'Second' from dropdown",
+                      "outcome": "SUCCESS",
+                      "duration": 390,
+                      "children": [
+                        {
+                          "name": "Tess clicks on deselect button of the first of page elements located by deep css ('.dropdown-selected-option') of input field where Text does include \"Second\"",
+                          "outcome": "SUCCESS",
+                          "duration": 81,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:18.846Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                            "line": 101,
+                            "column": 23
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-clicks-on-deselect-button-of-the-first-of-e887291e77.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "Tess ensures that the text of page elements located by deep css ('.dropdown-selected-option') of input field does not contain \"Second\"",
+                          "outcome": "SUCCESS",
+                          "duration": 5,
+                          "children": [],
+                          "type": "Interaction",
+                          "startedAt": "2026-08-27T13:50:19.080Z",
+                          "location": {
+                            "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/node_modules/@serenity-js/core/src/screenplay/abilities/PerformActivities.ts",
+                            "line": 60,
+                            "column": 13
+                          },
+                          "artifacts": [
+                            {
+                              "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-the-text-of-page-elements-lo-e887291e77.png",
+                              "type": "screenshot"
+                            }
+                          ]
+                        }
+                      ],
+                      "type": "Task",
+                      "startedAt": "2026-08-27T13:50:18.846Z",
+                      "location": {
+                        "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.serenity.ts",
+                        "line": 83,
+                        "column": 52
+                      }
+                    }
+                  ],
+                  "type": "Task",
+                  "startedAt": "2026-08-27T13:50:18.422Z",
+                  "location": {
+                    "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                    "line": 159,
+                    "column": 16
+                  }
+                }
+              ],
+              "type": "Task",
+              "startedAt": "2026-08-27T13:50:18.422Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 159,
+                "column": 16
+              }
+            },
+            {
+              "name": "Tess ensures that <<selected options>>.length does equal 0",
+              "outcome": "SUCCESS",
+              "duration": 9,
+              "children": [],
+              "type": "Interaction",
+              "startedAt": "2026-08-27T13:50:19.272Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 161,
+                "column": 20
+              },
+              "artifacts": [
+                {
+                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-0-does-equal-0-e887291e77.png",
+                  "type": "screenshot"
+                }
+              ]
+            },
+            {
+              "name": "Tess ensures that placeholder of dropdown does equal \"Select option\"",
+              "outcome": "SUCCESS",
+              "duration": 6,
+              "children": [],
+              "type": "Interaction",
+              "startedAt": "2026-08-27T13:50:19.432Z",
+              "location": {
+                "path": "/__w/serenity-js-playwright-ct-web-components-template/serenity-js-playwright-ct-web-components-template/src/components/Dropdown/Dropdown.spec.ts",
+                "line": 162,
+                "column": 20
+              },
+              "artifacts": [
+                {
+                  "path": "test-runs/1164/serenity-js-playwright-ct-web-components-template-1/screenshot-linux-webkit-26-5-tess-ensures-that-placeholder-of-dropdown-does-e887291e77.png",
+                  "type": "screenshot"
+                }
+              ]
+            }
+          ]
         }
       ],
       "cast": [
@@ -35936,6 +40250,32 @@ window.__SERENITY_REPORT_DATA__ = {
         "consistency": 100,
         "completeness": 100
       }
+    },
+    {
+      "timestamp": "2026-08-27T13:49:53.512Z",
+      "duration": 26100,
+      "outcomes": {
+        "passed": 18,
+        "failed": 0,
+        "pending": 0,
+        "skipped": 0,
+        "compromised": 0,
+        "error": 0
+      },
+      "label": "1164",
+      "slowest": 2775,
+      "fastest": 401,
+      "average": 1251,
+      "commit": "11b98de179bc3bd560606d560f0561ef46a304b8",
+      "branch": "main",
+      "ciJobUrl": "https://github.com/serenity-js/serenity-js-playwright-ct-web-components-template/actions/runs/33078805282",
+      "repositoryUrl": "https://github.com/serenity-js/serenity-js-playwright-ct-web-components-template",
+      "score": {
+        "confidence": 100,
+        "passRate": 100,
+        "consistency": 100,
+        "completeness": 100
+      }
     }
   ],
   "tags": [
@@ -36032,7 +40372,7 @@ window.__SERENITY_REPORT_DATA__ = {
   "newFailures": [],
   "newPasses": [],
   "systemContext": {
-    "nodeVersion": "v24.19.0",
+    "nodeVersion": "v24.20.0",
     "os": {
       "name": "linux",
       "version": "6.17.0-1022-azure",
@@ -36059,12 +40399,12 @@ window.__SERENITY_REPORT_DATA__ = {
     ],
     "ci": {
       "provider": "GitHub Actions",
-      "buildNumber": "1161",
+      "buildNumber": "1164",
       "branch": "main",
-      "commit": "f0ab3dee017df7f3a296dc50f5f903a3a73a62cf",
-      "commitMessage": "chore(deps): update node.js to v24.20.0 (#325)",
+      "commit": "11b98de179bc3bd560606d560f0561ef46a304b8",
+      "commitMessage": "chore(deps): update dependency node to v24.20.0 (#326)",
       "commitAuthor": "renovate[bot]",
-      "jobUrl": "https://github.com/serenity-js/serenity-js-playwright-ct-web-components-template/actions/runs/33022216412",
+      "jobUrl": "https://github.com/serenity-js/serenity-js-playwright-ct-web-components-template/actions/runs/33078805282",
       "workflow": "build",
       "repositoryUrl": "https://github.com/serenity-js/serenity-js-playwright-ct-web-components-template",
       "triggeredBy": "renovate[bot]"
@@ -36134,18 +40474,6 @@ window.__SERENITY_REPORT_DATA__ = {
                       "SUCCESS",
                       "SUCCESS",
                       "SUCCESS",
-                      "SUCCESS"
-                    ]
-                  },
-                  {
-                    "name": "shows the placeholder when no option is selected yet",
-                    "outcome": "SUCCESS",
-                    "executionHistory": [
-                      "SUCCESS",
-                      "SUCCESS",
-                      "SUCCESS",
-                      "SUCCESS",
-                      "SUCCESS",
                       "SUCCESS",
                       "SUCCESS"
                     ]
@@ -36160,6 +40488,21 @@ window.__SERENITY_REPORT_DATA__ = {
                       "SUCCESS",
                       "SUCCESS",
                       "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS"
+                    ]
+                  },
+                  {
+                    "name": "shows the placeholder when no option is selected yet",
+                    "outcome": "SUCCESS",
+                    "executionHistory": [
+                      "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS",
                       "SUCCESS"
                     ]
                   },
@@ -36173,18 +40516,6 @@ window.__SERENITY_REPORT_DATA__ = {
                       "SUCCESS",
                       "SUCCESS",
                       "SUCCESS",
-                      "SUCCESS"
-                    ]
-                  },
-                  {
-                    "name": "shows the available options when the menu is expanded",
-                    "outcome": "SUCCESS",
-                    "executionHistory": [
-                      "SUCCESS",
-                      "SUCCESS",
-                      "SUCCESS",
-                      "SUCCESS",
-                      "SUCCESS",
                       "SUCCESS",
                       "SUCCESS"
                     ]
@@ -36193,6 +40524,21 @@ window.__SERENITY_REPORT_DATA__ = {
                     "name": "shows the available options when the menu is expanded",
                     "outcome": "SUCCESS",
                     "executionHistory": [
+                      "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS"
+                    ]
+                  },
+                  {
+                    "name": "shows the available options when the menu is expanded",
+                    "outcome": "SUCCESS",
+                    "executionHistory": [
+                      "SUCCESS",
                       "SUCCESS",
                       "SUCCESS",
                       "SUCCESS",
@@ -36212,18 +40558,6 @@ window.__SERENITY_REPORT_DATA__ = {
                       "SUCCESS",
                       "SUCCESS",
                       "SUCCESS",
-                      "SUCCESS"
-                    ]
-                  },
-                  {
-                    "name": "selects the desired options",
-                    "outcome": "SUCCESS",
-                    "executionHistory": [
-                      "SUCCESS",
-                      "SUCCESS",
-                      "SUCCESS",
-                      "SUCCESS",
-                      "SUCCESS",
                       "SUCCESS",
                       "SUCCESS"
                     ]
@@ -36238,6 +40572,21 @@ window.__SERENITY_REPORT_DATA__ = {
                       "SUCCESS",
                       "SUCCESS",
                       "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS"
+                    ]
+                  },
+                  {
+                    "name": "selects the desired options",
+                    "outcome": "SUCCESS",
+                    "executionHistory": [
+                      "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS",
                       "SUCCESS"
                     ]
                   },
@@ -36251,18 +40600,6 @@ window.__SERENITY_REPORT_DATA__ = {
                       "SUCCESS",
                       "SUCCESS",
                       "SUCCESS",
-                      "SUCCESS"
-                    ]
-                  },
-                  {
-                    "name": "triggers onChange with selected options",
-                    "outcome": "SUCCESS",
-                    "executionHistory": [
-                      "SUCCESS",
-                      "SUCCESS",
-                      "SUCCESS",
-                      "SUCCESS",
-                      "SUCCESS",
                       "SUCCESS",
                       "SUCCESS"
                     ]
@@ -36271,6 +40608,21 @@ window.__SERENITY_REPORT_DATA__ = {
                     "name": "triggers onChange with selected options",
                     "outcome": "SUCCESS",
                     "executionHistory": [
+                      "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS"
+                    ]
+                  },
+                  {
+                    "name": "triggers onChange with selected options",
+                    "outcome": "SUCCESS",
+                    "executionHistory": [
+                      "SUCCESS",
                       "SUCCESS",
                       "SUCCESS",
                       "SUCCESS",
@@ -36290,18 +40642,6 @@ window.__SERENITY_REPORT_DATA__ = {
                       "SUCCESS",
                       "SUCCESS",
                       "SUCCESS",
-                      "SUCCESS"
-                    ]
-                  },
-                  {
-                    "name": "allows for selected options to be deselected",
-                    "outcome": "SUCCESS",
-                    "executionHistory": [
-                      "SUCCESS",
-                      "SUCCESS",
-                      "SUCCESS",
-                      "SUCCESS",
-                      "SUCCESS",
                       "SUCCESS",
                       "SUCCESS"
                     ]
@@ -36316,6 +40656,21 @@ window.__SERENITY_REPORT_DATA__ = {
                       "SUCCESS",
                       "SUCCESS",
                       "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS"
+                    ]
+                  },
+                  {
+                    "name": "allows for selected options to be deselected",
+                    "outcome": "SUCCESS",
+                    "executionHistory": [
+                      "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS",
                       "SUCCESS"
                     ]
                   },
@@ -36329,18 +40684,6 @@ window.__SERENITY_REPORT_DATA__ = {
                       "SUCCESS",
                       "SUCCESS",
                       "SUCCESS",
-                      "SUCCESS"
-                    ]
-                  },
-                  {
-                    "name": "goes back to showing the placeholder when all the selected options get deselected",
-                    "outcome": "SUCCESS",
-                    "executionHistory": [
-                      "SUCCESS",
-                      "SUCCESS",
-                      "SUCCESS",
-                      "SUCCESS",
-                      "SUCCESS",
                       "SUCCESS",
                       "SUCCESS"
                     ]
@@ -36349,6 +40692,21 @@ window.__SERENITY_REPORT_DATA__ = {
                     "name": "goes back to showing the placeholder when all the selected options get deselected",
                     "outcome": "SUCCESS",
                     "executionHistory": [
+                      "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS",
+                      "SUCCESS"
+                    ]
+                  },
+                  {
+                    "name": "goes back to showing the placeholder when all the selected options get deselected",
+                    "outcome": "SUCCESS",
+                    "executionHistory": [
+                      "SUCCESS",
                       "SUCCESS",
                       "SUCCESS",
                       "SUCCESS",

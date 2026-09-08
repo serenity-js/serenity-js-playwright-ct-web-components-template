@@ -1,17 +1,17 @@
 {
   "$schema": "https://serenity-js.org/schemas/report-summary.json",
-  "generated": "2026-09-04T16:54:31.116Z",
+  "generated": "2026-09-08T05:43:11.188Z",
   "title": "@serenity-js/serenity-js-playwright-ct-react-template",
   "schemaVersion": 1,
   "reportUrl": "./index.html",
   "ci": {
-    "commit": "6a227348b86606d84a13ef3025ce98b149613d16",
+    "commit": "ce4ddd5601907efc7f553ce878674b7c9883f889",
     "branch": "main",
-    "jobUrl": "https://github.com/serenity-js/serenity-js-playwright-ct-web-components-template/actions/runs/33897585335"
+    "jobUrl": "https://github.com/serenity-js/serenity-js-playwright-ct-web-components-template/actions/runs/34191566090"
   },
   "latestRun": {
-    "timestamp": "2026-09-04T16:54:05.147Z",
-    "label": "1175",
+    "timestamp": "2026-09-08T05:42:44.346Z",
+    "label": "1179",
     "totals": {
       "passed": 18,
       "failed": 0,
@@ -20,9 +20,9 @@
       "compromised": 0,
       "error": 0
     },
-    "duration": 25738
+    "duration": 26591
   },
-  "runs": 11,
+  "runs": 12,
   "delta": {
     "passed": 0,
     "failed": 0,
@@ -48,27 +48,27 @@
     {
       "name": "goes back to showing the placeholder when all the selected options get deselected",
       "source": "components/Dropdown/Dropdown.spec.ts:139",
-      "duration": 2765
+      "duration": 2918
     },
     {
       "name": "allows for selected options to be deselected",
       "source": "components/Dropdown/Dropdown.spec.ts:113",
-      "duration": 2676
+      "duration": 2834
     },
     {
       "name": "selects the desired options",
       "source": "components/Dropdown/Dropdown.spec.ts:60",
-      "duration": 1811
+      "duration": 1904
     },
     {
       "name": "triggers onChange with selected options",
       "source": "components/Dropdown/Dropdown.spec.ts:81",
-      "duration": 1752
+      "duration": 1893
     },
     {
       "name": "shows the placeholder when no option is selected yet",
       "source": "components/Dropdown/Dropdown.spec.ts:25",
-      "duration": 1496
+      "duration": 1424
     }
   ]
 }

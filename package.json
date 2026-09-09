@@ -1,5 +1,5 @@
 {
-  "name": "@serenity-js/serenity-js-playwright-ct-react-template",
+  "name": "@serenity-js/serenity-js-playwright-ct-web-components-template",
   "version": "1.0.0",
   "description": "",
   "type": "module",
@@ -36,7 +36,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/serenity-js/serenity-js-playwright-ct-react-template.git"
+    "url": "git+https://github.com/serenity-js/serenity-js-playwright-ct-web-components-template.git"
   },
   "keywords": [
     "serenity-js",
@@ -52,14 +52,14 @@
   "homepage": "https://serenity-js.org",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/serenity-js/serenity-js-playwright-ct-react-template/issues"
+    "url": "https://github.com/serenity-js/serenity-js-playwright-ct-web-components-template/issues"
   },
   "engines": {
     "node": "^20 || ^22.0.0 || ^24.0.0"
   },
   "peerDependencies": {
-    "@serenity-js/core": "^3.46.0",
-    "@serenity-js/web": "^3.46.1",
+    "@serenity-js/core": "^3.47.0",
+    "@serenity-js/web": "^3.47.0",
     "clsx": "^2.1.1",
     "lit": "3.3.3"
   },
@@ -84,15 +84,15 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.39.5",
-    "@sand4rt/experimental-ct-web": "^1.62.1",
-    "@serenity-js/assertions": "^3.46.1",
-    "@serenity-js/console-reporter": "^3.46.1",
-    "@serenity-js/core": "^3.46.0",
-    "@serenity-js/html-reporter": "^3.46.1",
-    "@serenity-js/playwright": "^3.46.1",
-    "@serenity-js/playwright-test": "^3.46.1",
-    "@serenity-js/rest": "^3.46.1",
-    "@serenity-js/web": "^3.46.1",
+    "@playwright/test": "1.63.0",
+    "@serenity-js/assertions": "^3.47.0",
+    "@serenity-js/console-reporter": "^3.47.0",
+    "@serenity-js/core": "^3.47.0",
+    "@serenity-js/html-reporter": "^3.47.0",
+    "@serenity-js/playwright": "^3.47.0",
+    "@serenity-js/playwright-test": "^3.47.0",
+    "@serenity-js/rest": "^3.47.0",
+    "@serenity-js/web": "^3.47.0",
     "@stylistic/eslint-plugin": "^5.10.0",
     "@types/node": "^24.13.4",
     "cpy-cli": "^7.0.0",
@@ -105,6 +105,7 @@
     "rimraf": "^6.1.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.70.0"
+    "typescript-eslint": "^8.70.0",
+    "vite": "^8.2.2"
   }
 }

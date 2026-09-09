@@ -1,6 +1,6 @@
 import { Ensure, equals } from '@serenity-js/assertions';
 import { describe, it } from '@serenity-js/playwright-test';
-import { ExecuteScript, LastScriptExecution, PageElement } from '@serenity-js/web';
+import { ExecuteScript, LastScriptExecution } from '@serenity-js/web';
 
 import type { DropdownOption } from './Dropdown.js';
 import { Dropdown } from './Dropdown.serenity.js';
@@ -21,47 +21,47 @@ describe('Dropdown', () => {
     it('shows the placeholder when no option is selected yet', async ({ story, actor }) => {
         const placeholder = 'Select option';
 
-        const dropdownComponent = story('components/Dropdown/Default', {
+        const dropdown = story('components/Dropdown/Dropdown/Default', {
             placeholder,
             options,
-        });
+        }).as(Dropdown);
 
         await actor.attemptsTo(
             Ensure.eventually(
-                Dropdown.placeholder().of(dropdownComponent),
+                dropdown.placeholder(),
                 equals(placeholder),
             ),
-        )
+        );
     });
 
     it('shows the available options when the menu is expanded', async ({ story, actor }) => {
-        const dropdownComponent = story('components/Dropdown/Default', {
+        const dropdown = story('components/Dropdown/Dropdown/Default', {
             options,
-        });
+        }).as(Dropdown);
 
         await actor.attemptsTo(
-            Dropdown.open(dropdownComponent),
+            dropdown.open(),
 
             Ensure.eventually(
-                Dropdown.availableOptions().of(dropdownComponent),
+                dropdown.availableOptions(),
                 equals(labels),
             ),
-        )
+        );
     });
 
     it('selects the desired options', async ({ story, actor }) => {
-        const dropdownComponent = story('components/Dropdown/Default', {
+        const dropdown = story('components/Dropdown/Dropdown/Default', {
             allowMultiple: true,
             options,
-        });
+        }).as(Dropdown);
 
         await actor.attemptsTo(
-            Dropdown.select([
+            dropdown.select([
                 'First',
-                'Third'
-            ]).from(dropdownComponent),
+                'Third',
+            ]),
 
-            Ensure.that(Dropdown.selectedOptions().of(dropdownComponent), equals([
+            Ensure.that(dropdown.selectedOptions(), equals([
                 'First',
                 'Third',
             ])),
@@ -69,43 +69,43 @@ describe('Dropdown', () => {
     });
 
     it('triggers onChange with selected options', async ({ story, actor }) => {
-        const dropdownComponent = story('components/Dropdown/WithOnChange', {
+        const dropdown = story('components/Dropdown/Dropdown/WithOnChange', {
             allowMultiple: true,
             options,
-        });
+        }).as(Dropdown);
 
         await actor.attemptsTo(
-            Dropdown.select([
+            dropdown.select([
                 'First',
-                'Third'
-            ]).from(dropdownComponent),
+                'Third',
+            ]),
 
             ExecuteScript.sync(`return JSON.parse(document.getElementById('change-recorder').value)`),
             Ensure.eventually(LastScriptExecution.result<DropdownOption[]>(), equals([
                 { label: 'First', value: 'first' },
                 { label: 'Third', value: 'third' },
             ])),
-        )
+        );
     });
 
     it('allows for selected options to be deselected', async ({ story, actor }) => {
-        const dropdownComponent = story('components/Dropdown/Default', {
+        const dropdown = story('components/Dropdown/Dropdown/Default', {
             allowMultiple: true,
             options,
-        });
+        }).as(Dropdown);
 
         await actor.attemptsTo(
-            Dropdown.select([
+            dropdown.select([
                 'First',
                 'Third',
                 'Second',
-            ]).from(dropdownComponent),
+            ]),
 
-            Dropdown.deselect([
+            dropdown.deselect([
                 'First',
-            ]).from(dropdownComponent),
+            ]),
 
-            Ensure.that(Dropdown.selectedOptions().of(dropdownComponent), equals([
+            Ensure.that(dropdown.selectedOptions(), equals([
                 'Third',
                 'Second',
             ])),
@@ -115,26 +115,26 @@ describe('Dropdown', () => {
     it('goes back to showing the placeholder when all the selected options get deselected', async ({ story, actor }) => {
         const placeholder = 'Select option';
 
-        const dropdownComponent = story('components/Dropdown/Default', {
+        const dropdown = story('components/Dropdown/Dropdown/Default', {
             allowMultiple: true,
             placeholder,
             options,
-        });
+        }).as(Dropdown);
 
         await actor.attemptsTo(
-            Dropdown.select([
+            dropdown.select([
                 'First',
                 'Second',
-            ]).from(dropdownComponent),
+            ]),
 
-            Dropdown.deselect([
+            dropdown.deselect([
                 'First',
                 'Second',
-            ]).from(dropdownComponent),
+            ]),
 
-            Ensure.that(Dropdown.selectedOptions().of(dropdownComponent).length, equals(0)),
+            Ensure.that(dropdown.selectedOptions().length, equals(0)),
             Ensure.that(
-                Dropdown.placeholder().of(dropdownComponent),
+                dropdown.placeholder(),
                 equals(placeholder),
             ),
         );

@@ -16,20 +16,20 @@ async function resolve(storyId: string) {
     return module_?.[name] ?? module_?.default;
 }
 
-const rootElement = document.getElementById('root')!;
+const rootElement = document.querySelector('#root')!;
 
-(window as any).mount = async ({ story, props }: { story: string; props?: Record<string, any> }) => {
-    const storyFn = await resolve(story);
-    if (! storyFn) {
+(globalThis as any).mount = async ({ story, props }: { story: string; props?: Record<string, any> }) => {
+    const storyFunction = await resolve(story);
+    if (! storyFunction) {
         throw new Error(`Unknown story: ${ story }`);
     }
     // Clear previous content
     rootElement.innerHTML = '';
     // Story function returns an HTMLElement — append it to root
-    const element = storyFn(props ?? {});
-    rootElement.appendChild(element);
+    const element = storyFunction(props ?? {});
+    rootElement.append(element);
 };
 
-(window as any).unmount = async () => {
+(globalThis as any).unmount = async () => {
     rootElement.innerHTML = '';
 };

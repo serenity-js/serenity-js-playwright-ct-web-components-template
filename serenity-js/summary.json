@@ -1,17 +1,17 @@
 {
   "$schema": "https://serenity-js.org/schemas/report-summary.json",
-  "generated": "2026-09-11T01:37:58.002Z",
+  "generated": "2026-09-11T01:40:07.753Z",
   "title": "@serenity-js/serenity-js-playwright-ct-web-components-template",
   "schemaVersion": 1,
   "reportUrl": "./index.html",
   "ci": {
-    "commit": "ab503997f2365b32e32f13be4f48f50c9f548d2f",
+    "commit": "b22a7b117d043150646d9f993ad7c457d52ba99b",
     "branch": "main",
-    "jobUrl": "https://github.com/serenity-js/serenity-js-playwright-ct-web-components-template/actions/runs/34551320901"
+    "jobUrl": "https://github.com/serenity-js/serenity-js-playwright-ct-web-components-template/actions/runs/34551484835"
   },
   "latestRun": {
-    "timestamp": "2026-09-11T01:37:28.929Z",
-    "label": "1204",
+    "timestamp": "2026-09-11T01:39:38.629Z",
+    "label": "1207",
     "totals": {
       "passed": 18,
       "failed": 0,
@@ -20,7 +20,7 @@
       "compromised": 0,
       "error": 0
     },
-    "duration": 28834
+    "duration": 28899
   },
   "runs": 5,
   "delta": {
@@ -48,12 +48,12 @@
     {
       "name": "goes back to showing the placeholder when all the selected options get deselected",
       "source": "components/Dropdown/Dropdown.spec.ts:115",
-      "duration": 3209
+      "duration": 3227
     },
     {
       "name": "allows for selected options to be deselected",
       "source": "components/Dropdown/Dropdown.spec.ts:91",
-      "duration": 3095
+      "duration": 3146
     },
     {
       "name": "triggers onChange with selected options",
@@ -63,12 +63,12 @@
     {
       "name": "selects the desired options",
       "source": "components/Dropdown/Dropdown.spec.ts:52",
-      "duration": 2050
+      "duration": 2054
     },
     {
-      "name": "goes back to showing the placeholder when all the selected options get deselected",
-      "source": "components/Dropdown/Dropdown.spec.ts:115",
-      "duration": 1423
+      "name": "allows for selected options to be deselected",
+      "source": "components/Dropdown/Dropdown.spec.ts:91",
+      "duration": 1466
     }
   ]
 }

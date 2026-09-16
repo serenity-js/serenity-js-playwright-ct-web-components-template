@@ -1,17 +1,17 @@
 {
   "$schema": "https://serenity-js.org/schemas/report-summary.json",
-  "generated": "2026-09-16T05:53:00.622Z",
+  "generated": "2026-09-16T17:04:00.992Z",
   "title": "@serenity-js/serenity-js-playwright-ct-web-components-template",
   "schemaVersion": 1,
   "reportUrl": "./index.html",
   "ci": {
-    "commit": "c30d8177732e9923ab909aed4151215ac64d3167",
+    "commit": "c0805c9d2009f9864f954118a517890c207c7629",
     "branch": "main",
-    "jobUrl": "https://github.com/serenity-js/serenity-js-playwright-ct-web-components-template/actions/runs/35061179973"
+    "jobUrl": "https://github.com/serenity-js/serenity-js-playwright-ct-web-components-template/actions/runs/35125641165"
   },
   "latestRun": {
-    "timestamp": "2026-09-16T05:52:31.190Z",
-    "label": "1212",
+    "timestamp": "2026-09-16T17:03:30.431Z",
+    "label": "1215",
     "totals": {
       "passed": 18,
       "failed": 0,
@@ -20,7 +20,7 @@
       "compromised": 0,
       "error": 0
     },
-    "duration": 29194
+    "duration": 30313
   },
   "runs": 5,
   "delta": {
@@ -48,27 +48,27 @@
     {
       "name": "goes back to showing the placeholder when all the selected options get deselected",
       "source": "components/Dropdown/Dropdown.spec.ts:115",
-      "duration": 3269
+      "duration": 3290
     },
     {
       "name": "allows for selected options to be deselected",
       "source": "components/Dropdown/Dropdown.spec.ts:91",
-      "duration": 3153
+      "duration": 3196
     },
     {
       "name": "triggers onChange with selected options",
       "source": "components/Dropdown/Dropdown.spec.ts:71",
-      "duration": 2147
+      "duration": 2203
     },
     {
       "name": "selects the desired options",
       "source": "components/Dropdown/Dropdown.spec.ts:52",
-      "duration": 2101
+      "duration": 2112
     },
     {
-      "name": "goes back to showing the placeholder when all the selected options get deselected",
-      "source": "components/Dropdown/Dropdown.spec.ts:115",
-      "duration": 1469
+      "name": "shows the placeholder when no option is selected yet",
+      "source": "components/Dropdown/Dropdown.spec.ts:21",
+      "duration": 1562
     }
   ]
 }

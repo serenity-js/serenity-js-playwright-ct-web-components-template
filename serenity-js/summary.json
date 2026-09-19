@@ -1,17 +1,17 @@
 {
   "$schema": "https://serenity-js.org/schemas/report-summary.json",
-  "generated": "2026-09-16T17:04:00.992Z",
+  "generated": "2026-09-19T05:03:35.471Z",
   "title": "@serenity-js/serenity-js-playwright-ct-web-components-template",
   "schemaVersion": 1,
   "reportUrl": "./index.html",
   "ci": {
-    "commit": "c0805c9d2009f9864f954118a517890c207c7629",
+    "commit": "693a00c4f7d599c4f42665521f15d14a1e64bc58",
     "branch": "main",
-    "jobUrl": "https://github.com/serenity-js/serenity-js-playwright-ct-web-components-template/actions/runs/35125641165"
+    "jobUrl": "https://github.com/serenity-js/serenity-js-playwright-ct-web-components-template/actions/runs/35422857456"
   },
   "latestRun": {
-    "timestamp": "2026-09-16T17:03:30.431Z",
-    "label": "1215",
+    "timestamp": "2026-09-19T05:03:11.236Z",
+    "label": "1219",
     "totals": {
       "passed": 18,
       "failed": 0,
@@ -20,7 +20,7 @@
       "compromised": 0,
       "error": 0
     },
-    "duration": 30313
+    "duration": 24040
   },
   "runs": 5,
   "delta": {
@@ -48,27 +48,27 @@
     {
       "name": "goes back to showing the placeholder when all the selected options get deselected",
       "source": "components/Dropdown/Dropdown.spec.ts:115",
-      "duration": 3290
+      "duration": 2523
     },
     {
       "name": "allows for selected options to be deselected",
       "source": "components/Dropdown/Dropdown.spec.ts:91",
-      "duration": 3196
+      "duration": 2461
     },
     {
       "name": "triggers onChange with selected options",
       "source": "components/Dropdown/Dropdown.spec.ts:71",
-      "duration": 2203
+      "duration": 1706
     },
     {
       "name": "selects the desired options",
       "source": "components/Dropdown/Dropdown.spec.ts:52",
-      "duration": 2112
+      "duration": 1693
     },
     {
-      "name": "shows the placeholder when no option is selected yet",
-      "source": "components/Dropdown/Dropdown.spec.ts:21",
-      "duration": 1562
+      "name": "goes back to showing the placeholder when all the selected options get deselected",
+      "source": "components/Dropdown/Dropdown.spec.ts:115",
+      "duration": 1294
     }
   ]
 }

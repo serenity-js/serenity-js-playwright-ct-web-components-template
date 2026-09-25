@@ -1,17 +1,17 @@
 {
   "$schema": "https://serenity-js.org/schemas/report-summary.json",
-  "generated": "2026-09-22T01:13:04.737Z",
+  "generated": "2026-09-25T18:32:56.725Z",
   "title": "@serenity-js/serenity-js-playwright-ct-web-components-template",
   "schemaVersion": 1,
   "reportUrl": "./index.html",
   "ci": {
-    "commit": "dcf6aa5305deaae43941ac9170840f4c302622ed",
+    "commit": "e5de82f7056e2e486b8f75d443a3ea189f1d8091",
     "branch": "main",
-    "jobUrl": "https://github.com/serenity-js/serenity-js-playwright-ct-web-components-template/actions/runs/35674843647"
+    "jobUrl": "https://github.com/serenity-js/serenity-js-playwright-ct-web-components-template/actions/runs/36173765601"
   },
   "latestRun": {
-    "timestamp": "2026-09-22T01:12:37.195Z",
-    "label": "1223",
+    "timestamp": "2026-09-25T18:32:27.988Z",
+    "label": "1227",
     "totals": {
       "passed": 18,
       "failed": 0,
@@ -20,7 +20,7 @@
       "compromised": 0,
       "error": 0
     },
-    "duration": 27321
+    "duration": 28507
   },
   "runs": 5,
   "delta": {
@@ -48,27 +48,27 @@
     {
       "name": "goes back to showing the placeholder when all the selected options get deselected",
       "source": "components/Dropdown/Dropdown.spec.ts:115",
-      "duration": 3040
+      "duration": 3180
     },
     {
       "name": "allows for selected options to be deselected",
       "source": "components/Dropdown/Dropdown.spec.ts:91",
-      "duration": 2964
+      "duration": 3090
     },
     {
       "name": "triggers onChange with selected options",
       "source": "components/Dropdown/Dropdown.spec.ts:71",
-      "duration": 2002
+      "duration": 2110
     },
     {
       "name": "selects the desired options",
       "source": "components/Dropdown/Dropdown.spec.ts:52",
-      "duration": 1936
+      "duration": 2062
     },
     {
       "name": "allows for selected options to be deselected",
       "source": "components/Dropdown/Dropdown.spec.ts:91",
-      "duration": 1396
+      "duration": 1454
     }
   ]
 }

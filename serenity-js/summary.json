@@ -1,17 +1,17 @@
 {
   "$schema": "https://serenity-js.org/schemas/report-summary.json",
-  "generated": "2026-10-06T09:06:59.495Z",
+  "generated": "2026-10-08T18:54:42.961Z",
   "title": "@serenity-js/serenity-js-playwright-ct-web-components-template",
   "schemaVersion": 1,
   "reportUrl": "./index.html",
   "ci": {
-    "commit": "eaeb296a6cdfb879f784e8e65f38883b731ac74b",
+    "commit": "27bd6de42ae38c93e65f6253865e5935dfa68736",
     "branch": "main",
-    "jobUrl": "https://github.com/serenity-js/serenity-js-playwright-ct-web-components-template/actions/runs/37440544384"
+    "jobUrl": "https://github.com/serenity-js/serenity-js-playwright-ct-web-components-template/actions/runs/37827685557"
   },
   "latestRun": {
-    "timestamp": "2026-10-06T09:06:37.975Z",
-    "label": "1250",
+    "timestamp": "2026-10-08T18:54:15.483Z",
+    "label": "1256",
     "totals": {
       "passed": 18,
       "failed": 0,
@@ -20,7 +20,7 @@
       "compromised": 0,
       "error": 0
     },
-    "duration": 21289
+    "duration": 27274
   },
   "runs": 5,
   "delta": {
@@ -48,27 +48,27 @@
     {
       "name": "goes back to showing the placeholder when all the selected options get deselected",
       "source": "components/Dropdown/Dropdown.spec.ts:115",
-      "duration": 2184
+      "duration": 3101
     },
     {
       "name": "allows for selected options to be deselected",
       "source": "components/Dropdown/Dropdown.spec.ts:91",
-      "duration": 2091
+      "duration": 3014
     },
     {
       "name": "triggers onChange with selected options",
       "source": "components/Dropdown/Dropdown.spec.ts:71",
-      "duration": 1471
+      "duration": 2081
     },
     {
       "name": "selects the desired options",
       "source": "components/Dropdown/Dropdown.spec.ts:52",
-      "duration": 1386
+      "duration": 1988
     },
     {
       "name": "goes back to showing the placeholder when all the selected options get deselected",
       "source": "components/Dropdown/Dropdown.spec.ts:115",
-      "duration": 1246
+      "duration": 1419
     }
   ]
 }

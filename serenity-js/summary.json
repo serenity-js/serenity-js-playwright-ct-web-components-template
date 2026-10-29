@@ -1,17 +1,17 @@
 {
   "$schema": "https://serenity-js.org/schemas/report-summary.json",
-  "generated": "2026-10-29T02:30:42.181Z",
+  "generated": "2026-10-29T09:32:44.158Z",
   "title": "@serenity-js/serenity-js-playwright-ct-web-components-template",
   "schemaVersion": 1,
   "reportUrl": "./index.html",
   "ci": {
-    "commit": "7ecc24d1850ae4238f1678dca4ca6a2072630640",
+    "commit": "6d73c6a1e6311a1b43b3c20e47b65294860fa149",
     "branch": "main",
-    "jobUrl": "https://github.com/serenity-js/serenity-js-playwright-ct-web-components-template/actions/runs/40806563376"
+    "jobUrl": "https://github.com/serenity-js/serenity-js-playwright-ct-web-components-template/actions/runs/40850239448"
   },
   "latestRun": {
-    "timestamp": "2026-10-29T02:30:13.073Z",
-    "label": "1304",
+    "timestamp": "2026-10-29T09:32:15.609Z",
+    "label": "1309",
     "totals": {
       "passed": 18,
       "failed": 0,
@@ -20,7 +20,7 @@
       "compromised": 0,
       "error": 0
     },
-    "duration": 28850
+    "duration": 28292
   },
   "runs": 5,
   "delta": {
@@ -48,27 +48,27 @@
     {
       "name": "goes back to showing the placeholder when all the selected options get deselected",
       "source": "components/Dropdown/Dropdown.spec.ts:115",
-      "duration": 3121
+      "duration": 2923
     },
     {
       "name": "allows for selected options to be deselected",
       "source": "components/Dropdown/Dropdown.spec.ts:91",
-      "duration": 3038
+      "duration": 2892
     },
     {
       "name": "triggers onChange with selected options",
       "source": "components/Dropdown/Dropdown.spec.ts:71",
-      "duration": 2065
+      "duration": 1983
     },
     {
       "name": "selects the desired options",
       "source": "components/Dropdown/Dropdown.spec.ts:52",
-      "duration": 1988
+      "duration": 1908
     },
     {
       "name": "shows the placeholder when no option is selected yet",
       "source": "components/Dropdown/Dropdown.spec.ts:21",
-      "duration": 1337
+      "duration": 1404
     }
   ]
 }

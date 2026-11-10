@@ -1,17 +1,17 @@
 {
   "$schema": "https://serenity-js.org/schemas/report-summary.json",
-  "generated": "2026-11-05T16:41:27.354Z",
+  "generated": "2026-11-10T01:55:17.657Z",
   "title": "@serenity-js/serenity-js-playwright-ct-web-components-template",
   "schemaVersion": 1,
   "reportUrl": "./index.html",
   "ci": {
-    "commit": "564aa6ac3e57674e70f18e89e5863b7dc5240adb",
+    "commit": "169f0dde907f3ec85001cc9c8403a9b74aa9d734",
     "branch": "main",
-    "jobUrl": "https://github.com/serenity-js/serenity-js-playwright-ct-web-components-template/actions/runs/42066739644"
+    "jobUrl": "https://github.com/serenity-js/serenity-js-playwright-ct-web-components-template/actions/runs/42738969319"
   },
   "latestRun": {
-    "timestamp": "2026-11-05T16:40:58.199Z",
-    "label": "1317",
+    "timestamp": "2026-11-10T01:54:58.300Z",
+    "label": "1324",
     "totals": {
       "passed": 18,
       "failed": 0,
@@ -20,7 +20,7 @@
       "compromised": 0,
       "error": 0
     },
-    "duration": 28875
+    "duration": 19183
   },
   "runs": 5,
   "delta": {
@@ -48,27 +48,27 @@
     {
       "name": "goes back to showing the placeholder when all the selected options get deselected",
       "source": "components/Dropdown/Dropdown.spec.ts:115",
-      "duration": 2905
+      "duration": 1923
     },
     {
       "name": "allows for selected options to be deselected",
       "source": "components/Dropdown/Dropdown.spec.ts:91",
-      "duration": 2853
-    },
-    {
-      "name": "selects the desired options",
-      "source": "components/Dropdown/Dropdown.spec.ts:52",
-      "duration": 1964
+      "duration": 1867
     },
     {
       "name": "triggers onChange with selected options",
       "source": "components/Dropdown/Dropdown.spec.ts:71",
-      "duration": 1938
+      "duration": 1324
     },
     {
-      "name": "shows the placeholder when no option is selected yet",
-      "source": "components/Dropdown/Dropdown.spec.ts:21",
-      "duration": 1466
+      "name": "selects the desired options",
+      "source": "components/Dropdown/Dropdown.spec.ts:52",
+      "duration": 1281
+    },
+    {
+      "name": "allows for selected options to be deselected",
+      "source": "components/Dropdown/Dropdown.spec.ts:91",
+      "duration": 1143
     }
   ]
 }

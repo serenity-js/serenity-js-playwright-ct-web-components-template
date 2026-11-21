@@ -55,7 +55,7 @@
     "url": "https://github.com/serenity-js/serenity-js-playwright-ct-web-components-template/issues"
   },
   "engines": {
-    "node": "^20 || ^22.0.0 || ^24.0.0"
+    "node": "^20 || ^22.0.0 || ^24.0.0 || ^26.0.0"
   },
   "peerDependencies": {
     "@serenity-js/core": "^3.49.0",
@@ -94,7 +94,7 @@
     "@serenity-js/rest": "^3.49.0",
     "@serenity-js/web": "^3.49.0",
     "@stylistic/eslint-plugin": "^5.10.0",
-    "@types/node": "^24.19.2",
+    "@types/node": "^26.6.6",
     "cpy-cli": "^7.0.0",
     "eslint": "^9.39.5",
     "eslint-plugin-import": "^2.32.0",
